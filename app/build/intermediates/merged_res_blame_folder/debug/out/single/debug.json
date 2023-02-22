@@ -1,158 +1,162 @@
 [
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.ramsdroid.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.ramsdroid.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_arrow_leftbutton.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\arrow_leftbutton.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/layout_rams_finance_main.xml.flat",
-        "source": "com.example.ramsdroid.app-main-31:/layout/rams_finance_main.xml"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_login_white.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\login_white.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.ramsdroid.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_menu_registrationbutton.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\menu_registrationbutton.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_login_background.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/login_background.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_apc_emblem.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/apc_emblem.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\layout_rams_student_records_main.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\layout\\rams_student_records_main.xml"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_login_white.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/login_white.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.ramsdroid.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.ramsdroid.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_user_picture.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\user_picture.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/layout_rams_student_profile.xml.flat",
-        "source": "com.example.ramsdroid.app-main-31:/layout/rams_student_profile.xml"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_menu_studentrecordsbutton.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\menu_studentrecordsbutton.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_eye_slash_button.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/eye_slash_button.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\layout_rams_student_profile.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\layout\\rams_student_profile.xml"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_menu_finance_button.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/menu_finance_button.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_menu_studentprofilebutton.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\menu_studentprofilebutton.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.ramsdroid.app-main-31:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\layout_rams_home.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\layout\\rams_home.xml"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.ramsdroid.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_login_background.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\login_background.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/layout_rams_student_records_main.xml.flat",
-        "source": "com.example.ramsdroid.app-main-31:/layout/rams_student_records_main.xml"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_delete_button.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\delete_button.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_arrow_leftbutton.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/arrow_leftbutton.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_login_yellow.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\login_yellow.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_edit_button.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\edit_button.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_menu_button.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/menu_button.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_login_yellow.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/login_yellow.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_user_picture.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/user_picture.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_eye_slash_button.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\eye_slash_button.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_menu_registrationbutton.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/menu_registrationbutton.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.ramsdroid.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\layout_rams_login.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\layout\\rams_login.xml"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_menu_studentrecordsbutton.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/menu_studentrecordsbutton.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.ramsdroid.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.ramsdroid.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.ramsdroid.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_refresh_button.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\refresh_button.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.ramsdroid.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_add_button.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\add_button.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/layout_rams_registration_main.xml.flat",
-        "source": "com.example.ramsdroid.app-main-31:/layout/rams_registration_main.xml"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_eye_button.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\eye_button.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/layout_rams_login.xml.flat",
-        "source": "com.example.ramsdroid.app-main-31:/layout/rams_login.xml"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_menu_studentprofilebutton.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/menu_studentprofilebutton.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_menu_finance_button.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\menu_finance_button.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_delete_button.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/delete_button.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/xml_backup_rules.xml.flat",
-        "source": "com.example.ramsdroid.app-main-31:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_menu_button.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\menu_button.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_refresh_button.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/refresh_button.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.ramsdroid.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\layout_rams_finance_main.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\layout\\rams_finance_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\drawable_apc_emblem.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\drawable\\apc_emblem.png"
+    },
+    {
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\layout_rams_registration_main.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\layout\\rams_registration_main.xml"
     },
     {
         "merged": "com.example.ramsdroid.app-merged_res-29:/layout_rams_home.xml.flat",
         "source": "com.example.ramsdroid.app-main-31:/layout/rams_home.xml"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_eye_button.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/eye_button.png"
-    },
-    {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_edit_button.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/edit_button.png"
-    },
-    {
-        "merged": "com.example.ramsdroid.app-merged_res-29:/drawable_add_button.png.flat",
-        "source": "com.example.ramsdroid.app-main-31:/drawable/add_button.png"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
     }
 ]

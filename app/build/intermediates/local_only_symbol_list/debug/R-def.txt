@@ -31,6 +31,10 @@ drawable user_picture
 id LoginAPCLogo
 id LoginBackground
 id LoginYellowBG
+id announcements
+id imageView1
+id profile_pic
+id username
 layout rams_finance_main
 layout rams_home
 layout rams_login
