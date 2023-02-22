@@ -42,6 +42,7 @@ id LoginYellowBG
 id announcements
 id financeButton
 id imageView
+id imageView1
 id loginEmail
 id loginPassword
 id login_btnSignIn
