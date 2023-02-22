@@ -7,6 +7,7 @@ import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Button;
+import android.content.Intent;
 
 public class RAMSLogin extends AppCompatActivity {
 
@@ -22,13 +23,17 @@ public class RAMSLogin extends AppCompatActivity {
         pass = findViewById(R.id.loginPassword);
         btn = findViewById(R.id.login_btnSignIn);
 
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
-
+//        btn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+////            Intent i = new Intent(//RAMSLogin.this, //rams_home.class);
+////
+////
+////
+////            }
+//        });
+//
 
 
     }
