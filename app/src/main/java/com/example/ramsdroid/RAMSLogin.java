@@ -1,8 +1,8 @@
 package com.example.ramsdroid;
 
-import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
 
 public class RAMSLogin extends AppCompatActivity {
 
@@ -11,5 +11,4 @@ public class RAMSLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rams_login);
     }
-
 }
