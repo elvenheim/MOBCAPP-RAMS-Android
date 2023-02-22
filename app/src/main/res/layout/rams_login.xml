@@ -4,43 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RAMSLogin">
-
-    <ImageView
-        android:id="@+id/LoginBackground"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/login_background" />
+    android:background="@color/apc_blue"
+    tools:layout_editor_absoluteX="-18dp"
+    tools:layout_editor_absoluteY="0dp">
 
     <ImageView
         android:id="@+id/LoginYellowBG"
-        android:layout_width="361dp"
-        android:layout_height="228dp"
+        android:layout_width="360dp"
+        android:layout_height="210dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/LoginBackground"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.266"
+        app:layout_constraintVertical_bias="0.252"
         app:srcCompat="@drawable/login_yellow" />
+
+    <TextView
+        android:id="@+id/LoginAPCIS"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/nunitosans_bold"
+        android:text="APC Information System"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginYellowBG"
+        app:layout_constraintEnd_toEndOf="@+id/LoginYellowBG"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/LoginYellowBG"
+        app:layout_constraintTop_toBottomOf="@+id/LoginAPCLogo"
+        app:layout_constraintVertical_bias="0.18" />
 
     <ImageView
         android:id="@+id/LoginAPCLogo"
-        android:layout_width="130dp"
-        android:layout_height="131dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.248"
+        app:layout_constraintVertical_bias="0.235"
         app:srcCompat="@drawable/apc_emblem" />
 
     <ImageView
@@ -50,9 +55,57 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/LoginBackground"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.719"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginYellowBG"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/login_white" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/nunitosans_regular"
+        android:text="Login with"
+        android:textColor="#343A40"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginYellowBG"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="@+id/LoginAPCIS"
+        app:layout_constraintTop_toBottomOf="@+id/LoginAPCIS"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/nunitosans_regular"
+        android:text="Account"
+        android:textColor="#343A40"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginYellowBG"
+        app:layout_constraintEnd_toEndOf="@+id/LoginAPCIS"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/LoginAPCIS"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="87dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/LoginWhiteBG"
+        app:layout_constraintEnd_toEndOf="@+id/LoginAPCIS"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/LoginAPCIS"
+        app:layout_constraintTop_toBottomOf="@+id/LoginAPCIS"
+        app:layout_constraintVertical_bias="0.117"
+        app:srcCompat="@drawable/o365_logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
