@@ -28,7 +28,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.RAMSdroid" >
         <activity
-            android:name="com.example.ramsdroid.RAMSLogin"
+            android:name="com.example.ramsdroid.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

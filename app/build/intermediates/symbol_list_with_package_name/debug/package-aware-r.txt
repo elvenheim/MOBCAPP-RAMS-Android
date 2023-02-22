@@ -1300,6 +1300,8 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color apc_blue
+color apc_yellow
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -2700,6 +2702,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable apc_background
+drawable apc_emblem
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -2976,6 +2980,7 @@ id easeOut
 id east
 id edit_query
 id elastic
+id emailTextField
 id embed
 id end
 id endToStart
@@ -3021,6 +3026,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
+id imageView3
 id immediateStop
 id included
 id indeterminate
@@ -3132,6 +3139,7 @@ id parentPanel
 id parentRelative
 id parent_matrix
 id password_toggle
+id paswordTextField
 id path
 id pathRelative
 id peekHeight
