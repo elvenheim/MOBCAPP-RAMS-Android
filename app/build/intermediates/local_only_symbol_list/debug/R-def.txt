@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color apc_blue
+color apc_yellow
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable apc_background
+drawable apc_emblem
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button
+id emailTextField
+id imageView
+id imageView3
+id paswordTextField
+id textView
+layout rams_finance_main
+layout rams_home
+layout rams_login
+layout rams_registration_main
+layout rams_student_profile
+layout rams_student_records_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.RAMSdroid
+xml backup_rules
+xml data_extraction_rules
