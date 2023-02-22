@@ -11,7 +11,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/Background"/>
+        android:src="@drawable/background"/>
 
     <androidx.cardview.widget.CardView
         android:padding="@dimen/cardview_compat_inset_shadow"
@@ -27,54 +27,79 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:layout_width="355dp"
-                android:layout_height="185dp"
-                android:src="@color/apc_yellow" />
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:src="@color/apc_yellow"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="130dp"
-                android:layout_height="128dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="49dp"
                 android:src="@drawable/APC_Emblem"
-                tools:layout_editor_absoluteX="112dp"
-                tools:layout_editor_absoluteY="16dp" />
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:id="@+id/textView"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="211dp"
                 android:gravity="center"
-                android:textSize="20sp"
                 android:text="Sign in using your Account"
-                tools:layout_editor_absoluteX="-34dp"
-                tools:layout_editor_absoluteY="193dp" />
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
             <EditText
                 android:id="@+id/emailTextField"
-                android:layout_width="313dp"
-                android:layout_height="45dp"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="12dp"
                 android:hint="Email"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="234dp" />
+                app:layout_constraintBottom_toTopOf="@+id/paswordTextField"
+                app:layout_constraintEnd_toEndOf="@+id/paswordTextField"
+                app:layout_constraintStart_toStartOf="@+id/paswordTextField"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
 
             <EditText
                 android:id="@+id/paswordTextField"
-                android:layout_width="313dp"
-                android:layout_height="48dp"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="28dp"
                 android:hint="Password"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="291dp" />
+                app:layout_constraintBottom_toTopOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/emailTextField" />
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
                 android:background="@color/apc_yellow"
                 android:gravity="center"
                 android:text="Log in"
-                tools:layout_editor_absoluteX="133dp"
-                tools:layout_editor_absoluteY="367dp" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/paswordTextField" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
-</>
+</FrameLayout>
