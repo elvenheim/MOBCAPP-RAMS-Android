@@ -26,9 +26,7 @@ public class DBHandler {
             String check_Email = "SELECT * FROM " + DB_Name + " WHERE " + Email + "=" + userEmail;
             db.execSQL(check_Email);
             i = true;
-
             if (i == true) {
-
                 String check_pass = "SELECT * FROM" + DB_Name + " WHERE " +  Password  + " = " + userPass;
                 db.execSQL(check_pass);
             } else {
