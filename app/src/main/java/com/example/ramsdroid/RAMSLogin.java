@@ -11,7 +11,6 @@ public class RAMSLogin extends AppCompatActivity {
     EditText email, pass;
     Button btn;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
