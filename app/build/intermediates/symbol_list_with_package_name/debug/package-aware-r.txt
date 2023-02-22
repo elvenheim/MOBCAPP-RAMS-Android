@@ -956,6 +956,18 @@ attr region_widthMoreThan
 attr removeEmbeddedFabElevation
 attr reverseLayout
 attr rippleColor
+attr riv_border_color
+attr riv_border_width
+attr riv_corner_radius
+attr riv_corner_radius_bottom_left
+attr riv_corner_radius_bottom_right
+attr riv_corner_radius_top_left
+attr riv_corner_radius_top_right
+attr riv_mutate_background
+attr riv_oval
+attr riv_tile_mode
+attr riv_tile_mode_x
+attr riv_tile_mode_y
 attr rotationCenterId
 attr round
 attr roundPercent
@@ -2739,6 +2751,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable login_background
+drawable login_plaintextborder
 drawable login_white
 drawable login_yellow
 drawable m3_appbar_background
@@ -2833,6 +2846,8 @@ id CTRL
 id FUNCTION
 id LoginAPCIS
 id LoginAPCLogo
+id LoginEmailBG
+id LoginPassBG
 id LoginWhiteBG
 id LoginYellowBG
 id META
@@ -2908,6 +2923,7 @@ id allStates
 id always
 id animateToEnd
 id animateToStart
+id announcements
 id antiClockwise
 id anticipate
 id arc
@@ -2945,6 +2961,7 @@ id checkbox
 id checked
 id chronometer
 id circle_center
+id clamp
 id clear_text
 id clip_horizontal
 id clip_vertical
@@ -3015,6 +3032,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id financeButton
 id fitCenter
 id fitEnd
 id fitStart
@@ -3068,6 +3086,9 @@ id line3
 id linear
 id listMode
 id list_item
+id loginEmail
+id loginPassword
+id login_btnSignIn
 id m3_side_sheet
 id marquee
 id masked
@@ -3097,6 +3118,7 @@ id matrix
 id message
 id middle
 id mini
+id mirror
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3167,11 +3189,14 @@ id pin
 id position
 id postLayout
 id pressed
+id profile_pic
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
+id registration
+id repeat
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3251,6 +3276,8 @@ id staticLayout
 id staticPostLayout
 id stop
 id stretch
+id studentProfile
+id studentRecordsButton
 id submenuarrow
 id submit_area
 id supportScrollUp
@@ -3307,6 +3334,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3557,6 +3585,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string define_roundedimageview
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3565,6 +3594,15 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string library_roundedimageview_author
+string library_roundedimageview_authorWebsite
+string library_roundedimageview_isOpenSource
+string library_roundedimageview_libraryDescription
+string library_roundedimageview_libraryName
+string library_roundedimageview_libraryVersion
+string library_roundedimageview_libraryWebsite
+string library_roundedimageview_licenseId
+string library_roundedimageview_repositoryLink
 string m3_sys_motion_easing_emphasized
 string m3_sys_motion_easing_emphasized_accelerate
 string m3_sys_motion_easing_emphasized_decelerate
@@ -4884,6 +4922,7 @@ styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
+styleable RoundedImageView android_scaleType riv_border_color riv_border_width riv_corner_radius riv_corner_radius_bottom_left riv_corner_radius_bottom_right riv_corner_radius_top_left riv_corner_radius_top_right riv_mutate_background riv_oval riv_tile_mode riv_tile_mode_x riv_tile_mode_y
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchBar android_textAppearance android_text android_hint defaultMarginsEnabled defaultScrollFlagsEnabled elevation forceDefaultNavigationOnClickListener hideNavigationIcon navigationIconTint strokeColor strokeWidth tintNavigationIcon

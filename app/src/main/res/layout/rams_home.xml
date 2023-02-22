@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="MainActivity">
-
+    tools:context=".MainActivity">
 
     <ImageButton
         android:id="@+id/studentProfile"
@@ -31,7 +30,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Good Morning!"
-        android:fontFamily="@font/nunitosans_bold"
         android:textColor="@color/white"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -46,7 +44,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="User name"
-        android:fontFamily="@font/nunitosans_bold"
         android:textColor="@color/white"
         android:textSize="28sp"
         android:textStyle=""
@@ -72,17 +69,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/user_picture"
-            tools:layout_conversion_absoluteHeight="80dp"
-            tools:layout_conversion_absoluteWidth="80dp"
-            tools:layout_editor_absoluteX="287dp"
-            tools:layout_editor_absoluteY="64dp">
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@tools:sample/avatars"-->
+<!--            tools:layout_conversion_absoluteHeight="80dp"-->
+<!--            tools:layout_conversion_absoluteWidth="80dp"-->
+<!--            tools:layout_editor_absoluteX="287dp"-->
+<!--            tools:layout_editor_absoluteY="64dp">-->
+<!--        </ImageView>-->
 
-        </ImageView>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -103,7 +100,6 @@
         android:layout_height="wrap_content"
         android:text="What would you like to do?"
         android:textSize="20sp"
-        android:fontFamily="@font/nunitosans_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
