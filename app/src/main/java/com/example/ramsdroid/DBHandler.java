@@ -18,11 +18,22 @@ public class DBHandler {
     private static final String Mid = "Mid";
     private static final String lastName = "lastName";
 
-    public void onCreate(SQLiteDatabase db, String userEmail){
+    public void onCreate(SQLiteDatabase db, String userEmail, String userPass ){
 
-        String query = "SELECT * FROM " + DB_Name + " WHERE " + Email + " = " + userEmail;
+        boolean i = false;
 
-    }
+        // query for checking email and password
+            String check_Email = "SELECT * FROM " + DB_Name + " WHERE " + Email + "=" + userEmail;
+            db.execSQL(check_Email);
+            i = true;
+
+            if (i == true) {
+
+                String check_pass = "SELECT * FROM" + DB_Name + " WHERE " +  Password  + " = " + userPass;
+                db.execSQL(check_pass);
+            } else {
+                System.out.println("Invalid Account");
+            }
 
 
-}
+}}
