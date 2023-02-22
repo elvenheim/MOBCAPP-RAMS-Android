@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="24"
-        android:targetSdkVersion="32" />
+        android:targetSdkVersion="33" />
 
     <permission
         android:name="com.example.ramsdroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -28,7 +28,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.RAMSdroid" >
         <activity
-            android:name="com.example.ramsdroid.MainActivity"
+            android:name="com.example.ramsdroid.RAMSLogin"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
