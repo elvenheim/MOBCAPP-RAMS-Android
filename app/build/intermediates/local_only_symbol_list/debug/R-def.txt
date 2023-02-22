@@ -35,7 +35,6 @@ font nunitosans_bold
 font nunitosans_regular
 id LoginAPCIS
 id LoginAPCLogo
-id LoginEmail
 id LoginEmailBG
 id LoginPassBG
 id LoginWhiteBG
@@ -43,8 +42,9 @@ id LoginYellowBG
 id announcements
 id financeButton
 id imageView
-id imageView1
+id loginEmail
 id loginPassword
+id login_btnSignIn
 id profile_pic
 id registration
 id studentProfile
