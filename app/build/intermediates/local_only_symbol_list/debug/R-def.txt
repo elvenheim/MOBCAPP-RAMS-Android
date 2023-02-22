@@ -1,5 +1,7 @@
 R_DEF: Internal format may change without notice
 local
+color apc_blue
+color apc_yellow
 color black
 color purple_200
 color purple_500
@@ -7,10 +9,28 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable add_button
+drawable apc_emblem
+drawable arrow_leftbutton
+drawable delete_button
+drawable edit_button
+drawable eye_button
+drawable eye_slash_button
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id button
-id textView
+drawable login_background
+drawable login_white
+drawable login_yellow
+drawable menu_button
+drawable menu_finance_button
+drawable menu_registrationbutton
+drawable menu_studentprofilebutton
+drawable menu_studentrecordsbutton
+drawable refresh_button
+drawable user_picture
+id LoginAPCLogo
+id LoginBackground
+id LoginYellowBG
 layout rams_finance_main
 layout rams_home
 layout rams_login
