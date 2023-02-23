@@ -19,7 +19,7 @@ public class StudentProfile extends Activity {
         profileBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                startActivity(new Intent(StudentProfile.this, MainActivity.class));
             }
         });
 
