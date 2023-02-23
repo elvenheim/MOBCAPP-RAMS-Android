@@ -28,7 +28,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.RAMSdroid" >
         <activity
-            android:name="com.example.ramsdroid.StudentProfile"
+            android:name="com.example.ramsdroid.RAMSLogin"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,6 +40,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name="com.example.ramsdroid.MainActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
