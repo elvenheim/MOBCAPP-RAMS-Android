@@ -43,9 +43,7 @@ public class RAMSLogin extends AppCompatActivity {
 
             //insert db login authentication
 
-
-            Intent i = new Intent(RAMSLogin.this, MainActivity.class);
-            startActivity(i);
+            startActivity(new Intent(RAMSLogin.this, MainActivity.class));
             finish();
             }
         });

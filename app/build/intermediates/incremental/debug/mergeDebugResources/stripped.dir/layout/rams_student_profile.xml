@@ -7,18 +7,18 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="30dp"
-        android:layout_height="35dp"
+        android:id="@+id/profile_BtnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/arrow_leftbutton"
         android:drawableTint="#293A82"
         app:layout_constraintBottom_toBottomOf="@+id/profile_YellowBG"
         app:layout_constraintEnd_toEndOf="@+id/profile_YellowBG"
-        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="@+id/profile_YellowBG"
         app:layout_constraintTop_toTopOf="@+id/profile_YellowBG"
-        app:layout_constraintVertical_bias="0.019" />
+        app:layout_constraintVertical_bias="0.021" />
 
     <ImageView
         android:id="@+id/profile_YellowBG"

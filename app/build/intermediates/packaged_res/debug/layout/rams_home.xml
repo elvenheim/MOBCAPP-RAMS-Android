@@ -155,5 +155,4 @@
         app:layout_constraintTop_toBottomOf="@+id/announcements"
         app:srcCompat="@drawable/menu_finance_button" />
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
