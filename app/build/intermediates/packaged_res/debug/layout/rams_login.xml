@@ -18,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251"
+        app:layout_constraintVertical_bias="0.33"
         app:srcCompat="@drawable/login_yellow" />
 
     <ImageView
@@ -54,12 +54,11 @@
         android:id="@+id/LoginAPCLogo"
         android:layout_width="110dp"
         android:layout_height="110dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.235"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginYellowBG"
+        app:layout_constraintEnd_toEndOf="@+id/LoginYellowBG"
+        app:layout_constraintStart_toStartOf="@+id/LoginYellowBG"
+        app:layout_constraintTop_toTopOf="@+id/LoginYellowBG"
+        app:layout_constraintVertical_bias="0.16"
         app:srcCompat="@drawable/apc_emblem" />
 
     <TextView
