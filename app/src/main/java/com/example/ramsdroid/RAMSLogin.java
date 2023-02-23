@@ -23,18 +23,15 @@ public class RAMSLogin extends AppCompatActivity {
         pass = findViewById(R.id.loginPassword);
         btn = findViewById(R.id.login_btnSignIn);
 
-//        btn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-////            Intent i = new Intent(//RAMSLogin.this, //rams_home.class);
-////
-////
-////
-////            }
-//        });
-//
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+            Intent i = new Intent(RAMSLogin.this, MainActivity.class);
+            startActivity(i);
+            finish();
+            }
+        });
 
     }
 }
