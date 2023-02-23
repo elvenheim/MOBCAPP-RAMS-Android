@@ -28,6 +28,7 @@ public class StudentProfile extends Activity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(StudentProfile.this, RAMSLogin.class));
+                finish();
             }
         });
     }
