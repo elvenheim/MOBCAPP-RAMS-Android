@@ -2754,6 +2754,8 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable login_background
+drawable login_email
+drawable login_password
 drawable login_plaintextborder
 drawable login_white
 drawable login_yellow

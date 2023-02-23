@@ -2753,6 +2753,8 @@ int drawable ic_mtrl_chip_checked_circle 0x7f07009a
 int drawable ic_mtrl_chip_close_circle 0x7f07009b
 int drawable ic_search_black_24 0x7f07009c
 int drawable login_background 0x7f07009d
+int drawable login_email 0x7f0700f6
+int drawable login_password 0x7f0700f7
 int drawable login_plaintextborder 0x7f07009e
 int drawable login_white 0x7f07009f
 int drawable login_yellow 0x7f0700a0

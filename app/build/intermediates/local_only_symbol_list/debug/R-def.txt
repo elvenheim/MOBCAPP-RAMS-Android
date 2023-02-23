@@ -22,6 +22,8 @@ drawable eye_slash_button
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable login_background
+drawable login_email
+drawable login_password
 drawable login_plaintextborder
 drawable login_white
 drawable login_yellow
