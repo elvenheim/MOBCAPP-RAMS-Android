@@ -1313,6 +1313,7 @@ color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color apc_blue
+color apc_gray_edit
 color apc_yellow
 color background_floating_material_dark
 color background_floating_material_light
@@ -2719,6 +2720,7 @@ drawable apc_emblem
 drawable arrow_leftbutton
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_yellow
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2754,6 +2756,7 @@ drawable login_background
 drawable login_plaintextborder
 drawable login_white
 drawable login_yellow
+drawable logout_rectangle
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -2831,6 +2834,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable o365_logo
+drawable profile_bgcircle
 drawable refresh_button
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2944,6 +2948,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button2
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3190,10 +3195,26 @@ id pin
 id position
 id postLayout
 id pressed
+id profile_CourseText
+id profile_CourseTitle
+id profile_EmailText
+id profile_EmailTitle
+id profile_EnrollmentText
+id profile_EnrollmentTitle
+id profile_Picture
+id profile_ScholarshipText
+id profile_ScholarshipTitle
+id profile_StudentNameText
+id profile_StudentNameTitle
+id profile_StudentNumberText
+id profile_StudentNumberTitle
+id profile_YellowBG
+id profile_btnLogOut
 id profile_pic
 id progress_circular
 id progress_horizontal
 id radio
+id rams_student_profile
 id ratio
 id rectangles
 id registration

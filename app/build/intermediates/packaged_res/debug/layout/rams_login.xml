@@ -126,11 +126,12 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
+        android:autofillHints="emailAddress"
         android:background="@android:color/transparent"
         android:ems="10"
-        android:inputType="textEmailAddress"
         android:hint="Email"
-        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
         android:textColorHint="#343A40"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/LoginEmailBG"
@@ -157,11 +158,12 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
+        android:autofillHints="password"
         android:background="@android:color/transparent"
         android:ems="10"
-        android:inputType="textPassword"
         android:hint="Password"
-        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
         android:textColorHint="#343A40"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/LoginPassBG"
@@ -169,22 +171,6 @@
         app:layout_constraintStart_toStartOf="@+id/LoginPassBG"
         app:layout_constraintTop_toTopOf="@+id/LoginPassBG" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LoginWhiteBG"
-        app:passwordToggleEnabled="true">
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="@android:color/transparent"
-            android:hint="Password"
-            android:inputType="textPassword" />
-    </com.google.android.material.textfield.TextInputLayout>
     <Button
         android:id="@+id/login_btnSignIn"
         android:layout_width="wrap_content"
