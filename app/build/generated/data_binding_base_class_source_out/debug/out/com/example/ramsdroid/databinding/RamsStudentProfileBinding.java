@@ -23,7 +23,7 @@ public final class RamsStudentProfileBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button2;
+  public final Button profileBtnBack;
 
   @NonNull
   public final Button profileBtnLogOut;
@@ -73,17 +73,18 @@ public final class RamsStudentProfileBinding implements ViewBinding {
   @NonNull
   public final ConstraintLayout ramsStudentProfile;
 
-  private RamsStudentProfileBinding(@NonNull ConstraintLayout rootView, @NonNull Button button2,
-      @NonNull Button profileBtnLogOut, @NonNull TextView profileCourseText,
-      @NonNull TextView profileCourseTitle, @NonNull TextView profileEmailText,
-      @NonNull TextView profileEmailTitle, @NonNull TextView profileEnrollmentText,
-      @NonNull TextView profileEnrollmentTitle, @NonNull ShapeableImageView profilePicture,
-      @NonNull TextView profileScholarshipText, @NonNull TextView profileScholarshipTitle,
-      @NonNull TextView profileStudentNameText, @NonNull TextView profileStudentNameTitle,
-      @NonNull TextView profileStudentNumberText, @NonNull TextView profileStudentNumberTitle,
-      @NonNull ImageView profileYellowBG, @NonNull ConstraintLayout ramsStudentProfile) {
+  private RamsStudentProfileBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button profileBtnBack, @NonNull Button profileBtnLogOut,
+      @NonNull TextView profileCourseText, @NonNull TextView profileCourseTitle,
+      @NonNull TextView profileEmailText, @NonNull TextView profileEmailTitle,
+      @NonNull TextView profileEnrollmentText, @NonNull TextView profileEnrollmentTitle,
+      @NonNull ShapeableImageView profilePicture, @NonNull TextView profileScholarshipText,
+      @NonNull TextView profileScholarshipTitle, @NonNull TextView profileStudentNameText,
+      @NonNull TextView profileStudentNameTitle, @NonNull TextView profileStudentNumberText,
+      @NonNull TextView profileStudentNumberTitle, @NonNull ImageView profileYellowBG,
+      @NonNull ConstraintLayout ramsStudentProfile) {
     this.rootView = rootView;
-    this.button2 = button2;
+    this.profileBtnBack = profileBtnBack;
     this.profileBtnLogOut = profileBtnLogOut;
     this.profileCourseText = profileCourseText;
     this.profileCourseTitle = profileCourseTitle;
@@ -129,9 +130,9 @@ public final class RamsStudentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button2;
-      Button button2 = ViewBindings.findChildViewById(rootView, id);
-      if (button2 == null) {
+      id = R.id.profile_BtnBack;
+      Button profileBtnBack = ViewBindings.findChildViewById(rootView, id);
+      if (profileBtnBack == null) {
         break missingId;
       }
 
@@ -227,11 +228,12 @@ public final class RamsStudentProfileBinding implements ViewBinding {
 
       ConstraintLayout ramsStudentProfile = (ConstraintLayout) rootView;
 
-      return new RamsStudentProfileBinding((ConstraintLayout) rootView, button2, profileBtnLogOut,
-          profileCourseText, profileCourseTitle, profileEmailText, profileEmailTitle,
-          profileEnrollmentText, profileEnrollmentTitle, profilePicture, profileScholarshipText,
-          profileScholarshipTitle, profileStudentNameText, profileStudentNameTitle,
-          profileStudentNumberText, profileStudentNumberTitle, profileYellowBG, ramsStudentProfile);
+      return new RamsStudentProfileBinding((ConstraintLayout) rootView, profileBtnBack,
+          profileBtnLogOut, profileCourseText, profileCourseTitle, profileEmailText,
+          profileEmailTitle, profileEnrollmentText, profileEnrollmentTitle, profilePicture,
+          profileScholarshipText, profileScholarshipTitle, profileStudentNameText,
+          profileStudentNameTitle, profileStudentNumberText, profileStudentNumberTitle,
+          profileYellowBG, ramsStudentProfile);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

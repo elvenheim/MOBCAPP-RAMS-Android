@@ -7,9 +7,9 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="50dp"
-        android:layout_height="55dp"
+        android:id="@+id/profile_BtnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/arrow_leftbutton"
         android:drawableTint="#293A82"

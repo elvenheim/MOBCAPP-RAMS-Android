@@ -2947,7 +2947,6 @@ int id bounce 0x7f090065
 int id bounceBoth 0x7f090066
 int id bounceEnd 0x7f090067
 int id bounceStart 0x7f090068
-int id button2 0x7f09021d
 int id buttonPanel 0x7f090069
 int id cache_measures 0x7f09006a
 int id callMeasure 0x7f09006b
@@ -3194,6 +3193,7 @@ int id pin 0x7f09015c
 int id position 0x7f09015d
 int id postLayout 0x7f09015e
 int id pressed 0x7f09015f
+int id profile_BtnBack 0x7f09021f
 int id profile_CourseText 0x7f090210
 int id profile_CourseTitle 0x7f090213
 int id profile_EmailText 0x7f090211

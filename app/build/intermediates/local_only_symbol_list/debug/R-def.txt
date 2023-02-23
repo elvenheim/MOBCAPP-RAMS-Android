@@ -44,13 +44,13 @@ id LoginPassBG
 id LoginWhiteBG
 id LoginYellowBG
 id announcements
-id button2
 id financeButton
 id imageView
 id imageView1
 id loginEmail
 id loginPassword
 id login_btnSignIn
+id profile_BtnBack
 id profile_CourseText
 id profile_CourseTitle
 id profile_EmailText
