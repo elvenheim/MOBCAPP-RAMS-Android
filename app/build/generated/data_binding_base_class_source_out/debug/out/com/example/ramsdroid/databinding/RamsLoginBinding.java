@@ -29,6 +29,9 @@ public final class RamsLoginBinding implements ViewBinding {
   public final ImageView LoginAPCLogo;
 
   @NonNull
+  public final ImageView LoginBG;
+
+  @NonNull
   public final ImageView LoginEmailBG;
 
   @NonNull
@@ -59,7 +62,7 @@ public final class RamsLoginBinding implements ViewBinding {
   public final TextView textView4;
 
   private RamsLoginBinding(@NonNull ConstraintLayout rootView, @NonNull TextView LoginAPCIS,
-      @NonNull ImageView LoginAPCLogo, @NonNull ImageView LoginEmailBG,
+      @NonNull ImageView LoginAPCLogo, @NonNull ImageView LoginBG, @NonNull ImageView LoginEmailBG,
       @NonNull ImageView LoginPassBG, @NonNull ImageView LoginWhiteBG,
       @NonNull ImageView LoginYellowBG, @NonNull ImageView imageView,
       @NonNull Button loginBtnSignIn, @NonNull EditText loginEmail, @NonNull EditText loginPassword,
@@ -67,6 +70,7 @@ public final class RamsLoginBinding implements ViewBinding {
     this.rootView = rootView;
     this.LoginAPCIS = LoginAPCIS;
     this.LoginAPCLogo = LoginAPCLogo;
+    this.LoginBG = LoginBG;
     this.LoginEmailBG = LoginEmailBG;
     this.LoginPassBG = LoginPassBG;
     this.LoginWhiteBG = LoginWhiteBG;
@@ -115,6 +119,12 @@ public final class RamsLoginBinding implements ViewBinding {
       id = R.id.LoginAPCLogo;
       ImageView LoginAPCLogo = ViewBindings.findChildViewById(rootView, id);
       if (LoginAPCLogo == null) {
+        break missingId;
+      }
+
+      id = R.id.LoginBG;
+      ImageView LoginBG = ViewBindings.findChildViewById(rootView, id);
+      if (LoginBG == null) {
         break missingId;
       }
 
@@ -178,7 +188,7 @@ public final class RamsLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RamsLoginBinding((ConstraintLayout) rootView, LoginAPCIS, LoginAPCLogo,
+      return new RamsLoginBinding((ConstraintLayout) rootView, LoginAPCIS, LoginAPCLogo, LoginBG,
           LoginEmailBG, LoginPassBG, LoginWhiteBG, LoginYellowBG, imageView, loginBtnSignIn,
           loginEmail, loginPassword, textView3, textView4);
     }

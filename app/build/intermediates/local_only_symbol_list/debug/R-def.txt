@@ -11,6 +11,7 @@ color teal_200
 color teal_700
 color white
 drawable add_button
+drawable apc_building
 drawable apc_emblem
 drawable arrow_leftbutton
 drawable background_yellow
@@ -39,6 +40,7 @@ font nunitosans_bold
 font nunitosans_regular
 id LoginAPCIS
 id LoginAPCLogo
+id LoginBG
 id LoginEmailBG
 id LoginPassBG
 id LoginWhiteBG

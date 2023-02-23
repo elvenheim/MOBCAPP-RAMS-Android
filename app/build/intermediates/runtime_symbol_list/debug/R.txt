@@ -2715,6 +2715,7 @@ int drawable abc_textfield_search_default_mtrl_alpha 0x7f070075
 int drawable abc_textfield_search_material 0x7f070076
 int drawable abc_vector_test 0x7f070077
 int drawable add_button 0x7f070078
+int drawable apc_building 0x7f0700f5
 int drawable apc_emblem 0x7f070079
 int drawable arrow_leftbutton 0x7f07007a
 int drawable avd_hide_password 0x7f07007b
@@ -2849,6 +2850,7 @@ int id CTRL 0x7f090003
 int id FUNCTION 0x7f090004
 int id LoginAPCIS 0x7f090005
 int id LoginAPCLogo 0x7f090006
+int id LoginBG 0x7f090220
 int id LoginEmailBG 0x7f090007
 int id LoginPassBG 0x7f090008
 int id LoginWhiteBG 0x7f090009
