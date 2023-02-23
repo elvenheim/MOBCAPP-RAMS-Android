@@ -8,18 +8,16 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/studentProfile"
+        android:id="@+id/home_studentprofileBTN"
         android:layout_width="129dp"
         android:layout_height="129dp"
         android:background="@color/white"
         android:scaleType="fitXY"
-        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/registration"
-        app:layout_constraintTop_toBottomOf="@+id/studentRecordsButton"
-        app:srcCompat="@drawable/menu_studentprofilebutton"
-        android:focusable="true" />
+        app:layout_constraintStart_toEndOf="@+id/home_registrationBTN"
+        app:layout_constraintTop_toBottomOf="@+id/home_studentrecordsBTN"
+        app:srcCompat="@drawable/menu_studentprofilebutton" />
 
     <ImageView
         android:id="@+id/username"
@@ -106,7 +104,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="21dp"
-        android:textColor="@color/apc_blue"
         android:text="What would you like to do?"
         android:fontFamily="@font/nunitosans_bold"
         android:textSize="20sp"
@@ -118,7 +115,7 @@
         app:layout_constraintVertical_bias="0.025" />
 
     <ImageButton
-        android:id="@+id/studentRecordsButton"
+        android:id="@+id/home_studentrecordsBTN"
         android:layout_width="129dp"
         android:layout_height="129dp"
         android:layout_marginTop="80dp"
@@ -126,13 +123,13 @@
         android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toEndOf="@+id/financeButton"
+        app:layout_constraintStart_toEndOf="@+id/home_financeBTN"
         app:layout_constraintTop_toBottomOf="@+id/announcements"
         app:srcCompat="@drawable/menu_studentrecordsbutton"
         />
 
     <ImageButton
-        android:id="@+id/registration"
+        android:id="@+id/home_registrationBTN"
         android:layout_width="129dp"
         android:layout_height="129dp"
         android:layout_marginEnd="236dp"
@@ -140,12 +137,12 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/financeButton"
+        app:layout_constraintTop_toBottomOf="@+id/home_financeBTN"
         app:layout_constraintVertical_bias="0.49"
         app:srcCompat="@drawable/menu_registrationbutton" />
 
     <ImageButton
-        android:id="@+id/financeButton"
+        android:id="@+id/home_financeBTN"
         android:background="@color/white"
         android:layout_width="129dp"
         android:layout_height="129dp"

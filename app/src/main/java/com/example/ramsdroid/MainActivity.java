@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageButton profile;
+    ImageButton profile, registration, record, finance;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,35 @@ public class MainActivity extends AppCompatActivity {
 
         //}
 
-        profile = findViewById(R.id.studentProfile);
+        finance = findViewById(R.id.home_financeBTN);
+        finance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, StudentFinance.class));
+                finish();
+            }
+        });
+
+        record = findViewById(R.id.home_studentrecordsBTN);
+        record.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, StudentRecords.class));
+                finish();
+            }
+        });
+
+        registration = findViewById(R.id.home_registrationBTN);
+        registration.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, StudentRegistration.class));
+                finish();
+            }
+        });
+
+        //clicker for student profile button -richmond
+        profile = findViewById(R.id.home_studentprofileBTN);
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

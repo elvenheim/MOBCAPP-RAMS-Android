@@ -25,7 +25,16 @@ public final class RamsHomeBinding implements ViewBinding {
   public final CardView announcements;
 
   @NonNull
-  public final ImageButton financeButton;
+  public final ImageButton homeFinanceBTN;
+
+  @NonNull
+  public final ImageButton homeRegistrationBTN;
+
+  @NonNull
+  public final ImageButton homeStudentprofileBTN;
+
+  @NonNull
+  public final ImageButton homeStudentrecordsBTN;
 
   @NonNull
   public final ImageView imageView1;
@@ -34,30 +43,20 @@ public final class RamsHomeBinding implements ViewBinding {
   public final CardView profilePic;
 
   @NonNull
-  public final ImageButton registration;
-
-  @NonNull
-  public final ImageButton studentProfile;
-
-  @NonNull
-  public final ImageButton studentRecordsButton;
-
-  @NonNull
   public final ImageView username;
 
   private RamsHomeBinding(@NonNull ConstraintLayout rootView, @NonNull CardView announcements,
-      @NonNull ImageButton financeButton, @NonNull ImageView imageView1,
-      @NonNull CardView profilePic, @NonNull ImageButton registration,
-      @NonNull ImageButton studentProfile, @NonNull ImageButton studentRecordsButton,
-      @NonNull ImageView username) {
+      @NonNull ImageButton homeFinanceBTN, @NonNull ImageButton homeRegistrationBTN,
+      @NonNull ImageButton homeStudentprofileBTN, @NonNull ImageButton homeStudentrecordsBTN,
+      @NonNull ImageView imageView1, @NonNull CardView profilePic, @NonNull ImageView username) {
     this.rootView = rootView;
     this.announcements = announcements;
-    this.financeButton = financeButton;
+    this.homeFinanceBTN = homeFinanceBTN;
+    this.homeRegistrationBTN = homeRegistrationBTN;
+    this.homeStudentprofileBTN = homeStudentprofileBTN;
+    this.homeStudentrecordsBTN = homeStudentrecordsBTN;
     this.imageView1 = imageView1;
     this.profilePic = profilePic;
-    this.registration = registration;
-    this.studentProfile = studentProfile;
-    this.studentRecordsButton = studentRecordsButton;
     this.username = username;
   }
 
@@ -94,9 +93,27 @@ public final class RamsHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.financeButton;
-      ImageButton financeButton = ViewBindings.findChildViewById(rootView, id);
-      if (financeButton == null) {
+      id = R.id.home_financeBTN;
+      ImageButton homeFinanceBTN = ViewBindings.findChildViewById(rootView, id);
+      if (homeFinanceBTN == null) {
+        break missingId;
+      }
+
+      id = R.id.home_registrationBTN;
+      ImageButton homeRegistrationBTN = ViewBindings.findChildViewById(rootView, id);
+      if (homeRegistrationBTN == null) {
+        break missingId;
+      }
+
+      id = R.id.home_studentprofileBTN;
+      ImageButton homeStudentprofileBTN = ViewBindings.findChildViewById(rootView, id);
+      if (homeStudentprofileBTN == null) {
+        break missingId;
+      }
+
+      id = R.id.home_studentrecordsBTN;
+      ImageButton homeStudentrecordsBTN = ViewBindings.findChildViewById(rootView, id);
+      if (homeStudentrecordsBTN == null) {
         break missingId;
       }
 
@@ -112,32 +129,15 @@ public final class RamsHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.registration;
-      ImageButton registration = ViewBindings.findChildViewById(rootView, id);
-      if (registration == null) {
-        break missingId;
-      }
-
-      id = R.id.studentProfile;
-      ImageButton studentProfile = ViewBindings.findChildViewById(rootView, id);
-      if (studentProfile == null) {
-        break missingId;
-      }
-
-      id = R.id.studentRecordsButton;
-      ImageButton studentRecordsButton = ViewBindings.findChildViewById(rootView, id);
-      if (studentRecordsButton == null) {
-        break missingId;
-      }
-
       id = R.id.username;
       ImageView username = ViewBindings.findChildViewById(rootView, id);
       if (username == null) {
         break missingId;
       }
 
-      return new RamsHomeBinding((ConstraintLayout) rootView, announcements, financeButton,
-          imageView1, profilePic, registration, studentProfile, studentRecordsButton, username);
+      return new RamsHomeBinding((ConstraintLayout) rootView, announcements, homeFinanceBTN,
+          homeRegistrationBTN, homeStudentprofileBTN, homeStudentrecordsBTN, imageView1, profilePic,
+          username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

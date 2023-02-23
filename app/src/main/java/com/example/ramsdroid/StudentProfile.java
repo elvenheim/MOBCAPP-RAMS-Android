@@ -23,9 +23,6 @@ public class StudentProfile extends Activity {
             }
         });
 
-
-        //clicker for student profile button -richmond
-
         logOut = findViewById(R.id.profile_btnLogOut);
         logOut.setOnClickListener(new View.OnClickListener() {
             @Override
