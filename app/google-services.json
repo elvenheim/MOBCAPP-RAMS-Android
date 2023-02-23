@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436294477902",
+    "project_id": "apcis-ce517",
+    "storage_bucket": "apcis-ce517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436294477902:android:d72b297ff8ebf681803b1f",
+        "android_client_info": {
+          "package_name": "com.example.ramsdroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436294477902-fft7gad7jg27mtc2ohtpo8rg1ib7rk1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDJ5V7DqAJB6KI-8ikUOeIUQzJTZWLmrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436294477902-fft7gad7jg27mtc2ohtpo8rg1ib7rk1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
