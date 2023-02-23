@@ -2716,6 +2716,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable add_button
+drawable apc_building
 drawable apc_emblem
 drawable arrow_leftbutton
 drawable avd_hide_password
@@ -2850,6 +2851,7 @@ id CTRL
 id FUNCTION
 id LoginAPCIS
 id LoginAPCLogo
+id LoginBG
 id LoginEmailBG
 id LoginPassBG
 id LoginWhiteBG
