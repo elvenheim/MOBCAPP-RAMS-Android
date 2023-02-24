@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Button;
 import android.content.Intent;
+import android.widget.Toast;
 
 public class RAMSLogin extends AppCompatActivity {
 
@@ -28,23 +29,24 @@ public class RAMSLogin extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            String userEmail = email.getText().toString();
-            String userPass = pass.getText().toString();
 
-            if (TextUtils.isEmpty(userEmail)){
-                email.setError("Email is Required");
-                return;
-            }
+                String userEmail = email.getText().toString();
 
-            if (TextUtils.isEmpty(userPass)){
-                pass.setError("Password is required");
-                return;
-            }
+                String userPass = pass.getText().toString();
 
-            //insert db login authentication
 
-            startActivity(new Intent(RAMSLogin.this, MainActivity.class));
-            finish();
+                if (TextUtils.isEmpty(userEmail) || TextUtils.isEmpty(userPass)){
+                    Toast.makeText(RAMSLogin.this, "Missing Field Required", Toast.LENGTH_SHORT).show();
+                } else {
+                    boolean checkpass = db.checkUserPass(userEmail, userPass);
+                    if (checkpass){
+                        Toast.makeText(RAMSLogin.this,"Login Successful", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                        startActivity(intent);
+                    } else {
+                        Toast.makeText(RAMSLogin.this, "Login Failed", Toast.LENGTH_SHORT).show();
+                    }
+                }
             }
         });
     }
