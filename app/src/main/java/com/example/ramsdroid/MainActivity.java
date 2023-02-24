@@ -75,25 +75,21 @@ public class MainActivity extends AppCompatActivity {
         finance = findViewById(R.id.home_financeBTN);
         finance.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, StudentFinance.class));
-            finish();
         });
 
         record = findViewById(R.id.home_studentrecordsBTN);
         record.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, StudentRecords.class));
-            finish();
         });
 
         registration = findViewById(R.id.home_registrationBTN);
         registration.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, StudentRegistration.class));
-            finish();
         });
 
         profile = findViewById(R.id.home_studentprofileBTN);
         profile.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, StudentProfile.class));
-            finish();
         });
     }
 
