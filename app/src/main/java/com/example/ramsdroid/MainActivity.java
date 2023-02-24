@@ -90,7 +90,6 @@ public class MainActivity extends AppCompatActivity {
             finish();
         });
 
-        //clicker for student profile button -richmond
         profile = findViewById(R.id.home_studentprofileBTN);
         profile.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, StudentProfile.class));

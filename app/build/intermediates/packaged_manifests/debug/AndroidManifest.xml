@@ -28,7 +28,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.RAMSdroid" >
         <activity
-            android:name="com.example.ramsdroid.StudentRegistration"
+            android:name="com.example.ramsdroid.RAMSLogin"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,6 +41,7 @@
                 android:value="" />
         </activity>
         <activity android:name="com.example.ramsdroid.MainActivity" />
+        <activity android:name="com.example.ramsdroid.StudentRegistration" />
         <activity android:name="com.example.ramsdroid.StudentProfile" />
 
         <provider
