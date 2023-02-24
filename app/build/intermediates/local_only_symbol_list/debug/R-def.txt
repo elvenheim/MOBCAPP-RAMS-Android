@@ -34,7 +34,6 @@ drawable menu_registrationbutton
 drawable menu_studentprofilebutton
 drawable menu_studentrecordsbutton
 drawable o365_logo
-drawable profile_bgcircle
 drawable refresh_button
 drawable user_picture
 font nunitosans
@@ -48,9 +47,13 @@ id LoginPassBG
 id LoginWhiteBG
 id LoginYellowBG
 id announcements
-id financeButton
+id home_financeBTN
+id home_registrationBTN
+id home_studentprofileBTN
+id home_studentrecordsBTN
 id imageView
 id imageView1
+id imageView3
 id loginEmail
 id loginPassword
 id login_btnSignIn
@@ -72,9 +75,6 @@ id profile_YellowBG
 id profile_btnLogOut
 id profile_pic
 id rams_student_profile
-id registration
-id studentProfile
-id studentRecordsButton
 id textView3
 id textView4
 id username

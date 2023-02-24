@@ -16,23 +16,12 @@ public class StudentProfile extends Activity {
         setContentView(R.layout.rams_student_profile);
 
         profileBack = findViewById(R.id.profile_BtnBack);
-        profileBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(StudentProfile.this, MainActivity.class));
-            }
-        });
-
-
-        //clicker for student profile button -richmond
+        profileBack.setOnClickListener(v -> startActivity(new Intent(StudentProfile.this, MainActivity.class)));
 
         logOut = findViewById(R.id.profile_btnLogOut);
-        logOut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(StudentProfile.this, RAMSLogin.class));
-                finish();
-            }
+        logOut.setOnClickListener(v -> {
+            startActivity(new Intent(StudentProfile.this, RAMSLogin.class));
+            finish();
         });
     }
 

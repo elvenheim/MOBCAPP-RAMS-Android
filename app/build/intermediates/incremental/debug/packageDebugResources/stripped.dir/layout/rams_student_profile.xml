@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/rams_student_profile"
     android:layout_width="match_parent"
-    android:background="@color/white"
     android:layout_height="match_parent">
 
     <Button
@@ -45,7 +44,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.24"
+        app:layout_constraintVertical_bias="0.261"
         app:srcCompat="@drawable/user_picture" />
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -2837,7 +2837,6 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable o365_logo
-drawable profile_bgcircle
 drawable refresh_button
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3040,7 +3039,6 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
-id financeButton
 id fitCenter
 id fitEnd
 id fitStart
@@ -3065,6 +3063,10 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id home_financeBTN
+id home_registrationBTN
+id home_studentprofileBTN
+id home_studentrecordsBTN
 id honorRequest
 id horizontal_only
 id icon
@@ -3075,6 +3077,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView1
+id imageView3
 id immediateStop
 id included
 id indeterminate
@@ -3221,7 +3224,6 @@ id radio
 id rams_student_profile
 id ratio
 id rectangles
-id registration
 id repeat
 id reverseSawtooth
 id right
@@ -3302,8 +3304,6 @@ id staticLayout
 id staticPostLayout
 id stop
 id stretch
-id studentProfile
-id studentRecordsButton
 id submenuarrow
 id submit_area
 id supportScrollUp
