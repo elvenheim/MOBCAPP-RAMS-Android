@@ -9,12 +9,13 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Button;
 import android.content.Intent;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class RAMSLogin extends AppCompatActivity {
 
     DBHandler db;
-    EditText email, pass;
+    private TextView email, pass;
     Button btn;
 
     @Override
@@ -25,6 +26,7 @@ public class RAMSLogin extends AppCompatActivity {
         email = findViewById(R.id.loginEmail);
         pass = findViewById(R.id.loginPassword);
         btn = findViewById(R.id.login_btnSignIn);
+        db = new DBHandler(this);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,7 +35,6 @@ public class RAMSLogin extends AppCompatActivity {
                 String userEmail = email.getText().toString();
 
                 String userPass = pass.getText().toString();
-
 
                 if (TextUtils.isEmpty(userEmail) || TextUtils.isEmpty(userPass)){
                     Toast.makeText(RAMSLogin.this, "Missing Field Required", Toast.LENGTH_SHORT).show();
