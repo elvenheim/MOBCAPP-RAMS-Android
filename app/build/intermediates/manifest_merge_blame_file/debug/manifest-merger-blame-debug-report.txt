@@ -45,85 +45,84 @@
 28-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:13:9-49
 29        android:supportsRtl="true"
 29-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:14:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.RAMSdroid" >
-31-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:15:9-47
-32        <activity
-32-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:18:9-28:20
-33            android:name="com.example.ramsdroid.RAMSLogin"
-33-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:19:13-38
-34            android:exported="true" >
-34-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:20:13-36
-35            <intent-filter>
-35-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:21:13-24:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:22:17-69
-36-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:22:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:23:17-77
-38-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:23:27-74
-39            </intent-filter>
-40
-41            <meta-data
-41-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:25:13-27:35
-42                android:name="android.app.lib_name"
-42-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:26:17-52
-43                android:value="" />
-43-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:27:17-33
-44        </activity>
-45        <activity
-45-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:29:9-30:54
-46            android:name="com.example.ramsdroid.MainActivity"
-46-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:29:19-47
-47            android:parentActivityName="com.example.ramsdroid.RAMSLogin" />
-47-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:30:13-52
-48        <activity
-48-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:31:9-32:57
-49            android:name="com.example.ramsdroid.StudentRegistration"
-49-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:31:19-54
-50            android:parentActivityName="com.example.ramsdroid.MainActivity" />
-50-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:32:13-55
-51        <activity
-51-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:33:9-34:57
-52            android:name="com.example.ramsdroid.StudentFinance"
-52-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:33:19-49
-53            android:parentActivityName="com.example.ramsdroid.MainActivity" />
-53-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:34:13-55
-54        <activity
-54-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:35:9-36:57
-55            android:name="com.example.ramsdroid.StudentProfile"
-55-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:35:19-49
-56            android:parentActivityName="com.example.ramsdroid.MainActivity" />
-56-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:36:13-55
-57        <activity
-57-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:37:9-38:57
-58            android:name="com.example.ramsdroid.StudentRecords"
-58-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:37:19-49
-59            android:parentActivityName="com.example.ramsdroid.MainActivity" />
-59-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:38:13-55
-60
-61        <provider
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-62            android:name="androidx.startup.InitializationProvider"
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-63            android:authorities="com.example.ramsdroid.androidx-startup"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-64            android:exported="false" >
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-65            <meta-data
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-67                android:value="androidx.startup" />
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-68            <meta-data
-68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-70                android:value="androidx.startup" />
-70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-71        </provider>
-72    </application>
-73
-74</manifest>
+30        android:theme="@style/Theme.RAMSdroid" >
+30-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:15:9-47
+31        <activity
+31-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:18:9-28:20
+32            android:name="com.example.ramsdroid.RAMSLogin"
+32-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:19:13-38
+33            android:exported="true" >
+33-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:20:13-36
+34            <intent-filter>
+34-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:21:13-24:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:22:17-69
+35-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:22:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:23:17-77
+37-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:23:27-74
+38            </intent-filter>
+39
+40            <meta-data
+40-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:25:13-27:35
+41                android:name="android.app.lib_name"
+41-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:26:17-52
+42                android:value="" />
+42-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:27:17-33
+43        </activity>
+44        <activity
+44-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:29:9-30:54
+45            android:name="com.example.ramsdroid.MainActivity"
+45-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:29:19-47
+46            android:parentActivityName="com.example.ramsdroid.RAMSLogin" />
+46-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:30:13-52
+47        <activity
+47-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:31:9-32:57
+48            android:name="com.example.ramsdroid.StudentRegistration"
+48-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:31:19-54
+49            android:parentActivityName="com.example.ramsdroid.MainActivity" />
+49-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:32:13-55
+50        <activity
+50-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:33:9-34:57
+51            android:name="com.example.ramsdroid.StudentFinance"
+51-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:33:19-49
+52            android:parentActivityName="com.example.ramsdroid.MainActivity" />
+52-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:34:13-55
+53        <activity
+53-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:35:9-36:57
+54            android:name="com.example.ramsdroid.StudentProfile"
+54-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:35:19-49
+55            android:parentActivityName="com.example.ramsdroid.MainActivity" />
+55-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:36:13-55
+56        <activity
+56-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:37:9-38:57
+57            android:name="com.example.ramsdroid.StudentRecords"
+57-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:37:19-49
+58            android:parentActivityName="com.example.ramsdroid.MainActivity" />
+58-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:38:13-55
+59
+60        <provider
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+62            android:authorities="com.example.ramsdroid.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+70        </provider>
+71    </application>
+72
+73</manifest>
