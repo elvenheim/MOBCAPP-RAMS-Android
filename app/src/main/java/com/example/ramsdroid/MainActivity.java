@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 super.onPageSelected(position);
 
                 slideHandler.removeCallbacks(sliderRunnable);
-                slideHandler.postDelayed(sliderRunnable, 3000);
+                slideHandler.postDelayed(sliderRunnable, 5000);
             }
         });
 
@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        slideHandler.postDelayed(sliderRunnable, 3000);
+        slideHandler.postDelayed(sliderRunnable, 5000);
     }
 
     @Override

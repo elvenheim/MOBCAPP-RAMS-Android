@@ -44,6 +44,10 @@
         "source": "com.example.ramsdroid.app-main-32:/drawable/menu_finance_button.png"
     },
     {
+        "merged": "com.example.ramsdroid.app-merged_res-30:/layout_slide_item_container.xml.flat",
+        "source": "com.example.ramsdroid.app-main-32:/layout/slide_item_container.xml"
+    },
+    {
         "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_user_picture.png.flat",
         "source": "com.example.ramsdroid.app-main-32:/drawable/user_picture.png"
     },
@@ -58,6 +62,10 @@
     {
         "merged": "com.example.ramsdroid.app-merged_res-30:/font_nunitosans_regular.ttf.flat",
         "source": "com.example.ramsdroid.app-main-32:/font/nunitosans_regular.ttf"
+    },
+    {
+        "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_announcement_1.jpg.flat",
+        "source": "com.example.ramsdroid.app-main-32:/drawable/announcement_1.jpg"
     },
     {
         "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_login_email.png.flat",
@@ -102,6 +110,14 @@
     {
         "merged": "com.example.ramsdroid.app-merged_res-30:/layout_rams_home.xml.flat",
         "source": "com.example.ramsdroid.app-main-32:/layout/rams_home.xml"
+    },
+    {
+        "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_announcement_3.png.flat",
+        "source": "com.example.ramsdroid.app-main-32:/drawable/announcement_3.png"
+    },
+    {
+        "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_announcement_2.jpg.flat",
+        "source": "com.example.ramsdroid.app-main-32:/drawable/announcement_2.jpg"
     },
     {
         "merged": "com.example.ramsdroid.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher.xml.flat",
