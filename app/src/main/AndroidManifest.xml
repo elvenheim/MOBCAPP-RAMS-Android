@@ -16,6 +16,7 @@
         tools:targetApi="33">
 
         <activity
+            android:windowSoftInputMode="stateHidden"
             android:name=".RAMSLogin"
             android:exported="true">
             <intent-filter>
@@ -32,11 +33,10 @@
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".StudentFinance"
             android:parentActivityName=".MainActivity"/>
-        <activity android:name=".StudentProfile"
-            android:parentActivityName=".MainActivity"/>
         <activity android:name=".StudentRecords"
             android:parentActivityName=".MainActivity"/>
-
+        <activity android:name=".StudentProfile"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

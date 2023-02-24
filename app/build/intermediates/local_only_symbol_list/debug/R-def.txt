@@ -2,6 +2,7 @@ R_DEF: Internal format may change without notice
 local
 color apc_blue
 color apc_gray_edit
+color apc_gray_normal
 color apc_yellow
 color black
 color purple_200
@@ -39,6 +40,9 @@ drawable menu_registrationbutton
 drawable menu_studentprofilebutton
 drawable menu_studentrecordsbutton
 drawable o365_logo
+drawable profile_cover
+drawable profile_default_cover
+drawable profile_logout
 drawable refresh_button
 drawable user_picture
 font nunitosans
@@ -68,6 +72,7 @@ id clearance_clipboard
 id clearance_line
 id clearance_text
 id clearance_title
+id cover_photo
 id enrollment_btn
 id enrollment_clipboard
 id enrollment_line
@@ -110,24 +115,23 @@ id paynamics_btn
 id paynamics_clipboard
 id paynamics_line
 id paynamics_title
-id profile_BtnBack
+id profile_BG
 id profile_CourseText
 id profile_CourseTitle
 id profile_EmailText
 id profile_EmailTitle
 id profile_EnrollmentText
 id profile_EnrollmentTitle
-id profile_Picture
+id profile_Footer
 id profile_ScholarshipText
 id profile_ScholarshipTitle
 id profile_StudentNameText
 id profile_StudentNameTitle
 id profile_StudentNumberText
 id profile_StudentNumberTitle
-id profile_YellowBG
 id profile_btnLogOut
+id profile_line
 id profile_pic
-id rams_student_profile
 id records_back_main_BTN
 id records_main_title
 id registration_btn
@@ -138,6 +142,7 @@ id registration_text
 id registration_title
 id textView3
 id textView4
+id user_profile
 id username
 id vaccination_record_btn
 id vaccination_record_clipboard
@@ -155,6 +160,8 @@ layout slide_item_container
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+style CornerCut_LR
+style RoundedCorners
 style Theme.RAMSdroid
 xml backup_rules
 xml data_extraction_rules

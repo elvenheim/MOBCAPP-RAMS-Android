@@ -23,7 +23,10 @@ public final class RamsStudentProfileBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button profileBtnBack;
+  public final ShapeableImageView coverPhoto;
+
+  @NonNull
+  public final ShapeableImageView profileBG;
 
   @NonNull
   public final Button profileBtnLogOut;
@@ -47,7 +50,10 @@ public final class RamsStudentProfileBinding implements ViewBinding {
   public final TextView profileEnrollmentTitle;
 
   @NonNull
-  public final ShapeableImageView profilePicture;
+  public final ImageView profileFooter;
+
+  @NonNull
+  public final ImageView profileLine;
 
   @NonNull
   public final TextView profileScholarshipText;
@@ -68,23 +74,21 @@ public final class RamsStudentProfileBinding implements ViewBinding {
   public final TextView profileStudentNumberTitle;
 
   @NonNull
-  public final ImageView profileYellowBG;
-
-  @NonNull
-  public final ConstraintLayout ramsStudentProfile;
+  public final ImageView userProfile;
 
   private RamsStudentProfileBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button profileBtnBack, @NonNull Button profileBtnLogOut,
-      @NonNull TextView profileCourseText, @NonNull TextView profileCourseTitle,
-      @NonNull TextView profileEmailText, @NonNull TextView profileEmailTitle,
-      @NonNull TextView profileEnrollmentText, @NonNull TextView profileEnrollmentTitle,
-      @NonNull ShapeableImageView profilePicture, @NonNull TextView profileScholarshipText,
+      @NonNull ShapeableImageView coverPhoto, @NonNull ShapeableImageView profileBG,
+      @NonNull Button profileBtnLogOut, @NonNull TextView profileCourseText,
+      @NonNull TextView profileCourseTitle, @NonNull TextView profileEmailText,
+      @NonNull TextView profileEmailTitle, @NonNull TextView profileEnrollmentText,
+      @NonNull TextView profileEnrollmentTitle, @NonNull ImageView profileFooter,
+      @NonNull ImageView profileLine, @NonNull TextView profileScholarshipText,
       @NonNull TextView profileScholarshipTitle, @NonNull TextView profileStudentNameText,
       @NonNull TextView profileStudentNameTitle, @NonNull TextView profileStudentNumberText,
-      @NonNull TextView profileStudentNumberTitle, @NonNull ImageView profileYellowBG,
-      @NonNull ConstraintLayout ramsStudentProfile) {
+      @NonNull TextView profileStudentNumberTitle, @NonNull ImageView userProfile) {
     this.rootView = rootView;
-    this.profileBtnBack = profileBtnBack;
+    this.coverPhoto = coverPhoto;
+    this.profileBG = profileBG;
     this.profileBtnLogOut = profileBtnLogOut;
     this.profileCourseText = profileCourseText;
     this.profileCourseTitle = profileCourseTitle;
@@ -92,15 +96,15 @@ public final class RamsStudentProfileBinding implements ViewBinding {
     this.profileEmailTitle = profileEmailTitle;
     this.profileEnrollmentText = profileEnrollmentText;
     this.profileEnrollmentTitle = profileEnrollmentTitle;
-    this.profilePicture = profilePicture;
+    this.profileFooter = profileFooter;
+    this.profileLine = profileLine;
     this.profileScholarshipText = profileScholarshipText;
     this.profileScholarshipTitle = profileScholarshipTitle;
     this.profileStudentNameText = profileStudentNameText;
     this.profileStudentNameTitle = profileStudentNameTitle;
     this.profileStudentNumberText = profileStudentNumberText;
     this.profileStudentNumberTitle = profileStudentNumberTitle;
-    this.profileYellowBG = profileYellowBG;
-    this.ramsStudentProfile = ramsStudentProfile;
+    this.userProfile = userProfile;
   }
 
   @Override
@@ -130,9 +134,15 @@ public final class RamsStudentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.profile_BtnBack;
-      Button profileBtnBack = ViewBindings.findChildViewById(rootView, id);
-      if (profileBtnBack == null) {
+      id = R.id.cover_photo;
+      ShapeableImageView coverPhoto = ViewBindings.findChildViewById(rootView, id);
+      if (coverPhoto == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_BG;
+      ShapeableImageView profileBG = ViewBindings.findChildViewById(rootView, id);
+      if (profileBG == null) {
         break missingId;
       }
 
@@ -178,9 +188,15 @@ public final class RamsStudentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.profile_Picture;
-      ShapeableImageView profilePicture = ViewBindings.findChildViewById(rootView, id);
-      if (profilePicture == null) {
+      id = R.id.profile_Footer;
+      ImageView profileFooter = ViewBindings.findChildViewById(rootView, id);
+      if (profileFooter == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_line;
+      ImageView profileLine = ViewBindings.findChildViewById(rootView, id);
+      if (profileLine == null) {
         break missingId;
       }
 
@@ -220,20 +236,18 @@ public final class RamsStudentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.profile_YellowBG;
-      ImageView profileYellowBG = ViewBindings.findChildViewById(rootView, id);
-      if (profileYellowBG == null) {
+      id = R.id.user_profile;
+      ImageView userProfile = ViewBindings.findChildViewById(rootView, id);
+      if (userProfile == null) {
         break missingId;
       }
 
-      ConstraintLayout ramsStudentProfile = (ConstraintLayout) rootView;
-
-      return new RamsStudentProfileBinding((ConstraintLayout) rootView, profileBtnBack,
+      return new RamsStudentProfileBinding((ConstraintLayout) rootView, coverPhoto, profileBG,
           profileBtnLogOut, profileCourseText, profileCourseTitle, profileEmailText,
-          profileEmailTitle, profileEnrollmentText, profileEnrollmentTitle, profilePicture,
-          profileScholarshipText, profileScholarshipTitle, profileStudentNameText,
+          profileEmailTitle, profileEnrollmentText, profileEnrollmentTitle, profileFooter,
+          profileLine, profileScholarshipText, profileScholarshipTitle, profileStudentNameText,
           profileStudentNameTitle, profileStudentNumberText, profileStudentNumberTitle,
-          profileYellowBG, ramsStudentProfile);
+          userProfile);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

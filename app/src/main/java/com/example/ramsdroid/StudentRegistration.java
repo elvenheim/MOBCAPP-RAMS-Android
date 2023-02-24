@@ -1,12 +1,13 @@
 package com.example.ramsdroid;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class StudentRegistration extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class StudentRegistration extends AppCompatActivity {
 
     ImageButton registrationBack;
 

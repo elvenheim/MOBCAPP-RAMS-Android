@@ -2,6 +2,7 @@
 <resources>
     <color name="apc_blue">#213b9a</color>
     <color name="apc_gray_edit">#343A40</color>
+    <color name="apc_gray_normal">#dfdfdf</color>
     <color name="apc_yellow">#fbaf41</color>
     <color name="black">#FF000000</color>
     <color name="purple_200">#FFBB86FC</color>
@@ -11,6 +12,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">RAMSdroid</string>
+    <style name="CornerCut_LR" parent="">
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomLeft">50%</item>
+        <item name="cornerSizeBottomRight">50%</item>
+    </style>
+    <style name="RoundedCorners" parent="">
+        <item name="cornerSize">20dp</item>
+    </style>
     <style name="Theme.RAMSdroid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
