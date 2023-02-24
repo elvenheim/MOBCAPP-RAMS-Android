@@ -79,7 +79,7 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/online_payment_btn"
+                android:id="@+id/class_sched_btn"
                 android:layout_width="365dp"
                 android:layout_height="150dp"
                 android:background="@drawable/button_rectangle"
@@ -91,67 +91,66 @@
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
-                android:id="@+id/online_payment_clipboard"
+                android:id="@+id/class_sched_clipboard"
                 android:layout_width="110dp"
                 android:layout_height="110dp"
                 android:background="@drawable/clipboard_list"
-                app:layout_constraintBottom_toBottomOf="@+id/online_payment_btn"
-                app:layout_constraintEnd_toEndOf="@+id/online_payment_btn"
+                app:layout_constraintBottom_toBottomOf="@+id/class_sched_btn"
+                app:layout_constraintEnd_toEndOf="@+id/class_sched_btn"
                 app:layout_constraintHorizontal_bias="0.02"
-                app:layout_constraintStart_toStartOf="@+id/online_payment_btn"
-                app:layout_constraintTop_toTopOf="@+id/online_payment_btn"
+                app:layout_constraintStart_toStartOf="@+id/class_sched_btn"
+                app:layout_constraintTop_toTopOf="@+id/class_sched_btn"
                 app:layout_constraintVertical_bias="0.5" />
 
             <ImageView
-                android:id="@+id/online_payment_line"
+                android:id="@+id/class_sched_line"
                 android:layout_width="3dp"
                 android:layout_height="120dp"
                 android:background="@drawable/button_rectangle"
                 android:backgroundTint="@color/apc_blue"
-                app:layout_constraintBottom_toBottomOf="@+id/online_payment_btn"
-                app:layout_constraintEnd_toEndOf="@+id/online_payment_btn"
+                app:layout_constraintBottom_toBottomOf="@+id/class_sched_btn"
+                app:layout_constraintEnd_toEndOf="@+id/class_sched_btn"
                 app:layout_constraintHorizontal_bias="0"
-                app:layout_constraintStart_toEndOf="@+id/online_payment_clipboard"
-                app:layout_constraintTop_toTopOf="@+id/online_payment_btn"
+                app:layout_constraintStart_toEndOf="@+id/class_sched_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/class_sched_btn"
                 app:layout_constraintVertical_bias="0.5" />
 
             <TextView
-                android:id="@+id/online_payment_title"
+                android:id="@+id/class_sched_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="24dp"
                 android:fontFamily="@font/nunitosans"
-                android:text="Online Payment"
+                android:text="My Class Schedules"
                 android:textColor="@color/apc_yellow"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/online_payment_btn"
-                app:layout_constraintEnd_toEndOf="@+id/online_payment_btn"
+                app:layout_constraintBottom_toBottomOf="@+id/class_sched_btn"
+                app:layout_constraintEnd_toEndOf="@+id/class_sched_btn"
                 app:layout_constraintHorizontal_bias="0"
-                app:layout_constraintStart_toEndOf="@+id/online_payment_clipboard"
-                app:layout_constraintTop_toTopOf="@+id/online_payment_btn"
+                app:layout_constraintStart_toEndOf="@+id/class_sched_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/class_sched_btn"
                 app:layout_constraintVertical_bias="0" />
 
             <TextView
-                android:id="@+id/online_payment_text"
+                android:id="@+id/class_sched_text"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/nunitosans"
-                android:text="Create payment for
-            \nEnrollment Tuition or \nOthers (Previous Balance, etc.)"
+                android:text="View your Current Term \nClass Schedule"
                 android:textColor="@color/black"
                 android:textSize="14sp"
-                app:layout_constraintBottom_toBottomOf="@+id/online_payment_btn"
-                app:layout_constraintEnd_toEndOf="@+id/online_payment_btn"
+                app:layout_constraintBottom_toBottomOf="@+id/class_sched_btn"
+                app:layout_constraintEnd_toEndOf="@+id/class_sched_btn"
                 app:layout_constraintHorizontal_bias="0"
-                app:layout_constraintStart_toStartOf="@+id/online_payment_title"
-                app:layout_constraintTop_toBottomOf="@+id/online_payment_title"
+                app:layout_constraintStart_toStartOf="@+id/class_sched_title"
+                app:layout_constraintTop_toBottomOf="@+id/class_sched_title"
                 app:layout_constraintVertical_bias="0" />
 
             <ImageButton
-                android:id="@+id/online_payment_records_btn"
+                android:id="@+id/class_assess_btn"
                 android:layout_width="365dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="24dp"
@@ -159,72 +158,71 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/online_payment_btn"
+                app:layout_constraintTop_toBottomOf="@+id/class_sched_btn"
                 app:layout_constraintVertical_bias="0"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
-                android:id="@+id/online_payment_records_clipboard"
+                android:id="@+id/class_assess_clipboard"
                 android:layout_width="110dp"
                 android:layout_height="110dp"
                 android:background="@drawable/clipboard_list"
-                app:layout_constraintBottom_toBottomOf="@+id/online_payment_records_btn"
-                app:layout_constraintEnd_toEndOf="@+id/online_payment_records_btn"
+                app:layout_constraintBottom_toBottomOf="@+id/class_assess_btn"
+                app:layout_constraintEnd_toEndOf="@+id/class_assess_btn"
                 app:layout_constraintHorizontal_bias="0.02"
-                app:layout_constraintStart_toStartOf="@+id/online_payment_records_btn"
-                app:layout_constraintTop_toTopOf="@+id/online_payment_records_btn"
+                app:layout_constraintStart_toStartOf="@+id/class_assess_btn"
+                app:layout_constraintTop_toTopOf="@+id/class_assess_btn"
                 app:layout_constraintVertical_bias="0.5" />
 
             <ImageView
-                android:id="@+id/online_payment_records_line"
+                android:id="@+id/class_assess_line"
                 android:layout_width="3dp"
                 android:layout_height="120dp"
                 android:background="@drawable/button_rectangle"
                 android:backgroundTint="@color/apc_blue"
-                app:layout_constraintBottom_toBottomOf="@+id/online_payment_records_btn"
-                app:layout_constraintEnd_toEndOf="@+id/online_payment_records_btn"
+                app:layout_constraintBottom_toBottomOf="@+id/class_assess_btn"
+                app:layout_constraintEnd_toEndOf="@+id/class_assess_btn"
                 app:layout_constraintHorizontal_bias="0"
-                app:layout_constraintStart_toEndOf="@+id/online_payment_records_clipboard"
-                app:layout_constraintTop_toTopOf="@+id/online_payment_records_btn"
+                app:layout_constraintStart_toEndOf="@+id/class_assess_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/class_assess_btn"
                 app:layout_constraintVertical_bias="0.5" />
 
             <TextView
-                android:id="@+id/online_payment_records_title"
+                android:id="@+id/class_assess_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="24dp"
                 android:fontFamily="@font/nunitosans"
-                android:text="Online Payment Records"
+                android:text="My Class Assessments"
                 android:textColor="@color/apc_yellow"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/online_payment_records_btn"
-                app:layout_constraintEnd_toEndOf="@+id/online_payment_records_btn"
+                app:layout_constraintBottom_toBottomOf="@+id/class_assess_btn"
+                app:layout_constraintEnd_toEndOf="@+id/class_assess_btn"
                 app:layout_constraintHorizontal_bias="0"
-                app:layout_constraintStart_toEndOf="@+id/online_payment_records_clipboard"
-                app:layout_constraintTop_toTopOf="@+id/online_payment_records_btn"
+                app:layout_constraintStart_toEndOf="@+id/class_assess_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/class_assess_btn"
                 app:layout_constraintVertical_bias="0" />
 
             <TextView
-                android:id="@+id/online_payment_records_text"
+                android:id="@+id/class_assess_text"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/nunitosans"
-                android:text="List of Online Payment Records
-            \nOnline Credit/Debit Card Payments"
+                android:text="View your Class Assessments"
                 android:textColor="@color/black"
                 android:textSize="14sp"
-                app:layout_constraintBottom_toBottomOf="@+id/online_payment_records_btn"
-                app:layout_constraintEnd_toEndOf="@+id/online_payment_records_btn"
+                app:layout_constraintBottom_toBottomOf="@+id/class_assess_btn"
+                app:layout_constraintEnd_toEndOf="@+id/class_assess_btn"
                 app:layout_constraintHorizontal_bias="0"
-                app:layout_constraintStart_toStartOf="@+id/online_payment_records_title"
-                app:layout_constraintTop_toBottomOf="@+id/online_payment_records_title"
+                app:layout_constraintStart_toStartOf="@+id/class_assess_title"
+                app:layout_constraintTop_toBottomOf="@+id/class_assess_title"
                 app:layout_constraintVertical_bias="0" />
 
             <ImageButton
-                android:id="@+id/paynamics_btn"
+                android:id="@+id/my_grades_btn"
                 android:layout_width="365dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="24dp"
@@ -232,67 +230,139 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/online_payment_records_btn"
+                app:layout_constraintTop_toBottomOf="@+id/class_assess_btn"
                 app:layout_constraintVertical_bias="0"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
-                android:id="@+id/paynamics_clipboard"
+                android:id="@+id/my_grades_clipboard"
                 android:layout_width="110dp"
                 android:layout_height="110dp"
                 android:background="@drawable/clipboard_list"
-                app:layout_constraintBottom_toBottomOf="@+id/paynamics_btn"
-                app:layout_constraintEnd_toEndOf="@+id/paynamics_btn"
+                app:layout_constraintBottom_toBottomOf="@+id/my_grades_btn"
+                app:layout_constraintEnd_toEndOf="@+id/my_grades_btn"
                 app:layout_constraintHorizontal_bias="0.02"
-                app:layout_constraintStart_toStartOf="@+id/paynamics_btn"
-                app:layout_constraintTop_toTopOf="@+id/paynamics_btn"
+                app:layout_constraintStart_toStartOf="@+id/my_grades_btn"
+                app:layout_constraintTop_toTopOf="@+id/my_grades_btn"
                 app:layout_constraintVertical_bias="0.5" />
 
             <ImageView
-                android:id="@+id/paynamics_line"
+                android:id="@+id/my_grades_line"
                 android:layout_width="3dp"
                 android:layout_height="120dp"
                 android:background="@drawable/button_rectangle"
                 android:backgroundTint="@color/apc_blue"
-                app:layout_constraintBottom_toBottomOf="@+id/paynamics_btn"
-                app:layout_constraintEnd_toEndOf="@+id/paynamics_btn"
+                app:layout_constraintBottom_toBottomOf="@+id/my_grades_btn"
+                app:layout_constraintEnd_toEndOf="@+id/my_grades_btn"
                 app:layout_constraintHorizontal_bias="0"
-                app:layout_constraintStart_toEndOf="@+id/paynamics_clipboard"
-                app:layout_constraintTop_toTopOf="@+id/paynamics_btn"
+                app:layout_constraintStart_toEndOf="@+id/my_grades_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/my_grades_btn"
                 app:layout_constraintVertical_bias="0.5" />
 
             <TextView
-                android:id="@+id/paynamics_title"
+                android:id="@+id/my_grades_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="24dp"
                 android:fontFamily="@font/nunitosans"
-                android:text="Paynamics"
+                android:text="My Grades"
                 android:textColor="@color/apc_yellow"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/paynamics_btn"
-                app:layout_constraintEnd_toEndOf="@+id/paynamics_btn"
+                app:layout_constraintBottom_toBottomOf="@+id/my_grades_btn"
+                app:layout_constraintEnd_toEndOf="@+id/my_grades_btn"
                 app:layout_constraintHorizontal_bias="0"
-                app:layout_constraintStart_toEndOf="@+id/paynamics_clipboard"
-                app:layout_constraintTop_toTopOf="@+id/paynamics_btn"
+                app:layout_constraintStart_toEndOf="@+id/my_grades_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/my_grades_btn"
                 app:layout_constraintVertical_bias="0" />
 
             <TextView
-                android:id="@+id/enrollment_text"
+                android:id="@+id/my_grades_text"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/nunitosans"
-                android:text="Paynamics Payment Transactions"
+                android:text="View Your Grades for Each Term"
                 android:textColor="@color/black"
                 android:textSize="14sp"
-                app:layout_constraintBottom_toBottomOf="@+id/paynamics_btn"
-                app:layout_constraintEnd_toEndOf="@+id/paynamics_btn"
+                app:layout_constraintBottom_toBottomOf="@+id/my_grades_btn"
+                app:layout_constraintEnd_toEndOf="@+id/my_grades_btn"
                 app:layout_constraintHorizontal_bias="0"
-                app:layout_constraintStart_toStartOf="@+id/paynamics_title"
-                app:layout_constraintTop_toBottomOf="@+id/paynamics_title"
+                app:layout_constraintStart_toStartOf="@+id/my_grades_title"
+                app:layout_constraintTop_toBottomOf="@+id/my_grades_title"
+                app:layout_constraintVertical_bias="0" />
+
+            <ImageButton
+                android:id="@+id/clearance_btn"
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/button_rectangle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/my_grades_btn"
+                app:layout_constraintVertical_bias="0"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/clearance_clipboard"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/clipboard_list"
+                app:layout_constraintBottom_toBottomOf="@+id/clearance_btn"
+                app:layout_constraintEnd_toEndOf="@+id/clearance_btn"
+                app:layout_constraintHorizontal_bias="0.02"
+                app:layout_constraintStart_toStartOf="@+id/clearance_btn"
+                app:layout_constraintTop_toTopOf="@+id/clearance_btn"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ImageView
+                android:id="@+id/clearance_line"
+                android:layout_width="3dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_rectangle"
+                android:backgroundTint="@color/apc_blue"
+                app:layout_constraintBottom_toBottomOf="@+id/clearance_btn"
+                app:layout_constraintEnd_toEndOf="@+id/clearance_btn"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toEndOf="@+id/clearance_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/clearance_btn"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <TextView
+                android:id="@+id/clearance_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/nunitosans"
+                android:text="My Student Clearances"
+                android:textColor="@color/apc_yellow"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/clearance_btn"
+                app:layout_constraintEnd_toEndOf="@+id/clearance_btn"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toEndOf="@+id/clearance_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/clearance_btn"
+                app:layout_constraintVertical_bias="0" />
+
+            <TextView
+                android:id="@+id/clearance_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/nunitosans"
+                android:text="View Your Student Clearances"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/clearance_btn"
+                app:layout_constraintEnd_toEndOf="@+id/clearance_btn"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="@+id/clearance_title"
+                app:layout_constraintTop_toBottomOf="@+id/clearance_title"
                 app:layout_constraintVertical_bias="0" />
 
             <ImageButton
@@ -304,7 +374,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/paynamics_btn"
+                app:layout_constraintTop_toBottomOf="@+id/clearance_btn"
                 app:layout_constraintVertical_bias="0"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -366,7 +436,6 @@
                 app:layout_constraintStart_toStartOf="@+id/vaccination_record_title"
                 app:layout_constraintTop_toBottomOf="@+id/vaccination_record_title"
                 app:layout_constraintVertical_bias="0" />
-
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
