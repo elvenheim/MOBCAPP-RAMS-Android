@@ -57,7 +57,6 @@ id home_financeBTN
 id home_registrationBTN
 id home_studentprofileBTN
 id home_studentrecordsBTN
-id imageButton
 id imageSlide
 id imageView
 id imageView1
@@ -65,6 +64,11 @@ id imageView3
 id loginEmail
 id loginPassword
 id login_btnSignIn
+id masterlist_btn
+id masterlist_clipboard
+id masterlist_line
+id masterlist_text
+id masterlist_title
 id profile_BtnBack
 id profile_CourseText
 id profile_CourseTitle

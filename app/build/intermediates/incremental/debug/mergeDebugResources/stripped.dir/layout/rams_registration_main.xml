@@ -51,9 +51,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/nunitosans"
                 android:text="Registrar"
+                android:textColor="@color/apc_blue"
                 android:textSize="32sp"
                 android:textStyle="bold"
-                android:textColor="@color/apc_blue"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -61,14 +61,75 @@
                 app:layout_constraintVertical_bias="0.021" />
 
             <ImageButton
-                android:id="@+id/imageButton"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:src="@drawable/button_rectangle"
+                android:id="@+id/masterlist_btn"
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                android:background="@drawable/button_rectangle"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/Registrar_Main_Title" />
+                app:layout_constraintTop_toBottomOf="@+id/Registrar_Main_Title"
+                app:layout_constraintVertical_bias="0.134"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/masterlist_clipboard"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/clipboard_list"
+                app:layout_constraintBottom_toBottomOf="@+id/masterlist_btn"
+                app:layout_constraintEnd_toEndOf="@+id/masterlist_btn"
+                app:layout_constraintHorizontal_bias="0.02"
+                app:layout_constraintStart_toStartOf="@+id/masterlist_btn"
+                app:layout_constraintTop_toTopOf="@+id/masterlist_btn"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ImageView
+                android:id="@+id/masterlist_line"
+                android:layout_width="3dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_rectangle"
+                android:backgroundTint="@color/apc_blue"
+                app:layout_constraintBottom_toBottomOf="@+id/masterlist_btn"
+                app:layout_constraintEnd_toEndOf="@+id/masterlist_btn"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toEndOf="@+id/masterlist_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/masterlist_btn"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <TextView
+                android:id="@+id/masterlist_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/nunitosans"
+                android:text="Masterlist of Subjects Offered"
+                android:textColor="@color/apc_yellow"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/masterlist_btn"
+                app:layout_constraintEnd_toEndOf="@+id/masterlist_btn"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toEndOf="@+id/masterlist_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/masterlist_btn"
+                app:layout_constraintVertical_bias="0" />
+
+            <TextView
+                android:id="@+id/masterlist_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/nunitosans"
+                android:text="List of available subjects offered by Asia Pacific College"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/masterlist_btn"
+                app:layout_constraintEnd_toEndOf="@+id/masterlist_title"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="@+id/masterlist_title"
+                app:layout_constraintTop_toBottomOf="@+id/masterlist_title"
+                app:layout_constraintVertical_bias="0" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
