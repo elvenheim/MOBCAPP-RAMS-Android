@@ -2724,8 +2724,7 @@ drawable apc_emblem
 drawable arrow_leftbutton
 drawable avd_hide_password
 drawable avd_show_password
-drawable background_gradient1
-drawable background_yellow
+drawable background_yellow_gradient
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2734,6 +2733,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_rectangle
+drawable clipboard_list
 drawable delete_button
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2863,6 +2864,7 @@ id LoginWhiteBG
 id LoginYellowBG
 id META
 id NO_DEBUG
+id Registrar_Main_Title
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3033,6 +3035,11 @@ id elastic
 id embed
 id end
 id endToStart
+id enrollment_btn
+id enrollment_clipboard
+id enrollment_line
+id enrollment_text
+id enrollment_title
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -3109,6 +3116,11 @@ id login_btnSignIn
 id m3_side_sheet
 id marquee
 id masked
+id masterlist_btn
+id masterlist_clipboard
+id masterlist_line
+id masterlist_text
+id masterlist_title
 id match_constraint
 id match_parent
 id material_clock_display
@@ -3229,6 +3241,12 @@ id radio
 id rams_student_profile
 id ratio
 id rectangles
+id registration_btn
+id registration_clipboard
+id registration_line
+id registration_main_backBTN
+id registration_text
+id registration_title
 id repeat
 id reverseSawtooth
 id right
