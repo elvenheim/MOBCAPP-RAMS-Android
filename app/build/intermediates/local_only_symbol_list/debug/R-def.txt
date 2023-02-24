@@ -14,6 +14,7 @@ drawable add_button
 drawable apc_building
 drawable apc_emblem
 drawable arrow_leftbutton
+drawable background_gradient1
 drawable background_yellow
 drawable delete_button
 drawable edit_button
