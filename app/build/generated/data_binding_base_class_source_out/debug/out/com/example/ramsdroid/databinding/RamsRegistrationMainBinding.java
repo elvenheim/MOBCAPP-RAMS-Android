@@ -42,11 +42,28 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
   @NonNull
   public final TextView masterlistTitle;
 
+  @NonNull
+  public final ImageButton registrationBtn;
+
+  @NonNull
+  public final ImageView registrationClipboard;
+
+  @NonNull
+  public final ImageView registrationLine;
+
+  @NonNull
+  public final TextView registrationText;
+
+  @NonNull
+  public final TextView registrationTitle;
+
   private RamsRegistrationMainBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView RegistrarMainTitle, @NonNull ImageView imageView3,
       @NonNull ImageButton masterlistBtn, @NonNull ImageView masterlistClipboard,
       @NonNull ImageView masterlistLine, @NonNull TextView masterlistText,
-      @NonNull TextView masterlistTitle) {
+      @NonNull TextView masterlistTitle, @NonNull ImageButton registrationBtn,
+      @NonNull ImageView registrationClipboard, @NonNull ImageView registrationLine,
+      @NonNull TextView registrationText, @NonNull TextView registrationTitle) {
     this.rootView = rootView;
     this.RegistrarMainTitle = RegistrarMainTitle;
     this.imageView3 = imageView3;
@@ -55,6 +72,11 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
     this.masterlistLine = masterlistLine;
     this.masterlistText = masterlistText;
     this.masterlistTitle = masterlistTitle;
+    this.registrationBtn = registrationBtn;
+    this.registrationClipboard = registrationClipboard;
+    this.registrationLine = registrationLine;
+    this.registrationText = registrationText;
+    this.registrationTitle = registrationTitle;
   }
 
   @Override
@@ -126,9 +148,40 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.registration_btn;
+      ImageButton registrationBtn = ViewBindings.findChildViewById(rootView, id);
+      if (registrationBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.registration_clipboard;
+      ImageView registrationClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (registrationClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.registration_line;
+      ImageView registrationLine = ViewBindings.findChildViewById(rootView, id);
+      if (registrationLine == null) {
+        break missingId;
+      }
+
+      id = R.id.registration_text;
+      TextView registrationText = ViewBindings.findChildViewById(rootView, id);
+      if (registrationText == null) {
+        break missingId;
+      }
+
+      id = R.id.registration_title;
+      TextView registrationTitle = ViewBindings.findChildViewById(rootView, id);
+      if (registrationTitle == null) {
+        break missingId;
+      }
+
       return new RamsRegistrationMainBinding((ConstraintLayout) rootView, RegistrarMainTitle,
           imageView3, masterlistBtn, masterlistClipboard, masterlistLine, masterlistText,
-          masterlistTitle);
+          masterlistTitle, registrationBtn, registrationClipboard, registrationLine,
+          registrationText, registrationTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

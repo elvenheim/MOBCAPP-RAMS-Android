@@ -87,6 +87,11 @@ id profile_YellowBG
 id profile_btnLogOut
 id profile_pic
 id rams_student_profile
+id registration_btn
+id registration_clipboard
+id registration_line
+id registration_text
+id registration_title
 id textView3
 id textView4
 id username

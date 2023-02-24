@@ -3236,6 +3236,11 @@ id radio
 id rams_student_profile
 id ratio
 id rectangles
+id registration_btn
+id registration_clipboard
+id registration_line
+id registration_text
+id registration_title
 id repeat
 id reverseSawtooth
 id right
