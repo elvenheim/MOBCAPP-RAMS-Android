@@ -12,12 +12,13 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
+    private static long back_pressed;
     ImageButton profile, registration, record, finance;
 
     ViewPager2 viewPager2;
@@ -75,21 +76,26 @@ public class MainActivity extends AppCompatActivity {
         finance = findViewById(R.id.home_financeBTN);
         finance.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, StudentFinance.class));
+            finish();
         });
+
 
         record = findViewById(R.id.home_studentrecordsBTN);
         record.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, StudentRecords.class));
+            finish();
         });
 
         registration = findViewById(R.id.home_registrationBTN);
         registration.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, StudentRegistration.class));
+            finish();
         });
 
         profile = findViewById(R.id.home_studentprofileBTN);
         profile.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, StudentProfile.class));
+            finish();
         });
     }
 
@@ -111,6 +117,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         slideHandler.postDelayed(sliderRunnable, 5000);
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (back_pressed + 2000 > System.currentTimeMillis()) {
+            super.onBackPressed();
+        } else {
+            Toast.makeText(getBaseContext(), "Press once again to exit",
+                    Toast.LENGTH_SHORT).show();
+            back_pressed = System.currentTimeMillis();
+        }
     }
 
     @Override

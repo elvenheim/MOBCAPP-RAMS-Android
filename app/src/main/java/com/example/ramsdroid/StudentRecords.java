@@ -20,8 +20,17 @@ public class StudentRecords extends Activity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(StudentRecords.this, MainActivity.class));
+                finish();
             }
         });
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        super.onBackPressed();
+        startActivity(new Intent(StudentRecords.this, MainActivity.class));
+        finish();
     }
 
     @Override

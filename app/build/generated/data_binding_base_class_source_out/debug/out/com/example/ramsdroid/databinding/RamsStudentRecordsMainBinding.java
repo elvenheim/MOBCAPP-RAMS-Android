@@ -23,55 +23,70 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView enrollmentText;
+  public final ImageButton classAssessBtn;
+
+  @NonNull
+  public final ImageView classAssessClipboard;
+
+  @NonNull
+  public final ImageView classAssessLine;
+
+  @NonNull
+  public final TextView classAssessText;
+
+  @NonNull
+  public final TextView classAssessTitle;
+
+  @NonNull
+  public final ImageButton classSchedBtn;
+
+  @NonNull
+  public final ImageView classSchedClipboard;
+
+  @NonNull
+  public final ImageView classSchedLine;
+
+  @NonNull
+  public final TextView classSchedText;
+
+  @NonNull
+  public final TextView classSchedTitle;
+
+  @NonNull
+  public final ImageButton clearanceBtn;
+
+  @NonNull
+  public final ImageView clearanceClipboard;
+
+  @NonNull
+  public final ImageView clearanceLine;
+
+  @NonNull
+  public final TextView clearanceText;
+
+  @NonNull
+  public final TextView clearanceTitle;
 
   @NonNull
   public final ImageView imageView3;
 
   @NonNull
+  public final ImageButton myGradesBtn;
+
+  @NonNull
+  public final ImageView myGradesClipboard;
+
+  @NonNull
+  public final ImageView myGradesLine;
+
+  @NonNull
+  public final TextView myGradesText;
+
+  @NonNull
+  public final TextView myGradesTitle;
+
+  @NonNull
   public final NestedScrollView nestedScrollView;
-
-  @NonNull
-  public final ImageButton onlinePaymentBtn;
-
-  @NonNull
-  public final ImageView onlinePaymentClipboard;
-
-  @NonNull
-  public final ImageView onlinePaymentLine;
-
-  @NonNull
-  public final ImageButton onlinePaymentRecordsBtn;
-
-  @NonNull
-  public final ImageView onlinePaymentRecordsClipboard;
-
-  @NonNull
-  public final ImageView onlinePaymentRecordsLine;
-
-  @NonNull
-  public final TextView onlinePaymentRecordsText;
-
-  @NonNull
-  public final TextView onlinePaymentRecordsTitle;
-
-  @NonNull
-  public final TextView onlinePaymentText;
-
-  @NonNull
-  public final TextView onlinePaymentTitle;
-
-  @NonNull
-  public final ImageButton paynamicsBtn;
-
-  @NonNull
-  public final ImageView paynamicsClipboard;
-
-  @NonNull
-  public final ImageView paynamicsLine;
-
-  @NonNull
-  public final TextView paynamicsTitle;
 
   @NonNull
   public final ImageButton recordsBackMainBTN;
@@ -95,37 +110,44 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
   public final TextView vaccinationRecordTitle;
 
   private RamsStudentRecordsMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView enrollmentText, @NonNull ImageView imageView3,
-      @NonNull NestedScrollView nestedScrollView, @NonNull ImageButton onlinePaymentBtn,
-      @NonNull ImageView onlinePaymentClipboard, @NonNull ImageView onlinePaymentLine,
-      @NonNull ImageButton onlinePaymentRecordsBtn,
-      @NonNull ImageView onlinePaymentRecordsClipboard, @NonNull ImageView onlinePaymentRecordsLine,
-      @NonNull TextView onlinePaymentRecordsText, @NonNull TextView onlinePaymentRecordsTitle,
-      @NonNull TextView onlinePaymentText, @NonNull TextView onlinePaymentTitle,
-      @NonNull ImageButton paynamicsBtn, @NonNull ImageView paynamicsClipboard,
-      @NonNull ImageView paynamicsLine, @NonNull TextView paynamicsTitle,
+      @NonNull ImageButton classAssessBtn, @NonNull ImageView classAssessClipboard,
+      @NonNull ImageView classAssessLine, @NonNull TextView classAssessText,
+      @NonNull TextView classAssessTitle, @NonNull ImageButton classSchedBtn,
+      @NonNull ImageView classSchedClipboard, @NonNull ImageView classSchedLine,
+      @NonNull TextView classSchedText, @NonNull TextView classSchedTitle,
+      @NonNull ImageButton clearanceBtn, @NonNull ImageView clearanceClipboard,
+      @NonNull ImageView clearanceLine, @NonNull TextView clearanceText,
+      @NonNull TextView clearanceTitle, @NonNull ImageView imageView3,
+      @NonNull ImageButton myGradesBtn, @NonNull ImageView myGradesClipboard,
+      @NonNull ImageView myGradesLine, @NonNull TextView myGradesText,
+      @NonNull TextView myGradesTitle, @NonNull NestedScrollView nestedScrollView,
       @NonNull ImageButton recordsBackMainBTN, @NonNull TextView recordsMainTitle,
       @NonNull ImageButton vaccinationRecordBtn, @NonNull ImageView vaccinationRecordClipboard,
       @NonNull ImageView vaccinationRecordLine, @NonNull TextView vaccinationRecordText,
       @NonNull TextView vaccinationRecordTitle) {
     this.rootView = rootView;
-    this.enrollmentText = enrollmentText;
+    this.classAssessBtn = classAssessBtn;
+    this.classAssessClipboard = classAssessClipboard;
+    this.classAssessLine = classAssessLine;
+    this.classAssessText = classAssessText;
+    this.classAssessTitle = classAssessTitle;
+    this.classSchedBtn = classSchedBtn;
+    this.classSchedClipboard = classSchedClipboard;
+    this.classSchedLine = classSchedLine;
+    this.classSchedText = classSchedText;
+    this.classSchedTitle = classSchedTitle;
+    this.clearanceBtn = clearanceBtn;
+    this.clearanceClipboard = clearanceClipboard;
+    this.clearanceLine = clearanceLine;
+    this.clearanceText = clearanceText;
+    this.clearanceTitle = clearanceTitle;
     this.imageView3 = imageView3;
+    this.myGradesBtn = myGradesBtn;
+    this.myGradesClipboard = myGradesClipboard;
+    this.myGradesLine = myGradesLine;
+    this.myGradesText = myGradesText;
+    this.myGradesTitle = myGradesTitle;
     this.nestedScrollView = nestedScrollView;
-    this.onlinePaymentBtn = onlinePaymentBtn;
-    this.onlinePaymentClipboard = onlinePaymentClipboard;
-    this.onlinePaymentLine = onlinePaymentLine;
-    this.onlinePaymentRecordsBtn = onlinePaymentRecordsBtn;
-    this.onlinePaymentRecordsClipboard = onlinePaymentRecordsClipboard;
-    this.onlinePaymentRecordsLine = onlinePaymentRecordsLine;
-    this.onlinePaymentRecordsText = onlinePaymentRecordsText;
-    this.onlinePaymentRecordsTitle = onlinePaymentRecordsTitle;
-    this.onlinePaymentText = onlinePaymentText;
-    this.onlinePaymentTitle = onlinePaymentTitle;
-    this.paynamicsBtn = paynamicsBtn;
-    this.paynamicsClipboard = paynamicsClipboard;
-    this.paynamicsLine = paynamicsLine;
-    this.paynamicsTitle = paynamicsTitle;
     this.recordsBackMainBTN = recordsBackMainBTN;
     this.recordsMainTitle = recordsMainTitle;
     this.vaccinationRecordBtn = vaccinationRecordBtn;
@@ -162,9 +184,93 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.enrollment_text;
-      TextView enrollmentText = ViewBindings.findChildViewById(rootView, id);
-      if (enrollmentText == null) {
+      id = R.id.class_assess_btn;
+      ImageButton classAssessBtn = ViewBindings.findChildViewById(rootView, id);
+      if (classAssessBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.class_assess_clipboard;
+      ImageView classAssessClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (classAssessClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.class_assess_line;
+      ImageView classAssessLine = ViewBindings.findChildViewById(rootView, id);
+      if (classAssessLine == null) {
+        break missingId;
+      }
+
+      id = R.id.class_assess_text;
+      TextView classAssessText = ViewBindings.findChildViewById(rootView, id);
+      if (classAssessText == null) {
+        break missingId;
+      }
+
+      id = R.id.class_assess_title;
+      TextView classAssessTitle = ViewBindings.findChildViewById(rootView, id);
+      if (classAssessTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.class_sched_btn;
+      ImageButton classSchedBtn = ViewBindings.findChildViewById(rootView, id);
+      if (classSchedBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.class_sched_clipboard;
+      ImageView classSchedClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (classSchedClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.class_sched_line;
+      ImageView classSchedLine = ViewBindings.findChildViewById(rootView, id);
+      if (classSchedLine == null) {
+        break missingId;
+      }
+
+      id = R.id.class_sched_text;
+      TextView classSchedText = ViewBindings.findChildViewById(rootView, id);
+      if (classSchedText == null) {
+        break missingId;
+      }
+
+      id = R.id.class_sched_title;
+      TextView classSchedTitle = ViewBindings.findChildViewById(rootView, id);
+      if (classSchedTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.clearance_btn;
+      ImageButton clearanceBtn = ViewBindings.findChildViewById(rootView, id);
+      if (clearanceBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.clearance_clipboard;
+      ImageView clearanceClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (clearanceClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.clearance_line;
+      ImageView clearanceLine = ViewBindings.findChildViewById(rootView, id);
+      if (clearanceLine == null) {
+        break missingId;
+      }
+
+      id = R.id.clearance_text;
+      TextView clearanceText = ViewBindings.findChildViewById(rootView, id);
+      if (clearanceText == null) {
+        break missingId;
+      }
+
+      id = R.id.clearance_title;
+      TextView clearanceTitle = ViewBindings.findChildViewById(rootView, id);
+      if (clearanceTitle == null) {
         break missingId;
       }
 
@@ -174,93 +280,39 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.my_grades_btn;
+      ImageButton myGradesBtn = ViewBindings.findChildViewById(rootView, id);
+      if (myGradesBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.my_grades_clipboard;
+      ImageView myGradesClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (myGradesClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.my_grades_line;
+      ImageView myGradesLine = ViewBindings.findChildViewById(rootView, id);
+      if (myGradesLine == null) {
+        break missingId;
+      }
+
+      id = R.id.my_grades_text;
+      TextView myGradesText = ViewBindings.findChildViewById(rootView, id);
+      if (myGradesText == null) {
+        break missingId;
+      }
+
+      id = R.id.my_grades_title;
+      TextView myGradesTitle = ViewBindings.findChildViewById(rootView, id);
+      if (myGradesTitle == null) {
+        break missingId;
+      }
+
       id = R.id.nestedScrollView;
       NestedScrollView nestedScrollView = ViewBindings.findChildViewById(rootView, id);
       if (nestedScrollView == null) {
-        break missingId;
-      }
-
-      id = R.id.online_payment_btn;
-      ImageButton onlinePaymentBtn = ViewBindings.findChildViewById(rootView, id);
-      if (onlinePaymentBtn == null) {
-        break missingId;
-      }
-
-      id = R.id.online_payment_clipboard;
-      ImageView onlinePaymentClipboard = ViewBindings.findChildViewById(rootView, id);
-      if (onlinePaymentClipboard == null) {
-        break missingId;
-      }
-
-      id = R.id.online_payment_line;
-      ImageView onlinePaymentLine = ViewBindings.findChildViewById(rootView, id);
-      if (onlinePaymentLine == null) {
-        break missingId;
-      }
-
-      id = R.id.online_payment_records_btn;
-      ImageButton onlinePaymentRecordsBtn = ViewBindings.findChildViewById(rootView, id);
-      if (onlinePaymentRecordsBtn == null) {
-        break missingId;
-      }
-
-      id = R.id.online_payment_records_clipboard;
-      ImageView onlinePaymentRecordsClipboard = ViewBindings.findChildViewById(rootView, id);
-      if (onlinePaymentRecordsClipboard == null) {
-        break missingId;
-      }
-
-      id = R.id.online_payment_records_line;
-      ImageView onlinePaymentRecordsLine = ViewBindings.findChildViewById(rootView, id);
-      if (onlinePaymentRecordsLine == null) {
-        break missingId;
-      }
-
-      id = R.id.online_payment_records_text;
-      TextView onlinePaymentRecordsText = ViewBindings.findChildViewById(rootView, id);
-      if (onlinePaymentRecordsText == null) {
-        break missingId;
-      }
-
-      id = R.id.online_payment_records_title;
-      TextView onlinePaymentRecordsTitle = ViewBindings.findChildViewById(rootView, id);
-      if (onlinePaymentRecordsTitle == null) {
-        break missingId;
-      }
-
-      id = R.id.online_payment_text;
-      TextView onlinePaymentText = ViewBindings.findChildViewById(rootView, id);
-      if (onlinePaymentText == null) {
-        break missingId;
-      }
-
-      id = R.id.online_payment_title;
-      TextView onlinePaymentTitle = ViewBindings.findChildViewById(rootView, id);
-      if (onlinePaymentTitle == null) {
-        break missingId;
-      }
-
-      id = R.id.paynamics_btn;
-      ImageButton paynamicsBtn = ViewBindings.findChildViewById(rootView, id);
-      if (paynamicsBtn == null) {
-        break missingId;
-      }
-
-      id = R.id.paynamics_clipboard;
-      ImageView paynamicsClipboard = ViewBindings.findChildViewById(rootView, id);
-      if (paynamicsClipboard == null) {
-        break missingId;
-      }
-
-      id = R.id.paynamics_line;
-      ImageView paynamicsLine = ViewBindings.findChildViewById(rootView, id);
-      if (paynamicsLine == null) {
-        break missingId;
-      }
-
-      id = R.id.paynamics_title;
-      TextView paynamicsTitle = ViewBindings.findChildViewById(rootView, id);
-      if (paynamicsTitle == null) {
         break missingId;
       }
 
@@ -306,11 +358,11 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RamsStudentRecordsMainBinding((ConstraintLayout) rootView, enrollmentText,
-          imageView3, nestedScrollView, onlinePaymentBtn, onlinePaymentClipboard, onlinePaymentLine,
-          onlinePaymentRecordsBtn, onlinePaymentRecordsClipboard, onlinePaymentRecordsLine,
-          onlinePaymentRecordsText, onlinePaymentRecordsTitle, onlinePaymentText,
-          onlinePaymentTitle, paynamicsBtn, paynamicsClipboard, paynamicsLine, paynamicsTitle,
+      return new RamsStudentRecordsMainBinding((ConstraintLayout) rootView, classAssessBtn,
+          classAssessClipboard, classAssessLine, classAssessText, classAssessTitle, classSchedBtn,
+          classSchedClipboard, classSchedLine, classSchedText, classSchedTitle, clearanceBtn,
+          clearanceClipboard, clearanceLine, clearanceText, clearanceTitle, imageView3, myGradesBtn,
+          myGradesClipboard, myGradesLine, myGradesText, myGradesTitle, nestedScrollView,
           recordsBackMainBTN, recordsMainTitle, vaccinationRecordBtn, vaccinationRecordClipboard,
           vaccinationRecordLine, vaccinationRecordText, vaccinationRecordTitle);
     }

@@ -14,6 +14,8 @@ import android.widget.Toast;
 
 public class RAMSLogin extends AppCompatActivity {
 
+    private static long back_pressed;
+
     DBHandler db;
     private TextView email, pass;
     Button btn;
@@ -48,8 +50,8 @@ public class RAMSLogin extends AppCompatActivity {
                     }
                     if (checkpass){
                         Toast.makeText(RAMSLogin.this,"Login Successful", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                        startActivity(intent);
+                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                        finish();
                     } else {
                         Toast.makeText(RAMSLogin.this, "Login Failed", Toast.LENGTH_SHORT).show();
                     }
@@ -58,7 +60,17 @@ public class RAMSLogin extends AppCompatActivity {
         });
     }
 
-    //Code for Hiding the Status Bar and Navigation Bar
+    @Override
+    public void onBackPressed() {
+        if (back_pressed + 2000 > System.currentTimeMillis()) {
+            super.onBackPressed();
+        } else {
+            Toast.makeText(getBaseContext(), "Press once again to exit",
+                    Toast.LENGTH_SHORT).show();
+            back_pressed = System.currentTimeMillis();
+        }
+    }
+
     @Override
     public void onWindowFocusChanged(boolean hasFocus){
         super.onWindowFocusChanged(hasFocus);
@@ -70,4 +82,6 @@ public class RAMSLogin extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_FULLSCREEN
                         | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
     }
+
+
 }

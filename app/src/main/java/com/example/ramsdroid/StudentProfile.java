@@ -13,6 +13,7 @@ public class StudentProfile extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.rams_student_profile);
 
         profileBack = findViewById(R.id.profile_BtnBack);
@@ -23,6 +24,14 @@ public class StudentProfile extends Activity {
             startActivity(new Intent(StudentProfile.this, RAMSLogin.class));
             finish();
         });
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        super.onBackPressed();
+        startActivity(new Intent(StudentProfile.this, MainActivity.class));
+        finish();
     }
 
     @Override

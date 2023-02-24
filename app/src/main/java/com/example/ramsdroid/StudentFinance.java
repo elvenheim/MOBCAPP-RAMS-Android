@@ -26,6 +26,14 @@ public class StudentFinance extends Activity {
     }
 
     @Override
+    public void onBackPressed()
+    {
+        super.onBackPressed();
+        startActivity(new Intent(StudentFinance.this, MainActivity.class));
+        finish();
+    }
+
+    @Override
     public void onWindowFocusChanged(boolean hasFocus){
         super.onWindowFocusChanged(hasFocus);
         getWindow().getDecorView().setSystemUiVisibility(
