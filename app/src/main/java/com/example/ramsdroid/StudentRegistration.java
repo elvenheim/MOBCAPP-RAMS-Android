@@ -20,6 +20,7 @@ public class StudentRegistration extends Activity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(StudentRegistration.this, MainActivity.class));
+                finish();
             }
         });
     }

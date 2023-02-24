@@ -42,6 +42,7 @@
         </activity>
         <activity android:name="com.example.ramsdroid.MainActivity" />
         <activity android:name="com.example.ramsdroid.StudentRegistration" />
+        <activity android:name="com.example.ramsdroid.StudentFinance" />
         <activity android:name="com.example.ramsdroid.StudentProfile" />
 
         <provider

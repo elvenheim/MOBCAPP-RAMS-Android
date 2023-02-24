@@ -4,20 +4,106 @@ package com.example.ramsdroid.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.ramsdroid.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class RamsFinanceMainBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private RamsFinanceMainBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final TextView FinanceMainTitle;
+
+  @NonNull
+  public final TextView enrollmentText;
+
+  @NonNull
+  public final ImageButton financeMainBackBTN;
+
+  @NonNull
+  public final ImageView imageView3;
+
+  @NonNull
+  public final ImageButton onlinePaymentBtn;
+
+  @NonNull
+  public final ImageView onlinePaymentClipboard;
+
+  @NonNull
+  public final ImageView onlinePaymentLine;
+
+  @NonNull
+  public final ImageButton onlinePaymentRecordsBtn;
+
+  @NonNull
+  public final ImageView onlinePaymentRecordsClipboard;
+
+  @NonNull
+  public final ImageView onlinePaymentRecordsLine;
+
+  @NonNull
+  public final TextView onlinePaymentRecordsText;
+
+  @NonNull
+  public final TextView onlinePaymentRecordsTitle;
+
+  @NonNull
+  public final TextView onlinePaymentText;
+
+  @NonNull
+  public final TextView onlinePaymentTitle;
+
+  @NonNull
+  public final ImageButton paynamicsBtn;
+
+  @NonNull
+  public final ImageView paynamicsClipboard;
+
+  @NonNull
+  public final ImageView paynamicsLine;
+
+  @NonNull
+  public final TextView paynamicsTitle;
+
+  private RamsFinanceMainBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView FinanceMainTitle, @NonNull TextView enrollmentText,
+      @NonNull ImageButton financeMainBackBTN, @NonNull ImageView imageView3,
+      @NonNull ImageButton onlinePaymentBtn, @NonNull ImageView onlinePaymentClipboard,
+      @NonNull ImageView onlinePaymentLine, @NonNull ImageButton onlinePaymentRecordsBtn,
+      @NonNull ImageView onlinePaymentRecordsClipboard, @NonNull ImageView onlinePaymentRecordsLine,
+      @NonNull TextView onlinePaymentRecordsText, @NonNull TextView onlinePaymentRecordsTitle,
+      @NonNull TextView onlinePaymentText, @NonNull TextView onlinePaymentTitle,
+      @NonNull ImageButton paynamicsBtn, @NonNull ImageView paynamicsClipboard,
+      @NonNull ImageView paynamicsLine, @NonNull TextView paynamicsTitle) {
     this.rootView = rootView;
+    this.FinanceMainTitle = FinanceMainTitle;
+    this.enrollmentText = enrollmentText;
+    this.financeMainBackBTN = financeMainBackBTN;
+    this.imageView3 = imageView3;
+    this.onlinePaymentBtn = onlinePaymentBtn;
+    this.onlinePaymentClipboard = onlinePaymentClipboard;
+    this.onlinePaymentLine = onlinePaymentLine;
+    this.onlinePaymentRecordsBtn = onlinePaymentRecordsBtn;
+    this.onlinePaymentRecordsClipboard = onlinePaymentRecordsClipboard;
+    this.onlinePaymentRecordsLine = onlinePaymentRecordsLine;
+    this.onlinePaymentRecordsText = onlinePaymentRecordsText;
+    this.onlinePaymentRecordsTitle = onlinePaymentRecordsTitle;
+    this.onlinePaymentText = onlinePaymentText;
+    this.onlinePaymentTitle = onlinePaymentTitle;
+    this.paynamicsBtn = paynamicsBtn;
+    this.paynamicsClipboard = paynamicsClipboard;
+    this.paynamicsLine = paynamicsLine;
+    this.paynamicsTitle = paynamicsTitle;
   }
 
   @Override
@@ -43,10 +129,126 @@ public final class RamsFinanceMainBinding implements ViewBinding {
 
   @NonNull
   public static RamsFinanceMainBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.Finance_Main_Title;
+      TextView FinanceMainTitle = ViewBindings.findChildViewById(rootView, id);
+      if (FinanceMainTitle == null) {
+        break missingId;
+      }
 
-    return new RamsFinanceMainBinding((ConstraintLayout) rootView);
+      id = R.id.enrollment_text;
+      TextView enrollmentText = ViewBindings.findChildViewById(rootView, id);
+      if (enrollmentText == null) {
+        break missingId;
+      }
+
+      id = R.id.finance_main_backBTN;
+      ImageButton financeMainBackBTN = ViewBindings.findChildViewById(rootView, id);
+      if (financeMainBackBTN == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView3;
+      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.online_payment_btn;
+      ImageButton onlinePaymentBtn = ViewBindings.findChildViewById(rootView, id);
+      if (onlinePaymentBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.online_payment_clipboard;
+      ImageView onlinePaymentClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (onlinePaymentClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.online_payment_line;
+      ImageView onlinePaymentLine = ViewBindings.findChildViewById(rootView, id);
+      if (onlinePaymentLine == null) {
+        break missingId;
+      }
+
+      id = R.id.online_payment_records_btn;
+      ImageButton onlinePaymentRecordsBtn = ViewBindings.findChildViewById(rootView, id);
+      if (onlinePaymentRecordsBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.online_payment_records_clipboard;
+      ImageView onlinePaymentRecordsClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (onlinePaymentRecordsClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.online_payment_records_line;
+      ImageView onlinePaymentRecordsLine = ViewBindings.findChildViewById(rootView, id);
+      if (onlinePaymentRecordsLine == null) {
+        break missingId;
+      }
+
+      id = R.id.online_payment_records_text;
+      TextView onlinePaymentRecordsText = ViewBindings.findChildViewById(rootView, id);
+      if (onlinePaymentRecordsText == null) {
+        break missingId;
+      }
+
+      id = R.id.online_payment_records_title;
+      TextView onlinePaymentRecordsTitle = ViewBindings.findChildViewById(rootView, id);
+      if (onlinePaymentRecordsTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.online_payment_text;
+      TextView onlinePaymentText = ViewBindings.findChildViewById(rootView, id);
+      if (onlinePaymentText == null) {
+        break missingId;
+      }
+
+      id = R.id.online_payment_title;
+      TextView onlinePaymentTitle = ViewBindings.findChildViewById(rootView, id);
+      if (onlinePaymentTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.paynamics_btn;
+      ImageButton paynamicsBtn = ViewBindings.findChildViewById(rootView, id);
+      if (paynamicsBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.paynamics_clipboard;
+      ImageView paynamicsClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (paynamicsClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.paynamics_line;
+      ImageView paynamicsLine = ViewBindings.findChildViewById(rootView, id);
+      if (paynamicsLine == null) {
+        break missingId;
+      }
+
+      id = R.id.paynamics_title;
+      TextView paynamicsTitle = ViewBindings.findChildViewById(rootView, id);
+      if (paynamicsTitle == null) {
+        break missingId;
+      }
+
+      return new RamsFinanceMainBinding((ConstraintLayout) rootView, FinanceMainTitle,
+          enrollmentText, financeMainBackBTN, imageView3, onlinePaymentBtn, onlinePaymentClipboard,
+          onlinePaymentLine, onlinePaymentRecordsBtn, onlinePaymentRecordsClipboard,
+          onlinePaymentRecordsLine, onlinePaymentRecordsText, onlinePaymentRecordsTitle,
+          onlinePaymentText, onlinePaymentTitle, paynamicsBtn, paynamicsClipboard, paynamicsLine,
+          paynamicsTitle);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

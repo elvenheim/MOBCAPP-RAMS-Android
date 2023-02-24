@@ -2855,6 +2855,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id Finance_Main_Title
 id LoginAPCIS
 id LoginAPCLogo
 id LoginBG
@@ -2864,7 +2865,6 @@ id LoginWhiteBG
 id LoginYellowBG
 id META
 id NO_DEBUG
-id Registrar_Main_Title
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3050,6 +3050,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id finance_main_backBTN
 id fitCenter
 id fitEnd
 id fitStart
@@ -3200,6 +3201,16 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id online_payment_btn
+id online_payment_clipboard
+id online_payment_line
+id online_payment_records_btn
+id online_payment_records_clipboard
+id online_payment_records_line
+id online_payment_records_text
+id online_payment_records_title
+id online_payment_text
+id online_payment_title
 id outline
 id outward
 id overshoot
@@ -3212,6 +3223,10 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id paynamics_btn
+id paynamics_clipboard
+id paynamics_line
+id paynamics_title
 id peekHeight
 id percent
 id pin
