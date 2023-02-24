@@ -17,8 +17,9 @@ drawable announcement_3
 drawable apc_building
 drawable apc_emblem
 drawable arrow_leftbutton
-drawable background_gradient1
-drawable background_yellow
+drawable background_yellow_gradient
+drawable button_rectangle
+drawable clipboard_list
 drawable delete_button
 drawable edit_button
 drawable eye_button
@@ -50,11 +51,13 @@ id LoginEmailBG
 id LoginPassBG
 id LoginWhiteBG
 id LoginYellowBG
+id Registrar_Main_Title
 id announcements
 id home_financeBTN
 id home_registrationBTN
 id home_studentprofileBTN
 id home_studentrecordsBTN
+id imageButton
 id imageSlide
 id imageView
 id imageView1

@@ -2724,8 +2724,7 @@ drawable apc_emblem
 drawable arrow_leftbutton
 drawable avd_hide_password
 drawable avd_show_password
-drawable background_gradient1
-drawable background_yellow
+drawable background_yellow_gradient
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2734,6 +2733,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_rectangle
+drawable clipboard_list
 drawable delete_button
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2863,6 +2864,7 @@ id LoginWhiteBG
 id LoginYellowBG
 id META
 id NO_DEBUG
+id Registrar_Main_Title
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3079,6 +3081,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
 id imageSlide
 id imageView
 id imageView1
