@@ -12,6 +12,7 @@ import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import androidx.viewpager2.widget.ViewPager2;
 import com.example.ramsdroid.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -45,10 +46,14 @@ public final class RamsHomeBinding implements ViewBinding {
   @NonNull
   public final ImageView username;
 
+  @NonNull
+  public final ViewPager2 viewPager;
+
   private RamsHomeBinding(@NonNull ConstraintLayout rootView, @NonNull CardView announcements,
       @NonNull ImageButton homeFinanceBTN, @NonNull ImageButton homeRegistrationBTN,
       @NonNull ImageButton homeStudentprofileBTN, @NonNull ImageButton homeStudentrecordsBTN,
-      @NonNull ImageView imageView1, @NonNull CardView profilePic, @NonNull ImageView username) {
+      @NonNull ImageView imageView1, @NonNull CardView profilePic, @NonNull ImageView username,
+      @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
     this.announcements = announcements;
     this.homeFinanceBTN = homeFinanceBTN;
@@ -58,6 +63,7 @@ public final class RamsHomeBinding implements ViewBinding {
     this.imageView1 = imageView1;
     this.profilePic = profilePic;
     this.username = username;
+    this.viewPager = viewPager;
   }
 
   @Override
@@ -135,9 +141,15 @@ public final class RamsHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.viewPager;
+      ViewPager2 viewPager = ViewBindings.findChildViewById(rootView, id);
+      if (viewPager == null) {
+        break missingId;
+      }
+
       return new RamsHomeBinding((ConstraintLayout) rootView, announcements, homeFinanceBTN,
           homeRegistrationBTN, homeStudentprofileBTN, homeStudentrecordsBTN, imageView1, profilePic,
-          username);
+          username, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

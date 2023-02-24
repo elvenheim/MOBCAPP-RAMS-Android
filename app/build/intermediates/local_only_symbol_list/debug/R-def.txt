@@ -11,9 +11,13 @@ color teal_200
 color teal_700
 color white
 drawable add_button
+drawable announcement_1
+drawable announcement_2
+drawable announcement_3
 drawable apc_building
 drawable apc_emblem
 drawable arrow_leftbutton
+drawable background_gradient1
 drawable background_yellow
 drawable delete_button
 drawable edit_button
@@ -51,6 +55,7 @@ id home_financeBTN
 id home_registrationBTN
 id home_studentprofileBTN
 id home_studentrecordsBTN
+id imageSlide
 id imageView
 id imageView1
 id imageView3
@@ -78,12 +83,14 @@ id rams_student_profile
 id textView3
 id textView4
 id username
+id viewPager
 layout rams_finance_main
 layout rams_home
 layout rams_login
 layout rams_registration_main
 layout rams_student_profile
 layout rams_student_records_main
+layout slide_item_container
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
