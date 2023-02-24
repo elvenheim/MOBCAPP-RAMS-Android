@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:adjustViewBounds="true"
-    app:riv_corner_radius="13dp">
+    app:riv_corner_radius="30dp">
 
 </com.makeramen.roundedimageview.RoundedImageView>
