@@ -3034,6 +3034,11 @@ int id elastic 0x7f0900b4
 int id embed 0x7f0900b5
 int id end 0x7f0900b6
 int id endToStart 0x7f0900b7
+int id enrollment_btn 0x7f090225
+int id enrollment_clipboard 0x7f090226
+int id enrollment_line 0x7f090227
+int id enrollment_text 0x7f090228
+int id enrollment_title 0x7f090229
 int id enterAlways 0x7f0900b8
 int id enterAlwaysCollapsed 0x7f0900b9
 int id exitUntilCollapsed 0x7f0900ba
@@ -3238,6 +3243,7 @@ int id rectangles 0x7f09017c
 int id registration_btn 0x7f090220
 int id registration_clipboard 0x7f090221
 int id registration_line 0x7f090222
+int id registration_main_backBTN 0x7f09022b
 int id registration_text 0x7f090223
 int id registration_title 0x7f090224
 int id repeat 0x7f09017d

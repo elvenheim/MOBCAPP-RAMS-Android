@@ -3035,6 +3035,11 @@ id elastic
 id embed
 id end
 id endToStart
+id enrollment_btn
+id enrollment_clipboard
+id enrollment_line
+id enrollment_text
+id enrollment_title
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -3239,6 +3244,7 @@ id rectangles
 id registration_btn
 id registration_clipboard
 id registration_line
+id registration_main_backBTN
 id registration_text
 id registration_title
 id repeat

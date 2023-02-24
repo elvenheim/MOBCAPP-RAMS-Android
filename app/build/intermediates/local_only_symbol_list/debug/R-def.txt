@@ -53,6 +53,11 @@ id LoginWhiteBG
 id LoginYellowBG
 id Registrar_Main_Title
 id announcements
+id enrollment_btn
+id enrollment_clipboard
+id enrollment_line
+id enrollment_text
+id enrollment_title
 id home_financeBTN
 id home_registrationBTN
 id home_studentprofileBTN
@@ -90,6 +95,7 @@ id rams_student_profile
 id registration_btn
 id registration_clipboard
 id registration_line
+id registration_main_backBTN
 id registration_text
 id registration_title
 id textView3

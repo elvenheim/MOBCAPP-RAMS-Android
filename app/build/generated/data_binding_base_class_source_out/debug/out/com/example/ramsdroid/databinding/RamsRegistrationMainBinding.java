@@ -25,6 +25,21 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
   public final TextView RegistrarMainTitle;
 
   @NonNull
+  public final ImageButton enrollmentBtn;
+
+  @NonNull
+  public final ImageView enrollmentClipboard;
+
+  @NonNull
+  public final ImageView enrollmentLine;
+
+  @NonNull
+  public final TextView enrollmentText;
+
+  @NonNull
+  public final TextView enrollmentTitle;
+
+  @NonNull
   public final ImageView imageView3;
 
   @NonNull
@@ -52,20 +67,31 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
   public final ImageView registrationLine;
 
   @NonNull
+  public final ImageButton registrationMainBackBTN;
+
+  @NonNull
   public final TextView registrationText;
 
   @NonNull
   public final TextView registrationTitle;
 
   private RamsRegistrationMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView RegistrarMainTitle, @NonNull ImageView imageView3,
-      @NonNull ImageButton masterlistBtn, @NonNull ImageView masterlistClipboard,
-      @NonNull ImageView masterlistLine, @NonNull TextView masterlistText,
-      @NonNull TextView masterlistTitle, @NonNull ImageButton registrationBtn,
-      @NonNull ImageView registrationClipboard, @NonNull ImageView registrationLine,
+      @NonNull TextView RegistrarMainTitle, @NonNull ImageButton enrollmentBtn,
+      @NonNull ImageView enrollmentClipboard, @NonNull ImageView enrollmentLine,
+      @NonNull TextView enrollmentText, @NonNull TextView enrollmentTitle,
+      @NonNull ImageView imageView3, @NonNull ImageButton masterlistBtn,
+      @NonNull ImageView masterlistClipboard, @NonNull ImageView masterlistLine,
+      @NonNull TextView masterlistText, @NonNull TextView masterlistTitle,
+      @NonNull ImageButton registrationBtn, @NonNull ImageView registrationClipboard,
+      @NonNull ImageView registrationLine, @NonNull ImageButton registrationMainBackBTN,
       @NonNull TextView registrationText, @NonNull TextView registrationTitle) {
     this.rootView = rootView;
     this.RegistrarMainTitle = RegistrarMainTitle;
+    this.enrollmentBtn = enrollmentBtn;
+    this.enrollmentClipboard = enrollmentClipboard;
+    this.enrollmentLine = enrollmentLine;
+    this.enrollmentText = enrollmentText;
+    this.enrollmentTitle = enrollmentTitle;
     this.imageView3 = imageView3;
     this.masterlistBtn = masterlistBtn;
     this.masterlistClipboard = masterlistClipboard;
@@ -75,6 +101,7 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
     this.registrationBtn = registrationBtn;
     this.registrationClipboard = registrationClipboard;
     this.registrationLine = registrationLine;
+    this.registrationMainBackBTN = registrationMainBackBTN;
     this.registrationText = registrationText;
     this.registrationTitle = registrationTitle;
   }
@@ -109,6 +136,36 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
       id = R.id.Registrar_Main_Title;
       TextView RegistrarMainTitle = ViewBindings.findChildViewById(rootView, id);
       if (RegistrarMainTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.enrollment_btn;
+      ImageButton enrollmentBtn = ViewBindings.findChildViewById(rootView, id);
+      if (enrollmentBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.enrollment_clipboard;
+      ImageView enrollmentClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (enrollmentClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.enrollment_line;
+      ImageView enrollmentLine = ViewBindings.findChildViewById(rootView, id);
+      if (enrollmentLine == null) {
+        break missingId;
+      }
+
+      id = R.id.enrollment_text;
+      TextView enrollmentText = ViewBindings.findChildViewById(rootView, id);
+      if (enrollmentText == null) {
+        break missingId;
+      }
+
+      id = R.id.enrollment_title;
+      TextView enrollmentTitle = ViewBindings.findChildViewById(rootView, id);
+      if (enrollmentTitle == null) {
         break missingId;
       }
 
@@ -166,6 +223,12 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.registration_main_backBTN;
+      ImageButton registrationMainBackBTN = ViewBindings.findChildViewById(rootView, id);
+      if (registrationMainBackBTN == null) {
+        break missingId;
+      }
+
       id = R.id.registration_text;
       TextView registrationText = ViewBindings.findChildViewById(rootView, id);
       if (registrationText == null) {
@@ -179,9 +242,10 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
       }
 
       return new RamsRegistrationMainBinding((ConstraintLayout) rootView, RegistrarMainTitle,
+          enrollmentBtn, enrollmentClipboard, enrollmentLine, enrollmentText, enrollmentTitle,
           imageView3, masterlistBtn, masterlistClipboard, masterlistLine, masterlistText,
           masterlistTitle, registrationBtn, registrationClipboard, registrationLine,
-          registrationText, registrationTitle);
+          registrationMainBackBTN, registrationText, registrationTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
