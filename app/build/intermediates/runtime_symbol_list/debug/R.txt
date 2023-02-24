@@ -3186,6 +3186,7 @@ int id navigation_bar_item_labels_group 0x7f09014c
 int id navigation_bar_item_large_label_view 0x7f09014d
 int id navigation_bar_item_small_label_view 0x7f09014e
 int id navigation_header_container 0x7f09014f
+int id nestedScrollView 0x7f09023b
 int id never 0x7f090150
 int id neverCompleteToEnd 0x7f090151
 int id neverCompleteToStart 0x7f090152
@@ -3254,6 +3255,8 @@ int id progress_horizontal 0x7f090182
 int id radio 0x7f090183
 int id rams_student_profile 0x7f090184
 int id ratio 0x7f090185
+int id records_back_main_BTN 0x7f09023a
+int id records_main_title 0x7f09023c
 int id rectangles 0x7f090186
 int id registration_btn 0x7f090187
 int id registration_clipboard 0x7f090188
@@ -3398,6 +3401,11 @@ int id unlabeled 0x7f090212
 int id up 0x7f090213
 int id useLogo 0x7f090214
 int id username 0x7f090215
+int id vaccination_record_btn 0x7f09023d
+int id vaccination_record_clipboard 0x7f09023e
+int id vaccination_record_line 0x7f09023f
+int id vaccination_record_text 0x7f090240
+int id vaccination_record_title 0x7f090241
 int id vertical_only 0x7f090216
 int id viewPager 0x7f090217
 int id view_offset_helper 0x7f090218

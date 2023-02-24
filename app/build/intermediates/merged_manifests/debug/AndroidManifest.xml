@@ -44,6 +44,7 @@
         <activity android:name="com.example.ramsdroid.StudentRegistration" />
         <activity android:name="com.example.ramsdroid.StudentFinance" />
         <activity android:name="com.example.ramsdroid.StudentProfile" />
+        <activity android:name="com.example.ramsdroid.StudentRecords" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

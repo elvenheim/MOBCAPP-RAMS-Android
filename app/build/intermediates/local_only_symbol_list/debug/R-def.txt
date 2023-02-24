@@ -75,6 +75,7 @@ id masterlist_clipboard
 id masterlist_line
 id masterlist_text
 id masterlist_title
+id nestedScrollView
 id online_payment_btn
 id online_payment_clipboard
 id online_payment_line
@@ -107,6 +108,8 @@ id profile_YellowBG
 id profile_btnLogOut
 id profile_pic
 id rams_student_profile
+id records_back_main_BTN
+id records_main_title
 id registration_btn
 id registration_clipboard
 id registration_line
@@ -116,6 +119,11 @@ id registration_title
 id textView3
 id textView4
 id username
+id vaccination_record_btn
+id vaccination_record_clipboard
+id vaccination_record_line
+id vaccination_record_text
+id vaccination_record_title
 id viewPager
 layout rams_finance_main
 layout rams_home
