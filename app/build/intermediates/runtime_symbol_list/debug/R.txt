@@ -1312,6 +1312,7 @@ int color accent_material_light 0x7f05001a
 int color androidx_core_ripple_material_light 0x7f05001b
 int color androidx_core_secondary_text_default_material_light 0x7f05001c
 int color apc_blue 0x7f05001d
+int color apc_darker_blue 0x7f050288
 int color apc_gray_edit 0x7f05001e
 int color apc_gray_normal 0x7f05001f
 int color apc_yellow 0x7f050020

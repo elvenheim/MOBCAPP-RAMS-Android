@@ -1313,6 +1313,7 @@ color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color apc_blue
+color apc_darker_blue
 color apc_gray_edit
 color apc_gray_normal
 color apc_yellow

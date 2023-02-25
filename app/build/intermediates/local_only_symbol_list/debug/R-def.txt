@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color apc_blue
+color apc_darker_blue
 color apc_gray_edit
 color apc_gray_normal
 color apc_yellow
