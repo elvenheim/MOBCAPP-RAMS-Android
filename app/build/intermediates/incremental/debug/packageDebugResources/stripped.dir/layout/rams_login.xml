@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="-18dp"
+    tools:layout_editor_absoluteY="0dp"
+    tools:context=".RAMSLogin">
+
+    <ImageView
+        android:id="@+id/LoginBG"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/apc_building"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/LoginYellowBG"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33"
+        app:srcCompat="@drawable/login_yellow" />
+
+    <ImageView
+        android:id="@+id/LoginWhiteBG"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginYellowBG"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/login_white" />
+
+    <TextView
+        android:id="@+id/LoginAPCIS"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/nunitosans"
+        android:text="APC Information System"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginYellowBG"
+        app:layout_constraintEnd_toEndOf="@+id/LoginYellowBG"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/LoginYellowBG"
+        app:layout_constraintTop_toBottomOf="@+id/LoginAPCLogo"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <ImageView
+        android:id="@+id/LoginAPCLogo"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginYellowBG"
+        app:layout_constraintEnd_toEndOf="@+id/LoginYellowBG"
+        app:layout_constraintStart_toStartOf="@+id/LoginYellowBG"
+        app:layout_constraintTop_toTopOf="@+id/LoginYellowBG"
+        app:layout_constraintVertical_bias="0.16"
+        app:srcCompat="@drawable/apc_emblem" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/nunitosans_regular"
+        android:text="Login with"
+        android:textColor="#343A40"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginYellowBG"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="@+id/LoginAPCIS"
+        app:layout_constraintTop_toBottomOf="@+id/LoginAPCIS"
+        app:layout_constraintVertical_bias="0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/nunitosans_regular"
+        android:text="Account"
+        android:textColor="#343A40"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginYellowBG"
+        app:layout_constraintEnd_toEndOf="@+id/LoginAPCIS"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/LoginAPCIS"
+        app:layout_constraintVertical_bias="0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/LoginWhiteBG"
+        app:layout_constraintEnd_toEndOf="@+id/LoginAPCIS"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/LoginAPCIS"
+        app:layout_constraintTop_toBottomOf="@+id/LoginAPCIS"
+        app:layout_constraintVertical_bias="0"
+        app:srcCompat="@drawable/o365_logo" />
+
+    <ImageView
+        android:id="@+id/LoginEmailBG"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginWhiteBG"
+        app:layout_constraintEnd_toEndOf="@+id/LoginWhiteBG"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="@+id/LoginWhiteBG"
+        app:layout_constraintTop_toBottomOf="@+id/LoginYellowBG"
+        app:layout_constraintVertical_bias="0.146"
+        app:srcCompat="@drawable/login_plaintextborder" />
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:autofillHints="emailAddress"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#343A40"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginEmailBG"
+        app:layout_constraintEnd_toEndOf="@+id/LoginEmailBG"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/LoginEmailBG"
+        app:layout_constraintTop_toTopOf="@+id/LoginEmailBG"
+        app:layout_constraintVertical_bias="0.466" />
+
+    <ImageView
+        android:id="@+id/LoginPassBG"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginWhiteBG"
+        app:layout_constraintEnd_toEndOf="@+id/LoginWhiteBG"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="@+id/LoginWhiteBG"
+        app:layout_constraintTop_toBottomOf="@+id/LoginEmailBG"
+        app:layout_constraintVertical_bias="0.304"
+        app:srcCompat="@drawable/login_plaintextborder" />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:autofillHints="password"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#343A40"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginPassBG"
+        app:layout_constraintEnd_toEndOf="@+id/LoginPassBG"
+        app:layout_constraintStart_toStartOf="@+id/LoginPassBG"
+        app:layout_constraintTop_toTopOf="@+id/LoginPassBG" />
+
+    <Button
+        android:id="@+id/login_btnSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#293A82"
+        android:text="Sign In"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginWhiteBG"
+        app:layout_constraintEnd_toEndOf="@+id/LoginWhiteBG"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="@+id/LoginWhiteBG"
+        app:layout_constraintTop_toBottomOf="@+id/LoginPassBG"
+        app:layout_constraintVertical_bias="0.0"
+        app:strokeColor="#007BFF"
+        app:strokeWidth="1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
