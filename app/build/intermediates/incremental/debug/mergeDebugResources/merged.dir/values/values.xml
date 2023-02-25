@@ -614,6 +614,7 @@
     <color name="androidx_core_ripple_material_light">#1f000000</color>
     <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
     <color name="apc_blue">#213b9a</color>
+    <color name="apc_darker_blue">#053878</color>
     <color name="apc_gray_edit">#343A40</color>
     <color name="apc_gray_normal">#dfdfdf</color>
     <color name="apc_yellow">#fbaf41</color>

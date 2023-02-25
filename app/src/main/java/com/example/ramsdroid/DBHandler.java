@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBHandler extends SQLiteOpenHelper{
     //name of db
-    private static final String DB_Name = "APCIS_Users.sqlite";
+    private static final String DB_Name = "APCIS_Users.db";
 
     public DBHandler (Context context){
         super(context,"APCIS_Users",null, 1);
