@@ -4,20 +4,157 @@ package com.example.ramsdroid.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.ramsdroid.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class RamsStudentRecordsMainBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private RamsStudentRecordsMainBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final ImageButton classAssessBtn;
+
+  @NonNull
+  public final ImageView classAssessClipboard;
+
+  @NonNull
+  public final ImageView classAssessLine;
+
+  @NonNull
+  public final TextView classAssessText;
+
+  @NonNull
+  public final TextView classAssessTitle;
+
+  @NonNull
+  public final ImageButton classSchedBtn;
+
+  @NonNull
+  public final ImageView classSchedClipboard;
+
+  @NonNull
+  public final ImageView classSchedLine;
+
+  @NonNull
+  public final TextView classSchedText;
+
+  @NonNull
+  public final TextView classSchedTitle;
+
+  @NonNull
+  public final ImageButton clearanceBtn;
+
+  @NonNull
+  public final ImageView clearanceClipboard;
+
+  @NonNull
+  public final ImageView clearanceLine;
+
+  @NonNull
+  public final TextView clearanceText;
+
+  @NonNull
+  public final TextView clearanceTitle;
+
+  @NonNull
+  public final ImageView imageView3;
+
+  @NonNull
+  public final ImageButton myGradesBtn;
+
+  @NonNull
+  public final ImageView myGradesClipboard;
+
+  @NonNull
+  public final ImageView myGradesLine;
+
+  @NonNull
+  public final TextView myGradesText;
+
+  @NonNull
+  public final TextView myGradesTitle;
+
+  @NonNull
+  public final NestedScrollView nestedScrollView;
+
+  @NonNull
+  public final ImageButton recordsBackMainBTN;
+
+  @NonNull
+  public final TextView recordsMainTitle;
+
+  @NonNull
+  public final ImageButton vaccinationRecordBtn;
+
+  @NonNull
+  public final ImageView vaccinationRecordClipboard;
+
+  @NonNull
+  public final ImageView vaccinationRecordLine;
+
+  @NonNull
+  public final TextView vaccinationRecordText;
+
+  @NonNull
+  public final TextView vaccinationRecordTitle;
+
+  private RamsStudentRecordsMainBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ImageButton classAssessBtn, @NonNull ImageView classAssessClipboard,
+      @NonNull ImageView classAssessLine, @NonNull TextView classAssessText,
+      @NonNull TextView classAssessTitle, @NonNull ImageButton classSchedBtn,
+      @NonNull ImageView classSchedClipboard, @NonNull ImageView classSchedLine,
+      @NonNull TextView classSchedText, @NonNull TextView classSchedTitle,
+      @NonNull ImageButton clearanceBtn, @NonNull ImageView clearanceClipboard,
+      @NonNull ImageView clearanceLine, @NonNull TextView clearanceText,
+      @NonNull TextView clearanceTitle, @NonNull ImageView imageView3,
+      @NonNull ImageButton myGradesBtn, @NonNull ImageView myGradesClipboard,
+      @NonNull ImageView myGradesLine, @NonNull TextView myGradesText,
+      @NonNull TextView myGradesTitle, @NonNull NestedScrollView nestedScrollView,
+      @NonNull ImageButton recordsBackMainBTN, @NonNull TextView recordsMainTitle,
+      @NonNull ImageButton vaccinationRecordBtn, @NonNull ImageView vaccinationRecordClipboard,
+      @NonNull ImageView vaccinationRecordLine, @NonNull TextView vaccinationRecordText,
+      @NonNull TextView vaccinationRecordTitle) {
     this.rootView = rootView;
+    this.classAssessBtn = classAssessBtn;
+    this.classAssessClipboard = classAssessClipboard;
+    this.classAssessLine = classAssessLine;
+    this.classAssessText = classAssessText;
+    this.classAssessTitle = classAssessTitle;
+    this.classSchedBtn = classSchedBtn;
+    this.classSchedClipboard = classSchedClipboard;
+    this.classSchedLine = classSchedLine;
+    this.classSchedText = classSchedText;
+    this.classSchedTitle = classSchedTitle;
+    this.clearanceBtn = clearanceBtn;
+    this.clearanceClipboard = clearanceClipboard;
+    this.clearanceLine = clearanceLine;
+    this.clearanceText = clearanceText;
+    this.clearanceTitle = clearanceTitle;
+    this.imageView3 = imageView3;
+    this.myGradesBtn = myGradesBtn;
+    this.myGradesClipboard = myGradesClipboard;
+    this.myGradesLine = myGradesLine;
+    this.myGradesText = myGradesText;
+    this.myGradesTitle = myGradesTitle;
+    this.nestedScrollView = nestedScrollView;
+    this.recordsBackMainBTN = recordsBackMainBTN;
+    this.recordsMainTitle = recordsMainTitle;
+    this.vaccinationRecordBtn = vaccinationRecordBtn;
+    this.vaccinationRecordClipboard = vaccinationRecordClipboard;
+    this.vaccinationRecordLine = vaccinationRecordLine;
+    this.vaccinationRecordText = vaccinationRecordText;
+    this.vaccinationRecordTitle = vaccinationRecordTitle;
   }
 
   @Override
@@ -43,10 +180,193 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
 
   @NonNull
   public static RamsStudentRecordsMainBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.class_assess_btn;
+      ImageButton classAssessBtn = ViewBindings.findChildViewById(rootView, id);
+      if (classAssessBtn == null) {
+        break missingId;
+      }
 
-    return new RamsStudentRecordsMainBinding((ConstraintLayout) rootView);
+      id = R.id.class_assess_clipboard;
+      ImageView classAssessClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (classAssessClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.class_assess_line;
+      ImageView classAssessLine = ViewBindings.findChildViewById(rootView, id);
+      if (classAssessLine == null) {
+        break missingId;
+      }
+
+      id = R.id.class_assess_text;
+      TextView classAssessText = ViewBindings.findChildViewById(rootView, id);
+      if (classAssessText == null) {
+        break missingId;
+      }
+
+      id = R.id.class_assess_title;
+      TextView classAssessTitle = ViewBindings.findChildViewById(rootView, id);
+      if (classAssessTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.class_sched_btn;
+      ImageButton classSchedBtn = ViewBindings.findChildViewById(rootView, id);
+      if (classSchedBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.class_sched_clipboard;
+      ImageView classSchedClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (classSchedClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.class_sched_line;
+      ImageView classSchedLine = ViewBindings.findChildViewById(rootView, id);
+      if (classSchedLine == null) {
+        break missingId;
+      }
+
+      id = R.id.class_sched_text;
+      TextView classSchedText = ViewBindings.findChildViewById(rootView, id);
+      if (classSchedText == null) {
+        break missingId;
+      }
+
+      id = R.id.class_sched_title;
+      TextView classSchedTitle = ViewBindings.findChildViewById(rootView, id);
+      if (classSchedTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.clearance_btn;
+      ImageButton clearanceBtn = ViewBindings.findChildViewById(rootView, id);
+      if (clearanceBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.clearance_clipboard;
+      ImageView clearanceClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (clearanceClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.clearance_line;
+      ImageView clearanceLine = ViewBindings.findChildViewById(rootView, id);
+      if (clearanceLine == null) {
+        break missingId;
+      }
+
+      id = R.id.clearance_text;
+      TextView clearanceText = ViewBindings.findChildViewById(rootView, id);
+      if (clearanceText == null) {
+        break missingId;
+      }
+
+      id = R.id.clearance_title;
+      TextView clearanceTitle = ViewBindings.findChildViewById(rootView, id);
+      if (clearanceTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView3;
+      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.my_grades_btn;
+      ImageButton myGradesBtn = ViewBindings.findChildViewById(rootView, id);
+      if (myGradesBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.my_grades_clipboard;
+      ImageView myGradesClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (myGradesClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.my_grades_line;
+      ImageView myGradesLine = ViewBindings.findChildViewById(rootView, id);
+      if (myGradesLine == null) {
+        break missingId;
+      }
+
+      id = R.id.my_grades_text;
+      TextView myGradesText = ViewBindings.findChildViewById(rootView, id);
+      if (myGradesText == null) {
+        break missingId;
+      }
+
+      id = R.id.my_grades_title;
+      TextView myGradesTitle = ViewBindings.findChildViewById(rootView, id);
+      if (myGradesTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.nestedScrollView;
+      NestedScrollView nestedScrollView = ViewBindings.findChildViewById(rootView, id);
+      if (nestedScrollView == null) {
+        break missingId;
+      }
+
+      id = R.id.records_back_main_BTN;
+      ImageButton recordsBackMainBTN = ViewBindings.findChildViewById(rootView, id);
+      if (recordsBackMainBTN == null) {
+        break missingId;
+      }
+
+      id = R.id.records_main_title;
+      TextView recordsMainTitle = ViewBindings.findChildViewById(rootView, id);
+      if (recordsMainTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.vaccination_record_btn;
+      ImageButton vaccinationRecordBtn = ViewBindings.findChildViewById(rootView, id);
+      if (vaccinationRecordBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.vaccination_record_clipboard;
+      ImageView vaccinationRecordClipboard = ViewBindings.findChildViewById(rootView, id);
+      if (vaccinationRecordClipboard == null) {
+        break missingId;
+      }
+
+      id = R.id.vaccination_record_line;
+      ImageView vaccinationRecordLine = ViewBindings.findChildViewById(rootView, id);
+      if (vaccinationRecordLine == null) {
+        break missingId;
+      }
+
+      id = R.id.vaccination_record_text;
+      TextView vaccinationRecordText = ViewBindings.findChildViewById(rootView, id);
+      if (vaccinationRecordText == null) {
+        break missingId;
+      }
+
+      id = R.id.vaccination_record_title;
+      TextView vaccinationRecordTitle = ViewBindings.findChildViewById(rootView, id);
+      if (vaccinationRecordTitle == null) {
+        break missingId;
+      }
+
+      return new RamsStudentRecordsMainBinding((ConstraintLayout) rootView, classAssessBtn,
+          classAssessClipboard, classAssessLine, classAssessText, classAssessTitle, classSchedBtn,
+          classSchedClipboard, classSchedLine, classSchedText, classSchedTitle, clearanceBtn,
+          clearanceClipboard, clearanceLine, clearanceText, clearanceTitle, imageView3, myGradesBtn,
+          myGradesClipboard, myGradesLine, myGradesText, myGradesTitle, nestedScrollView,
+          recordsBackMainBTN, recordsMainTitle, vaccinationRecordBtn, vaccinationRecordClipboard,
+          vaccinationRecordLine, vaccinationRecordText, vaccinationRecordTitle);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

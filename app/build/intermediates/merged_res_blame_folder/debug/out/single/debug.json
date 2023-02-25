@@ -44,8 +44,8 @@
         "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-32:\\drawable\\login_email.png"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-30:/layout_rams_finance_main.xml.flat",
-        "source": "com.example.ramsdroid.app-main-32:/layout/rams_finance_main.xml"
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-30:\\drawable-v24_profile_logout.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-32:\\drawable-v24\\profile_logout.png"
     },
     {
         "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-30:\\drawable_delete_button.png.flat",
@@ -88,6 +88,10 @@
         "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-32:\\drawable\\background_yellow_gradient.xml"
     },
     {
+        "merged": "com.example.ramsdroid.app-merged_res-30:/layout_rams_home.xml.flat",
+        "source": "com.example.ramsdroid.app-main-32:/layout/rams_home.xml"
+    },
+    {
         "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-30:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -114,6 +118,10 @@
     {
         "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-30:\\drawable_menu_registrationbutton.png.flat",
         "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-32:\\drawable\\menu_registrationbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-30:\\drawable-v24_profile_default_cover.png.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-32:\\drawable-v24\\profile_default_cover.png"
     },
     {
         "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-30:\\drawable_login_yellow.png.flat",
@@ -192,6 +200,10 @@
         "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-32:\\drawable\\o365_logo.png"
     },
     {
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-30:\\layout_rams_student_profile_new.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-32:\\layout\\rams_student_profile_new.xml"
+    },
+    {
         "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-30:\\drawable_logout_rectangle.xml.flat",
         "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-32:\\drawable\\logout_rectangle.xml"
     },
@@ -202,6 +214,10 @@
     {
         "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-30:\\drawable_login_plaintextborder.xml.flat",
         "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-32:\\drawable\\login_plaintextborder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-30:\\drawable_profile_cover.xml.flat",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-main-32:\\drawable\\profile_cover.xml"
     },
     {
         "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.4\\com.example.ramsdroid.app-merged_res-30:\\drawable_eye_button.png.flat",

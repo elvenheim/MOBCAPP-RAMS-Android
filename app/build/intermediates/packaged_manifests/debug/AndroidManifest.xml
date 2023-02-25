@@ -8,6 +8,8 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <permission
         android:name="com.example.ramsdroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -29,7 +31,8 @@
         android:theme="@style/Theme.RAMSdroid" >
         <activity
             android:name="com.example.ramsdroid.RAMSLogin"
-            android:exported="true" >
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,10 +43,21 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name="com.example.ramsdroid.MainActivity" />
-        <activity android:name="com.example.ramsdroid.StudentRegistration" />
-        <activity android:name="com.example.ramsdroid.StudentFinance" />
-        <activity android:name="com.example.ramsdroid.StudentProfile" />
+        <activity
+            android:name="com.example.ramsdroid.MainActivity"
+            android:parentActivityName="com.example.ramsdroid.RAMSLogin" />
+        <activity
+            android:name="com.example.ramsdroid.StudentRegistration"
+            android:parentActivityName="com.example.ramsdroid.MainActivity" />
+        <activity
+            android:name="com.example.ramsdroid.StudentFinance"
+            android:parentActivityName="com.example.ramsdroid.MainActivity" />
+        <activity
+            android:name="com.example.ramsdroid.StudentRecords"
+            android:parentActivityName="com.example.ramsdroid.MainActivity" />
+        <activity
+            android:name="com.example.ramsdroid.StudentProfile"
+            android:parentActivityName="com.example.ramsdroid.MainActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

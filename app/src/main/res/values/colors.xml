@@ -10,4 +10,6 @@
     <color name="apc_blue">#213b9a</color>
     <color name="apc_yellow">#fbaf41</color>
     <color name="apc_gray_edit">#343A40</color>
+    <color name="apc_gray_normal">#dfdfdf</color>
+
 </resources>

@@ -1,12 +1,13 @@
 package com.example.ramsdroid;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class StudentFinance extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class StudentFinance extends AppCompatActivity {
 
     ImageButton financeBack;
 
@@ -23,6 +24,14 @@ public class StudentFinance extends Activity {
                 finish();
             }
         });
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        super.onBackPressed();
+        startActivity(new Intent(StudentFinance.this, MainActivity.class));
+        finish();
     }
 
     @Override

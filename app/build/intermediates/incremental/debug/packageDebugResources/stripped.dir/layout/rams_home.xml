@@ -21,27 +21,21 @@
         app:layout_constraintVertical_bias="0.503"
         app:srcCompat="@drawable/menu_studentprofilebutton" />
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:elevation="30dp"
-        />
     <ImageView
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginTop="0dp"
-        android:src="@color/apc_blue"
+        android:src="@color/apc_yellow"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
-
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Good Morning!"
         android:textColor="@color/white"
-        android:fontFamily="@font/nunitosans_bold"
+        android:fontFamily="@font/nunitosans"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,7 +51,7 @@
         android:text="Rich Diamond"
         android:textColor="@color/white"
         android:textSize="28sp"
-        android:fontFamily="@font/nunitosans_bold"
+        android:fontFamily="@font/nunitosans"
         android:textStyle=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -128,7 +122,7 @@
         android:layout_marginTop="21dp"
         android:text="What would you like to do?"
         android:textColor="@color/apc_blue"
-        android:fontFamily="@font/nunitosans_bold"
+        android:fontFamily="@font/nunitosans"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
