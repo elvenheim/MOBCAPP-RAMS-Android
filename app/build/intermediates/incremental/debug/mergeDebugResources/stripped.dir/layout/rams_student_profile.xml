@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/apc_gray_normal"
+    tools:context=".StudentProfile">
+
+    <ImageView
+        android:id="@+id/profile_Footer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cover_photo"
+        app:srcCompat="@drawable/background_yellow_gradient" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/cover_photo"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="1dp"
+        android:scaleType="fitCenter"
+        android:scaleX="1.3"
+        android:scaleY="1.5"
+        android:src="@drawable/profile_default_cover"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:shapeAppearanceOverlay="@style/CornerCut_LR" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profile_BG"
+        android:layout_width="330dp"
+        android:layout_height="570dp"
+        android:layout_marginTop="180dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:shapeAppearanceOverlay="@style/RoundedCorners" />
+
+    <ImageView
+        android:id="@+id/user_profile"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:srcCompat="@drawable/user_picture" />
+
+    <Button
+        android:id="@+id/profile_btnLogOut"
+        android:layout_width="84dp"
+        android:layout_height="35dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/nunitosans"
+        android:text="Log Out"
+        android:textAllCaps="false"
+        android:textColor="@color/apc_blue"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/profile_line"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="@+id/profile_line"
+        app:layout_constraintTop_toBottomOf="@+id/cover_photo"
+        app:layout_constraintVertical_bias="0.01"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/profile_btnLogOut"
+        app:layout_constraintEnd_toEndOf="@+id/profile_BG"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/profile_btnLogOut"
+        app:layout_constraintTop_toTopOf="@+id/profile_btnLogOut"
+        app:layout_constraintVertical_bias="0.434"
+        app:srcCompat="@drawable/profile_logout"
+        app:tint="@color/apc_blue" />
+
+    <ImageView
+        android:id="@+id/profile_line"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_rectangle"
+        android:backgroundTint="@color/apc_blue"
+        app:layout_constraintBottom_toBottomOf="@+id/profile_BG"
+        app:layout_constraintEnd_toEndOf="@+id/profile_BG"
+        app:layout_constraintStart_toStartOf="@+id/profile_BG"
+        app:layout_constraintTop_toBottomOf="@+id/user_profile"
+        app:layout_constraintVertical_bias="0"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView2"
+        android:layout_width="0dp"
+        android:layout_height="440dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="@+id/profile_BG"
+        app:layout_constraintEnd_toEndOf="@+id/profile_line"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profile_line"
+        app:layout_constraintTop_toBottomOf="@+id/profile_line"
+        app:layout_constraintVertical_bias="0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/profile_StudentNameTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nunitosans"
+                android:text="Student Name:"
+                android:textColor="@color/apc_blue"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0" />
+
+            <TextView
+                android:id="@+id/profile_StudentNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/nunitosans"
+                android:hint="Patatas De la Peña"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/profile_StudentNameTitle"
+                app:layout_constraintTop_toBottomOf="@+id/profile_StudentNameTitle"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/profile_StudentNumberTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nunitosans"
+                android:text="Student Number:"
+                android:textColor="@color/apc_blue"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/profile_StudentNameTitle"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/profile_StudentNameTitle"
+                app:layout_constraintTop_toBottomOf="@+id/profile_StudentNameText"
+                app:layout_constraintVertical_bias="0" />
+
+            <TextView
+                android:id="@+id/profile_StudentNumberText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/nunitosans"
+                android:hint="2021-133742"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/profile_StudentNumberTitle"
+                app:layout_constraintTop_toBottomOf="@+id/profile_StudentNumberTitle"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/profile_EmailTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nunitosans"
+                android:text="Email:"
+                android:textColor="@color/apc_blue"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/profile_StudentNumberTitle"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/profile_StudentNumberTitle"
+                app:layout_constraintTop_toBottomOf="@+id/profile_StudentNumberText"
+                app:layout_constraintVertical_bias="0" />
+
+            <TextView
+                android:id="@+id/profile_EmailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/nunitosans"
+                android:hint="pdlp@student.apc.edu.ph"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/profile_EmailTitle"
+                app:layout_constraintTop_toBottomOf="@+id/profile_EmailTitle"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/profile_CourseTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nunitosans"
+                android:text="Course:"
+                android:textColor="@color/apc_blue"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/profile_EmailTitle"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/profile_EmailTitle"
+                app:layout_constraintTop_toBottomOf="@+id/profile_EmailText"
+                app:layout_constraintVertical_bias="0" />
+
+            <TextView
+                android:id="@+id/profile_CourseText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/nunitosans"
+                android:hint="BSP, Bachelor of Science in Patatas"
+                android:text=""
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/profile_CourseTitle"
+                app:layout_constraintTop_toBottomOf="@+id/profile_CourseTitle"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/profile_ScholarshipTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nunitosans"
+                android:text="Scholarship:"
+                android:textColor="@color/apc_blue"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/profile_CourseTitle"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/profile_CourseTitle"
+                app:layout_constraintTop_toBottomOf="@+id/profile_CourseText"
+                app:layout_constraintVertical_bias="0" />
+
+            <TextView
+                android:id="@+id/profile_ScholarshipText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/nunitosans"
+                android:hint="SM Foundation (100%)"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/profile_ScholarshipTitle"
+                app:layout_constraintTop_toBottomOf="@+id/profile_ScholarshipTitle"
+                app:layout_constraintVertical_bias="0" />
+
+            <TextView
+                android:id="@+id/profile_EnrollmentTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nunitosans"
+                android:text="Date of Enrollment:"
+                android:textColor="@color/apc_blue"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/profile_ScholarshipTitle"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/profile_ScholarshipTitle"
+                app:layout_constraintTop_toBottomOf="@+id/profile_ScholarshipText"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/profile_EnrollmentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/nunitosans"
+                android:hint="MM-DD-YYYY"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/profile_EnrollmentTitle"
+                app:layout_constraintTop_toBottomOf="@+id/profile_EnrollmentTitle"
+                app:layout_constraintVertical_bias="0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
