@@ -86,6 +86,7 @@ id home_studentrecordsBTN
 id imageSlide
 id imageView
 id imageView1
+id imageView2
 id imageView3
 id loginEmail
 id loginPassword
@@ -101,6 +102,7 @@ id my_grades_line
 id my_grades_text
 id my_grades_title
 id nestedScrollView
+id nestedScrollView2
 id online_payment_btn
 id online_payment_clipboard
 id online_payment_line
