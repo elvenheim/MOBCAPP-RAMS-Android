@@ -26,7 +26,7 @@
 17-->[androidx.core:core:1.9.0] C:\Users\Dell\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:7:5-40:19
+19-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:7:5-41:19
 20        android:allowBackup="true"
 20-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:8:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -75,35 +75,35 @@
 44-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:28:17-33
 45        </activity>
 46        <activity
-46-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:30:9-31:54
+46-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:31:9-32:54
 47            android:name="com.example.ramsdroid.MainActivity"
-47-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:30:19-47
+47-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:31:19-47
 48            android:parentActivityName="com.example.ramsdroid.RAMSLogin" />
-48-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:31:13-52
+48-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:32:13-52
 49        <activity
-49-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:32:9-33:57
+49-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:33:9-34:57
 50            android:name="com.example.ramsdroid.StudentRegistration"
-50-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:32:19-54
+50-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:33:19-54
 51            android:parentActivityName="com.example.ramsdroid.MainActivity" />
-51-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:33:13-55
+51-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:34:13-55
 52        <activity
-52-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:34:9-35:57
+52-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:35:9-36:57
 53            android:name="com.example.ramsdroid.StudentFinance"
-53-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:34:19-49
+53-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:35:19-49
 54            android:parentActivityName="com.example.ramsdroid.MainActivity" />
-54-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:35:13-55
+54-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:36:13-55
 55        <activity
-55-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:36:9-37:57
+55-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:37:9-38:57
 56            android:name="com.example.ramsdroid.StudentRecords"
-56-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:36:19-49
+56-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:37:19-49
 57            android:parentActivityName="com.example.ramsdroid.MainActivity" />
-57-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:37:13-55
+57-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:38:13-55
 58        <activity
-58-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:38:9-39:57
+58-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:39:9-40:57
 59            android:name="com.example.ramsdroid.StudentProfile"
-59-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:38:19-49
+59-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:39:19-49
 60            android:parentActivityName="com.example.ramsdroid.MainActivity" />
-60-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:39:13-55
+60-->C:\Users\Dell\Desktop\MOBCAPPFinals\app\src\main\AndroidManifest.xml:40:13-55
 61
 62        <provider
 62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
