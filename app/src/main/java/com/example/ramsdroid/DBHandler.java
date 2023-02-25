@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBHandler extends SQLiteOpenHelper{
     //name of db
-    private static final String DB_Name = "APCIS_Users";
+    private static final String DB_Name = "APCIS_Users.db";
 
     public DBHandler (Context context){
         super(context,"APCIS_Users",null, 1);
@@ -26,10 +26,6 @@ public class DBHandler extends SQLiteOpenHelper{
     public boolean checkUserPass (String user, String pass){
         SQLiteDatabase db = this.getWritableDatabase();
         @SuppressLint("Recycle") Cursor cursor = db.rawQuery("SELECT * FROM Users WHERE Email = ? AND Password = ?", new String[] {user, pass});
-        if (cursor.getCount() > 0 ){
-            return true;
-        } else {
-            return false;
-        }
+        return cursor.getCount() > 0;
     }
 }
