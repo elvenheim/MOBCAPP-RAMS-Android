@@ -53,6 +53,7 @@ drawable user_picture
 font nunitosans
 font nunitosans_bold
 font nunitosans_regular
+id Finance_Main_Title
 id LoginAPCIS
 id LoginAPCLogo
 id LoginBG
@@ -60,7 +61,6 @@ id LoginEmailBG
 id LoginPassBG
 id LoginWhiteBG
 id LoginYellowBG
-id Registration_Main_Title
 id announcements
 id apcheader
 id bg_card
@@ -98,7 +98,6 @@ id imageView
 id imageView1
 id imageView2
 id imageView3
-id imageView4
 id imageView5
 id imageView6
 id loginEmail
@@ -137,13 +136,13 @@ id profile_Footer
 id profile_btnLogOut
 id profile_line
 id profile_pic
+id records_back_main_BTN
+id records_main_title
 id registration_btn
 id registration_clipboard
 id registration_line
 id registration_main_backBTN
 id registration_title
-id student_records_Main_Title
-id student_records_main_backBTN
 id textView
 id textView2
 id textView3
@@ -168,6 +167,13 @@ layout slide_item_container
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string default_web_client_id
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
 style CornerCut_LR
 style RoundedCorners
 style Theme.RAMSdroid

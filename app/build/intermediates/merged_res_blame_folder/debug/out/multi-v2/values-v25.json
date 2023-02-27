@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-28:/values-v25/values-v25.xml",
+            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-33:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Kin\\.gradle\\caches\\transforms-3\\780c8931bfe5d3b0e26a458d121ff58b\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-3\\e2be6c5495a727b53141a8928c63c238\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",
