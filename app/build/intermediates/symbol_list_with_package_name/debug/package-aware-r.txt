@@ -3632,6 +3632,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout rams_finance_main
+layout rams_finance_online_payment
 layout rams_home
 layout rams_login
 layout rams_registration_main

@@ -152,6 +152,7 @@ id vaccination_record_text
 id vaccination_record_title
 id viewPager
 layout rams_finance_main
+layout rams_finance_online_payment
 layout rams_home
 layout rams_login
 layout rams_registration_main
