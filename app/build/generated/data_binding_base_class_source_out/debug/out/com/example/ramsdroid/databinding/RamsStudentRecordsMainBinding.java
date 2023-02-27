@@ -23,9 +23,6 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView RegistrationMainTitle;
-
-  @NonNull
   public final ImageButton classAssessBtn;
 
   @NonNull
@@ -74,9 +71,6 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
   public final ImageView imageView3;
 
   @NonNull
-  public final ImageView imageView4;
-
-  @NonNull
   public final ImageButton myGradesBtn;
 
   @NonNull
@@ -95,10 +89,10 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
   public final NestedScrollView nestedScrollView;
 
   @NonNull
-  public final ImageButton studentRecordsMainBackBTN;
+  public final ImageButton recordsBackMainBTN;
 
   @NonNull
-  public final TextView studentRecordsMainTitle;
+  public final TextView recordsMainTitle;
 
   @NonNull
   public final ImageButton vaccinationRecordBtn;
@@ -116,24 +110,22 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
   public final TextView vaccinationRecordTitle;
 
   private RamsStudentRecordsMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView RegistrationMainTitle, @NonNull ImageButton classAssessBtn,
-      @NonNull ImageView classAssessClipboard, @NonNull ImageView classAssessLine,
-      @NonNull TextView classAssessText, @NonNull TextView classAssessTitle,
-      @NonNull ImageButton classSchedBtn, @NonNull ImageView classSchedClipboard,
-      @NonNull ImageView classSchedLine, @NonNull TextView classSchedText,
-      @NonNull TextView classSchedTitle, @NonNull ImageButton clearanceBtn,
-      @NonNull ImageView clearanceClipboard, @NonNull ImageView clearanceLine,
-      @NonNull TextView clearanceText, @NonNull TextView clearanceTitle,
-      @NonNull ImageView imageView3, @NonNull ImageView imageView4,
+      @NonNull ImageButton classAssessBtn, @NonNull ImageView classAssessClipboard,
+      @NonNull ImageView classAssessLine, @NonNull TextView classAssessText,
+      @NonNull TextView classAssessTitle, @NonNull ImageButton classSchedBtn,
+      @NonNull ImageView classSchedClipboard, @NonNull ImageView classSchedLine,
+      @NonNull TextView classSchedText, @NonNull TextView classSchedTitle,
+      @NonNull ImageButton clearanceBtn, @NonNull ImageView clearanceClipboard,
+      @NonNull ImageView clearanceLine, @NonNull TextView clearanceText,
+      @NonNull TextView clearanceTitle, @NonNull ImageView imageView3,
       @NonNull ImageButton myGradesBtn, @NonNull ImageView myGradesClipboard,
       @NonNull ImageView myGradesLine, @NonNull TextView myGradesText,
       @NonNull TextView myGradesTitle, @NonNull NestedScrollView nestedScrollView,
-      @NonNull ImageButton studentRecordsMainBackBTN, @NonNull TextView studentRecordsMainTitle,
+      @NonNull ImageButton recordsBackMainBTN, @NonNull TextView recordsMainTitle,
       @NonNull ImageButton vaccinationRecordBtn, @NonNull ImageView vaccinationRecordClipboard,
       @NonNull ImageView vaccinationRecordLine, @NonNull TextView vaccinationRecordText,
       @NonNull TextView vaccinationRecordTitle) {
     this.rootView = rootView;
-    this.RegistrationMainTitle = RegistrationMainTitle;
     this.classAssessBtn = classAssessBtn;
     this.classAssessClipboard = classAssessClipboard;
     this.classAssessLine = classAssessLine;
@@ -150,15 +142,14 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
     this.clearanceText = clearanceText;
     this.clearanceTitle = clearanceTitle;
     this.imageView3 = imageView3;
-    this.imageView4 = imageView4;
     this.myGradesBtn = myGradesBtn;
     this.myGradesClipboard = myGradesClipboard;
     this.myGradesLine = myGradesLine;
     this.myGradesText = myGradesText;
     this.myGradesTitle = myGradesTitle;
     this.nestedScrollView = nestedScrollView;
-    this.studentRecordsMainBackBTN = studentRecordsMainBackBTN;
-    this.studentRecordsMainTitle = studentRecordsMainTitle;
+    this.recordsBackMainBTN = recordsBackMainBTN;
+    this.recordsMainTitle = recordsMainTitle;
     this.vaccinationRecordBtn = vaccinationRecordBtn;
     this.vaccinationRecordClipboard = vaccinationRecordClipboard;
     this.vaccinationRecordLine = vaccinationRecordLine;
@@ -193,12 +184,6 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.Registration_Main_Title;
-      TextView RegistrationMainTitle = ViewBindings.findChildViewById(rootView, id);
-      if (RegistrationMainTitle == null) {
-        break missingId;
-      }
-
       id = R.id.class_assess_btn;
       ImageButton classAssessBtn = ViewBindings.findChildViewById(rootView, id);
       if (classAssessBtn == null) {
@@ -295,12 +280,6 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
       id = R.id.my_grades_btn;
       ImageButton myGradesBtn = ViewBindings.findChildViewById(rootView, id);
       if (myGradesBtn == null) {
@@ -337,15 +316,15 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.student_records_main_backBTN;
-      ImageButton studentRecordsMainBackBTN = ViewBindings.findChildViewById(rootView, id);
-      if (studentRecordsMainBackBTN == null) {
+      id = R.id.records_back_main_BTN;
+      ImageButton recordsBackMainBTN = ViewBindings.findChildViewById(rootView, id);
+      if (recordsBackMainBTN == null) {
         break missingId;
       }
 
-      id = R.id.student_records_Main_Title;
-      TextView studentRecordsMainTitle = ViewBindings.findChildViewById(rootView, id);
-      if (studentRecordsMainTitle == null) {
+      id = R.id.records_main_title;
+      TextView recordsMainTitle = ViewBindings.findChildViewById(rootView, id);
+      if (recordsMainTitle == null) {
         break missingId;
       }
 
@@ -379,14 +358,13 @@ public final class RamsStudentRecordsMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RamsStudentRecordsMainBinding((ConstraintLayout) rootView, RegistrationMainTitle,
-          classAssessBtn, classAssessClipboard, classAssessLine, classAssessText, classAssessTitle,
-          classSchedBtn, classSchedClipboard, classSchedLine, classSchedText, classSchedTitle,
-          clearanceBtn, clearanceClipboard, clearanceLine, clearanceText, clearanceTitle,
-          imageView3, imageView4, myGradesBtn, myGradesClipboard, myGradesLine, myGradesText,
-          myGradesTitle, nestedScrollView, studentRecordsMainBackBTN, studentRecordsMainTitle,
-          vaccinationRecordBtn, vaccinationRecordClipboard, vaccinationRecordLine,
-          vaccinationRecordText, vaccinationRecordTitle);
+      return new RamsStudentRecordsMainBinding((ConstraintLayout) rootView, classAssessBtn,
+          classAssessClipboard, classAssessLine, classAssessText, classAssessTitle, classSchedBtn,
+          classSchedClipboard, classSchedLine, classSchedText, classSchedTitle, clearanceBtn,
+          clearanceClipboard, clearanceLine, clearanceText, clearanceTitle, imageView3, myGradesBtn,
+          myGradesClipboard, myGradesLine, myGradesText, myGradesTitle, nestedScrollView,
+          recordsBackMainBTN, recordsMainTitle, vaccinationRecordBtn, vaccinationRecordClipboard,
+          vaccinationRecordLine, vaccinationRecordText, vaccinationRecordTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,23 +1,27 @@
 package com.example.ramsdroid;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Button;
 import android.content.Intent;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class RAMSLogin extends AppCompatActivity {
 
     private static long back_pressed;
 
-    DBHandler db;
-    private TextView email, pass;
+    FirebaseAuth mAuth;
+    private EditText email, pass;
     Button btn;
 
     @Override
@@ -28,37 +32,37 @@ public class RAMSLogin extends AppCompatActivity {
         email = findViewById(R.id.loginEmail);
         pass = findViewById(R.id.loginPassword);
         btn = findViewById(R.id.login_btnSignIn);
-        db = new DBHandler(this);
+        mAuth = FirebaseAuth.getInstance();
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                String userEmail = email.getText().toString();
-
-                String userPass = pass.getText().toString();
-
-                if (TextUtils.isEmpty(userEmail) || TextUtils.isEmpty(userPass)){
-                    Toast.makeText(RAMSLogin.this, "Missing Field Required", Toast.LENGTH_SHORT).show();
-                } else {
-                    boolean checkpass = db.checkUserPass(userEmail, userPass);
-
-                    //login backdoor
-                    if(userEmail.equals("1") && userPass.equals("1")){
-                        checkpass = true;
-
-                    }
-                    if (checkpass){
-                        Toast.makeText(RAMSLogin.this,"Login Successful", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                        finish();
-                    } else {
-                        Toast.makeText(RAMSLogin.this, "Login Failed", Toast.LENGTH_SHORT).show();
-                    }
-                }
+            loginUser();
             }
         });
-    }
+        }private void loginUser(){
+            String Email = email.getText().toString();
+            String Pass = pass.getText().toString();
+
+
+            if (TextUtils.isEmpty(Email)){
+                Toast.makeText(RAMSLogin.this, "Missing Field Required", Toast.LENGTH_SHORT).show();
+            } else if (TextUtils.isEmpty(Pass)) {
+                Toast.makeText(RAMSLogin.this, "Missing Field Required", Toast.LENGTH_SHORT).show();
+            } else {
+                mAuth.signInWithEmailAndPassword(Email,Pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()){
+                            Toast.makeText(RAMSLogin.this, "Login Successfully", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(RAMSLogin.this, MainActivity.class));
+                        } else {
+                            Toast.makeText(RAMSLogin.this, "Login Unsuccessful", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+            }
+        }
 
     @Override
     public void onBackPressed() {

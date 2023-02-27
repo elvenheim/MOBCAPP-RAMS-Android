@@ -110,6 +110,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/nunitosans"
                 android:text="Patatas"
+                android:elevation="11dp"
                 android:textColor="@color/apc_darker_blue"
                 android:textSize="20sp"
                 android:textStyle=""
