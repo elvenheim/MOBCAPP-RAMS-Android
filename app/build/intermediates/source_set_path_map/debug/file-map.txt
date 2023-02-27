@@ -1,38 +1,50 @@
-com.example.ramsdroid.app-recyclerview-1.1.0-0 C:\Users\Darwin\.gradle\caches\transforms-3\09d1458b878d5da31eba48b7633b9744\transformed\recyclerview-1.1.0\res
-com.example.ramsdroid.app-appcompat-resources-1.6.1-1 C:\Users\Darwin\.gradle\caches\transforms-3\0c66717593e48f1c486427ad9a0bb223\transformed\appcompat-resources-1.6.1\res
-com.example.ramsdroid.app-constraintlayout-2.1.4-2 C:\Users\Darwin\.gradle\caches\transforms-3\2777327c70e4f870482006048d22030c\transformed\constraintlayout-2.1.4\res
-com.example.ramsdroid.app-emoji2-views-helper-1.2.0-3 C:\Users\Darwin\.gradle\caches\transforms-3\303eb16cc9369309696373d1c64160a7\transformed\emoji2-views-helper-1.2.0\res
-com.example.ramsdroid.app-play-services-basement-18.1.0-4 C:\Users\Darwin\.gradle\caches\transforms-3\3ed17915a2e744c2bbbfb52330773cf5\transformed\play-services-basement-18.1.0\res
-com.example.ramsdroid.app-annotation-experimental-1.3.0-5 C:\Users\Darwin\.gradle\caches\transforms-3\44fb1c653c2c68d50a0ce37637582265\transformed\annotation-experimental-1.3.0\res
-com.example.ramsdroid.app-core-1.9.0-6 C:\Users\Darwin\.gradle\caches\transforms-3\46580efff2520e68c7940204055d2c0f\transformed\core-1.9.0\res
-com.example.ramsdroid.app-lifecycle-viewmodel-2.5.1-7 C:\Users\Darwin\.gradle\caches\transforms-3\49c441acf51bca3239ab80d2c51c387f\transformed\lifecycle-viewmodel-2.5.1\res
-com.example.ramsdroid.app-activity-1.6.0-8 C:\Users\Darwin\.gradle\caches\transforms-3\4a1200b74ec5664f01a3bd0edec7fbd1\transformed\activity-1.6.0\res
-com.example.ramsdroid.app-firebase-common-20.2.0-9 C:\Users\Darwin\.gradle\caches\transforms-3\4dfeb389a10f60f7c71a80a1dcfceb14\transformed\firebase-common-20.2.0\res
-com.example.ramsdroid.app-viewpager2-1.0.0-10 C:\Users\Darwin\.gradle\caches\transforms-3\4e7c85644e71739fb01d876360f654a1\transformed\viewpager2-1.0.0\res
-com.example.ramsdroid.app-appcompat-1.6.1-11 C:\Users\Darwin\.gradle\caches\transforms-3\5815f17bf5b82e8ee5346a6b6869f837\transformed\appcompat-1.6.1\res
-com.example.ramsdroid.app-cardview-1.0.0-12 C:\Users\Darwin\.gradle\caches\transforms-3\5ab704b9f30b4bd756acf898afd9cbf1\transformed\cardview-1.0.0\res
-com.example.ramsdroid.app-drawerlayout-1.1.1-13 C:\Users\Darwin\.gradle\caches\transforms-3\6421c30708a4f063ae438080d1431a58\transformed\drawerlayout-1.1.1\res
-com.example.ramsdroid.app-roundedimageview-2.3.0-14 C:\Users\Darwin\.gradle\caches\transforms-3\6c71aa479f87f5e25ade55167fb28881\transformed\roundedimageview-2.3.0\res
-com.example.ramsdroid.app-fragment-1.3.6-15 C:\Users\Darwin\.gradle\caches\transforms-3\70a46e08f26eda2935e3134300925536\transformed\fragment-1.3.6\res
-com.example.ramsdroid.app-material-1.8.0-16 C:\Users\Darwin\.gradle\caches\transforms-3\75a1c0f2b09d2197eac62fde5ddc8cbd\transformed\material-1.8.0\res
-com.example.ramsdroid.app-lifecycle-runtime-2.5.1-17 C:\Users\Darwin\.gradle\caches\transforms-3\7c64d2850486e0b19cf723be75f3ec1f\transformed\lifecycle-runtime-2.5.1\res
-com.example.ramsdroid.app-browser-1.4.0-18 C:\Users\Darwin\.gradle\caches\transforms-3\93072b20f7d5369a8a2f81d57f08f704\transformed\browser-1.4.0\res
-com.example.ramsdroid.app-core-ktx-1.9.0-19 C:\Users\Darwin\.gradle\caches\transforms-3\a5384cee19bec3a9ede41da8ede688b4\transformed\core-ktx-1.9.0\res
-com.example.ramsdroid.app-lifecycle-process-2.4.1-20 C:\Users\Darwin\.gradle\caches\transforms-3\a7afaacbc7177510ad6c44aabd6a8811\transformed\lifecycle-process-2.4.1\res
-com.example.ramsdroid.app-emoji2-1.2.0-21 C:\Users\Darwin\.gradle\caches\transforms-3\ac0fb3956709d2347e7c19d6d7a40626\transformed\emoji2-1.2.0\res
-com.example.ramsdroid.app-lifecycle-livedata-core-2.5.1-22 C:\Users\Darwin\.gradle\caches\transforms-3\b03783187fce79d86a2da1efd818c645\transformed\lifecycle-livedata-core-2.5.1\res
-com.example.ramsdroid.app-transition-1.2.0-23 C:\Users\Darwin\.gradle\caches\transforms-3\b3a299574efd31b144ad761943e82fc7\transformed\transition-1.2.0\res
-com.example.ramsdroid.app-coordinatorlayout-1.1.0-24 C:\Users\Darwin\.gradle\caches\transforms-3\b59403fac015229d4f85b99e077c1096\transformed\coordinatorlayout-1.1.0\res
-com.example.ramsdroid.app-lifecycle-viewmodel-savedstate-2.5.1-25 C:\Users\Darwin\.gradle\caches\transforms-3\d313ddb90740d8abda1b3f2ec99d88e6\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
-com.example.ramsdroid.app-startup-runtime-1.1.1-26 C:\Users\Darwin\.gradle\caches\transforms-3\f254e3de7539a69b8a3df1a40f55b03e\transformed\startup-runtime-1.1.1\res
-com.example.ramsdroid.app-play-services-base-17.1.0-27 C:\Users\Darwin\.gradle\caches\transforms-3\f632709f9ada0248f7ce54974fc583a4\transformed\play-services-base-17.1.0\res
-com.example.ramsdroid.app-savedstate-1.2.0-28 C:\Users\Darwin\.gradle\caches\transforms-3\f6330ad9024c654d6f968a9bfd197881\transformed\savedstate-1.2.0\res
-com.example.ramsdroid.app-google-services-29 C:\Users\Darwin\OneDrive\Desktop\MOBCAPP-RAMS-Android\app\build\generated\res\google-services\debug
-com.example.ramsdroid.app-pngs-30 C:\Users\Darwin\OneDrive\Desktop\MOBCAPP-RAMS-Android\app\build\generated\res\pngs\debug
-com.example.ramsdroid.app-resValues-31 C:\Users\Darwin\OneDrive\Desktop\MOBCAPP-RAMS-Android\app\build\generated\res\resValues\debug
-com.example.ramsdroid.app-rs-32 C:\Users\Darwin\OneDrive\Desktop\MOBCAPP-RAMS-Android\app\build\generated\res\rs\debug
-com.example.ramsdroid.app-packageDebugResources-33 C:\Users\Darwin\OneDrive\Desktop\MOBCAPP-RAMS-Android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.ramsdroid.app-packageDebugResources-34 C:\Users\Darwin\OneDrive\Desktop\MOBCAPP-RAMS-Android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.ramsdroid.app-merged_res-35 C:\Users\Darwin\OneDrive\Desktop\MOBCAPP-RAMS-Android\app\build\intermediates\merged_res\debug
-com.example.ramsdroid.app-debug-36 C:\Users\Darwin\OneDrive\Desktop\MOBCAPP-RAMS-Android\app\src\debug\res
-com.example.ramsdroid.app-main-37 C:\Users\Darwin\OneDrive\Desktop\MOBCAPP-RAMS-Android\app\src\main\res
+com.example.ramsdroid.app-play-services-base-17.1.0-0 C:\Users\Richmond\.gradle\caches\transforms-3\07f75d70c8188e7810119db3b174a6eb\transformed\play-services-base-17.1.0\res
+com.example.ramsdroid.app-lifecycle-viewmodel-savedstate-2.5.1-1 C:\Users\Richmond\.gradle\caches\transforms-3\1120f15a8afb8b0c6a0e43b01353e589\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.example.ramsdroid.app-appcompat-resources-1.6.1-2 C:\Users\Richmond\.gradle\caches\transforms-3\13ada9d1110d2ec901ada7607515347b\transformed\appcompat-resources-1.6.1\res
+com.example.ramsdroid.app-lifecycle-livedata-core-ktx-2.5.1-3 C:\Users\Richmond\.gradle\caches\transforms-3\232b6b6350d3490ccb4da5acac17f022\transformed\lifecycle-livedata-core-ktx-2.5.1\res
+com.example.ramsdroid.app-fragment-ktx-1.5.4-4 C:\Users\Richmond\.gradle\caches\transforms-3\26d54b9f6053f36929bc1505caa61aa7\transformed\fragment-ktx-1.5.4\res
+com.example.ramsdroid.app-annotation-experimental-1.3.0-5 C:\Users\Richmond\.gradle\caches\transforms-3\28e4abb5e3d5c7ab680c474b74f5f765\transformed\annotation-experimental-1.3.0\res
+com.example.ramsdroid.app-roundedimageview-2.3.0-6 C:\Users\Richmond\.gradle\caches\transforms-3\3860b25570404526b05f5da7570d76c1\transformed\roundedimageview-2.3.0\res
+com.example.ramsdroid.app-play-services-basement-18.1.0-7 C:\Users\Richmond\.gradle\caches\transforms-3\39f39684208022e351d946180bf63063\transformed\play-services-basement-18.1.0\res
+com.example.ramsdroid.app-lifecycle-runtime-2.5.1-8 C:\Users\Richmond\.gradle\caches\transforms-3\3c90755280325f72fe20068ddfc41fec\transformed\lifecycle-runtime-2.5.1\res
+com.example.ramsdroid.app-constraintlayout-2.1.4-9 C:\Users\Richmond\.gradle\caches\transforms-3\42b9ab78819aa58f8147d099d5571812\transformed\constraintlayout-2.1.4\res
+com.example.ramsdroid.app-browser-1.4.0-10 C:\Users\Richmond\.gradle\caches\transforms-3\4ce5872115c23ebb9f3b6a77edcdbdcf\transformed\browser-1.4.0\res
+com.example.ramsdroid.app-lifecycle-viewmodel-ktx-2.5.1-11 C:\Users\Richmond\.gradle\caches\transforms-3\5d2fd0ea35b3b93fea5cc63919f06c6d\transformed\lifecycle-viewmodel-ktx-2.5.1\res
+com.example.ramsdroid.app-activity-ktx-1.6.0-12 C:\Users\Richmond\.gradle\caches\transforms-3\64f267f6c13708aad3ef6b7da16949f7\transformed\activity-ktx-1.6.0\res
+com.example.ramsdroid.app-material-1.8.0-13 C:\Users\Richmond\.gradle\caches\transforms-3\6adea83e41c9650c4ed4b9f5c7f97dca\transformed\material-1.8.0\res
+com.example.ramsdroid.app-navigation-ui-2.5.3-14 C:\Users\Richmond\.gradle\caches\transforms-3\6c241612d6049eb754683455006fc2b8\transformed\navigation-ui-2.5.3\res
+com.example.ramsdroid.app-emoji2-views-helper-1.2.0-15 C:\Users\Richmond\.gradle\caches\transforms-3\6fe66277cb1b385b5d00714fa9ba02ce\transformed\emoji2-views-helper-1.2.0\res
+com.example.ramsdroid.app-core-ktx-1.9.0-16 C:\Users\Richmond\.gradle\caches\transforms-3\7014d0d68764178b740446257f1a2e8a\transformed\core-ktx-1.9.0\res
+com.example.ramsdroid.app-transition-1.4.1-17 C:\Users\Richmond\.gradle\caches\transforms-3\7eb4e86a1deb198e341077d4f3c7a128\transformed\transition-1.4.1\res
+com.example.ramsdroid.app-lifecycle-runtime-ktx-2.5.1-18 C:\Users\Richmond\.gradle\caches\transforms-3\86413b0b12a0c789b1b5070f7618d72c\transformed\lifecycle-runtime-ktx-2.5.1\res
+com.example.ramsdroid.app-navigation-common-2.5.3-19 C:\Users\Richmond\.gradle\caches\transforms-3\88a8600cb8012dfd2df2a6615a2d947d\transformed\navigation-common-2.5.3\res
+com.example.ramsdroid.app-window-1.0.0-20 C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\res
+com.example.ramsdroid.app-appcompat-1.6.1-21 C:\Users\Richmond\.gradle\caches\transforms-3\a19e1a339d7d7de1393db556d86400dc\transformed\appcompat-1.6.1\res
+com.example.ramsdroid.app-coordinatorlayout-1.1.0-22 C:\Users\Richmond\.gradle\caches\transforms-3\a2f0af4df9dda3864dd84083a3afc43d\transformed\coordinatorlayout-1.1.0\res
+com.example.ramsdroid.app-fragment-1.5.4-23 C:\Users\Richmond\.gradle\caches\transforms-3\a740544a5dc78f617ac274f168988418\transformed\fragment-1.5.4\res
+com.example.ramsdroid.app-emoji2-1.2.0-24 C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\res
+com.example.ramsdroid.app-cardview-1.0.0-25 C:\Users\Richmond\.gradle\caches\transforms-3\b93c27edde562f7f5dbd7837c502da2c\transformed\cardview-1.0.0\res
+com.example.ramsdroid.app-lifecycle-process-2.4.1-26 C:\Users\Richmond\.gradle\caches\transforms-3\c30da2090faf116f00091bbf17919727\transformed\lifecycle-process-2.4.1\res
+com.example.ramsdroid.app-navigation-runtime-2.5.3-27 C:\Users\Richmond\.gradle\caches\transforms-3\c6471c22d16f2dbc03cb249d19fd0660\transformed\navigation-runtime-2.5.3\res
+com.example.ramsdroid.app-firebase-common-20.2.0-28 C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\res
+com.example.ramsdroid.app-viewpager2-1.0.0-29 C:\Users\Richmond\.gradle\caches\transforms-3\d2f77609437ab84c49e03d2266d79b2f\transformed\viewpager2-1.0.0\res
+com.example.ramsdroid.app-recyclerview-1.1.0-30 C:\Users\Richmond\.gradle\caches\transforms-3\d5b317ec7584821b37bb2cf4e02d168c\transformed\recyclerview-1.1.0\res
+com.example.ramsdroid.app-lifecycle-livedata-core-2.5.1-31 C:\Users\Richmond\.gradle\caches\transforms-3\d7ea093a5ed9189313a881b6efdb8157\transformed\lifecycle-livedata-core-2.5.1\res
+com.example.ramsdroid.app-savedstate-ktx-1.2.0-32 C:\Users\Richmond\.gradle\caches\transforms-3\dc52746547eac2a5942a11e77ebce750\transformed\savedstate-ktx-1.2.0\res
+com.example.ramsdroid.app-savedstate-1.2.0-33 C:\Users\Richmond\.gradle\caches\transforms-3\dd82db40b1c5b879709465199dcbc38b\transformed\savedstate-1.2.0\res
+com.example.ramsdroid.app-drawerlayout-1.1.1-34 C:\Users\Richmond\.gradle\caches\transforms-3\e3ff759a98086080245f1bdc1c00a015\transformed\drawerlayout-1.1.1\res
+com.example.ramsdroid.app-lifecycle-viewmodel-2.5.1-35 C:\Users\Richmond\.gradle\caches\transforms-3\e408d18d509deb6740332a5c5863d6e1\transformed\lifecycle-viewmodel-2.5.1\res
+com.example.ramsdroid.app-slidingpanelayout-1.2.0-36 C:\Users\Richmond\.gradle\caches\transforms-3\e72a457531204828bd0a4cb0011693c8\transformed\slidingpanelayout-1.2.0\res
+com.example.ramsdroid.app-activity-1.6.0-37 C:\Users\Richmond\.gradle\caches\transforms-3\f1a9fb9cf23267170274f0fa09f469a2\transformed\activity-1.6.0\res
+com.example.ramsdroid.app-startup-runtime-1.1.1-38 C:\Users\Richmond\.gradle\caches\transforms-3\f1fcc47439edbe7e739b9759ba523734\transformed\startup-runtime-1.1.1\res
+com.example.ramsdroid.app-navigation-fragment-2.5.3-39 C:\Users\Richmond\.gradle\caches\transforms-3\f9a811150ae96524573aeffbd423e2f1\transformed\navigation-fragment-2.5.3\res
+com.example.ramsdroid.app-core-1.9.0-40 C:\Users\Richmond\.gradle\caches\transforms-3\fbe2fa2a044bee0111ccea0cd5cfb304\transformed\core-1.9.0\res
+com.example.ramsdroid.app-google-services-41 C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\build\generated\res\google-services\debug
+com.example.ramsdroid.app-pngs-42 C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\build\generated\res\pngs\debug
+com.example.ramsdroid.app-resValues-43 C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\build\generated\res\resValues\debug
+com.example.ramsdroid.app-rs-44 C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\build\generated\res\rs\debug
+com.example.ramsdroid.app-packageDebugResources-45 C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.ramsdroid.app-packageDebugResources-46 C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.ramsdroid.app-merged_res-47 C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\build\intermediates\merged_res\debug
+com.example.ramsdroid.app-debug-48 C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\debug\res
+com.example.ramsdroid.app-main-49 C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\res
