@@ -58,6 +58,9 @@
         <activity
             android:name="com.example.ramsdroid.StudentProfile"
             android:parentActivityName="com.example.ramsdroid.MainActivity" />
+        <activity
+            android:name="com.example.ramsdroid.StudentFinanceOnlinePayment"
+            android:parentActivityName="com.example.ramsdroid.StudentFinance" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

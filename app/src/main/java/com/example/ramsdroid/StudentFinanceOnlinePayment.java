@@ -16,13 +16,13 @@ public class StudentFinanceOnlinePayment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rams_finance_online_payment);
 
-//        onlinePaymentBack = findViewById(R.id.finance_main_backBTN);
-//        onlinePaymentBack.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(StudentFinance.this, MainActivity.class));
-//                finish();
-//            }
-//        });
+        onlinePaymentBack = findViewById(R.id.online_payment_back);
+        onlinePaymentBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(StudentFinanceOnlinePayment.this, StudentFinance.class));
+                finish();
+            }
+        });
     }
 }

@@ -22,13 +22,13 @@ public final class RamsFinanceMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView FinanceMainTitle;
-
-  @NonNull
   public final TextView enrollmentText;
 
   @NonNull
   public final ImageButton financeMainBackBTN;
+
+  @NonNull
+  public final TextView financeMainTitle;
 
   @NonNull
   public final ImageView imageView3;
@@ -61,7 +61,7 @@ public final class RamsFinanceMainBinding implements ViewBinding {
   public final TextView onlinePaymentText;
 
   @NonNull
-  public final TextView onlinePaymentTitle;
+  public final TextView onlinePaymentTitleBtn;
 
   @NonNull
   public final ImageButton paynamicsBtn;
@@ -76,19 +76,19 @@ public final class RamsFinanceMainBinding implements ViewBinding {
   public final TextView paynamicsTitle;
 
   private RamsFinanceMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView FinanceMainTitle, @NonNull TextView enrollmentText,
-      @NonNull ImageButton financeMainBackBTN, @NonNull ImageView imageView3,
+      @NonNull TextView enrollmentText, @NonNull ImageButton financeMainBackBTN,
+      @NonNull TextView financeMainTitle, @NonNull ImageView imageView3,
       @NonNull ImageButton onlinePaymentBtn, @NonNull ImageView onlinePaymentClipboard,
       @NonNull ImageView onlinePaymentLine, @NonNull ImageButton onlinePaymentRecordsBtn,
       @NonNull ImageView onlinePaymentRecordsClipboard, @NonNull ImageView onlinePaymentRecordsLine,
       @NonNull TextView onlinePaymentRecordsText, @NonNull TextView onlinePaymentRecordsTitle,
-      @NonNull TextView onlinePaymentText, @NonNull TextView onlinePaymentTitle,
+      @NonNull TextView onlinePaymentText, @NonNull TextView onlinePaymentTitleBtn,
       @NonNull ImageButton paynamicsBtn, @NonNull ImageView paynamicsClipboard,
       @NonNull ImageView paynamicsLine, @NonNull TextView paynamicsTitle) {
     this.rootView = rootView;
-    this.FinanceMainTitle = FinanceMainTitle;
     this.enrollmentText = enrollmentText;
     this.financeMainBackBTN = financeMainBackBTN;
+    this.financeMainTitle = financeMainTitle;
     this.imageView3 = imageView3;
     this.onlinePaymentBtn = onlinePaymentBtn;
     this.onlinePaymentClipboard = onlinePaymentClipboard;
@@ -99,7 +99,7 @@ public final class RamsFinanceMainBinding implements ViewBinding {
     this.onlinePaymentRecordsText = onlinePaymentRecordsText;
     this.onlinePaymentRecordsTitle = onlinePaymentRecordsTitle;
     this.onlinePaymentText = onlinePaymentText;
-    this.onlinePaymentTitle = onlinePaymentTitle;
+    this.onlinePaymentTitleBtn = onlinePaymentTitleBtn;
     this.paynamicsBtn = paynamicsBtn;
     this.paynamicsClipboard = paynamicsClipboard;
     this.paynamicsLine = paynamicsLine;
@@ -133,12 +133,6 @@ public final class RamsFinanceMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.Finance_Main_Title;
-      TextView FinanceMainTitle = ViewBindings.findChildViewById(rootView, id);
-      if (FinanceMainTitle == null) {
-        break missingId;
-      }
-
       id = R.id.enrollment_text;
       TextView enrollmentText = ViewBindings.findChildViewById(rootView, id);
       if (enrollmentText == null) {
@@ -148,6 +142,12 @@ public final class RamsFinanceMainBinding implements ViewBinding {
       id = R.id.finance_main_backBTN;
       ImageButton financeMainBackBTN = ViewBindings.findChildViewById(rootView, id);
       if (financeMainBackBTN == null) {
+        break missingId;
+      }
+
+      id = R.id.finance_Main_Title;
+      TextView financeMainTitle = ViewBindings.findChildViewById(rootView, id);
+      if (financeMainTitle == null) {
         break missingId;
       }
 
@@ -211,9 +211,9 @@ public final class RamsFinanceMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.online_payment_title;
-      TextView onlinePaymentTitle = ViewBindings.findChildViewById(rootView, id);
-      if (onlinePaymentTitle == null) {
+      id = R.id.online_payment_title_btn;
+      TextView onlinePaymentTitleBtn = ViewBindings.findChildViewById(rootView, id);
+      if (onlinePaymentTitleBtn == null) {
         break missingId;
       }
 
@@ -241,12 +241,12 @@ public final class RamsFinanceMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RamsFinanceMainBinding((ConstraintLayout) rootView, FinanceMainTitle,
-          enrollmentText, financeMainBackBTN, imageView3, onlinePaymentBtn, onlinePaymentClipboard,
-          onlinePaymentLine, onlinePaymentRecordsBtn, onlinePaymentRecordsClipboard,
-          onlinePaymentRecordsLine, onlinePaymentRecordsText, onlinePaymentRecordsTitle,
-          onlinePaymentText, onlinePaymentTitle, paynamicsBtn, paynamicsClipboard, paynamicsLine,
-          paynamicsTitle);
+      return new RamsFinanceMainBinding((ConstraintLayout) rootView, enrollmentText,
+          financeMainBackBTN, financeMainTitle, imageView3, onlinePaymentBtn,
+          onlinePaymentClipboard, onlinePaymentLine, onlinePaymentRecordsBtn,
+          onlinePaymentRecordsClipboard, onlinePaymentRecordsLine, onlinePaymentRecordsText,
+          onlinePaymentRecordsTitle, onlinePaymentText, onlinePaymentTitleBtn, paynamicsBtn,
+          paynamicsClipboard, paynamicsLine, paynamicsTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

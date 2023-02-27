@@ -2863,7 +2863,6 @@ int id BOTTOM_END 0x7f090001
 int id BOTTOM_START 0x7f090002
 int id CTRL 0x7f090003
 int id FUNCTION 0x7f090004
-int id Finance_Main_Title 0x7f090005
 int id LoginAPCIS 0x7f090006
 int id LoginAPCLogo 0x7f090007
 int id LoginBG 0x7f090008
@@ -2873,6 +2872,7 @@ int id LoginWhiteBG 0x7f09000b
 int id LoginYellowBG 0x7f09000c
 int id META 0x7f09000d
 int id NO_DEBUG 0x7f09000e
+int id Registration_Main_Title 0x7f090251
 int id SHIFT 0x7f09000f
 int id SHOW_ALL 0x7f090010
 int id SHOW_PATH 0x7f090011
@@ -3078,6 +3078,7 @@ int id fill 0x7f0900d8
 int id fill_horizontal 0x7f0900d9
 int id fill_vertical 0x7f0900da
 int id filled 0x7f0900db
+int id finance_Main_Title 0x7f090252
 int id finance_main_backBTN 0x7f0900dc
 int id fitCenter 0x7f0900dd
 int id fitEnd 0x7f0900de
@@ -3120,6 +3121,9 @@ int id imageView 0x7f090102
 int id imageView1 0x7f090103
 int id imageView2 0x7f090104
 int id imageView3 0x7f090105
+int id imageView4 0x7f090253
+int id imageView5 0x7f090254
+int id imageView6 0x7f090255
 int id immediateStop 0x7f090106
 int id included 0x7f090107
 int id indeterminate 0x7f090108
@@ -3237,6 +3241,7 @@ int id notification_main_column_container 0x7f090177
 int id off 0x7f090178
 int id on 0x7f090179
 int id onInterceptTouchReturnSwipe 0x7f09017a
+int id online_payment_back 0x7f090256
 int id online_payment_btn 0x7f09017b
 int id online_payment_clipboard 0x7f09017c
 int id online_payment_line 0x7f09017d
@@ -3247,6 +3252,7 @@ int id online_payment_records_text 0x7f090181
 int id online_payment_records_title 0x7f090182
 int id online_payment_text 0x7f090183
 int id online_payment_title 0x7f090184
+int id online_payment_title_btn 0x7f090257
 int id outline 0x7f090185
 int id outward 0x7f090186
 int id overshoot 0x7f090187
@@ -3278,8 +3284,6 @@ int id progress_circular 0x7f0901a0
 int id progress_horizontal 0x7f0901a1
 int id radio 0x7f0901a2
 int id ratio 0x7f0901a3
-int id records_back_main_BTN 0x7f0901a4
-int id records_main_title 0x7f0901a5
 int id rectangles 0x7f0901a6
 int id registration_btn 0x7f0901a7
 int id registration_clipboard 0x7f0901a8
@@ -3366,6 +3370,8 @@ int id staticLayout 0x7f0901f8
 int id staticPostLayout 0x7f0901f9
 int id stop 0x7f0901fa
 int id stretch 0x7f0901fb
+int id student_records_Main_Title 0x7f090258
+int id student_records_main_backBTN 0x7f090259
 int id submenuarrow 0x7f0901fc
 int id submit_area 0x7f0901fd
 int id supportScrollUp 0x7f0901fe
@@ -3631,17 +3637,17 @@ int layout notification_template_icon_group 0x7f0c0062
 int layout notification_template_part_chronometer 0x7f0c0063
 int layout notification_template_part_time 0x7f0c0064
 int layout rams_finance_main 0x7f0c0065
-int layout rams_finance_online_payment 0x7f0c0066
-int layout rams_home 0x7f0c0067
-int layout rams_login 0x7f0c0068
-int layout rams_registration_main 0x7f0c0069
-int layout rams_student_profile 0x7f0c006a
-int layout rams_student_records_main 0x7f0c006b
-int layout select_dialog_item_material 0x7f0c006c
-int layout select_dialog_multichoice_material 0x7f0c006d
-int layout select_dialog_singlechoice_material 0x7f0c006e
-int layout slide_item_container 0x7f0c006f
-int layout support_simple_spinner_dropdown_item 0x7f0c0070
+int layout rams_finance_online_payment 0x7f0c0070
+int layout rams_home 0x7f0c0066
+int layout rams_login 0x7f0c0067
+int layout rams_registration_main 0x7f0c0068
+int layout rams_student_profile 0x7f0c0069
+int layout rams_student_records_main 0x7f0c006a
+int layout select_dialog_item_material 0x7f0c006b
+int layout select_dialog_multichoice_material 0x7f0c006c
+int layout select_dialog_singlechoice_material 0x7f0c006d
+int layout slide_item_container 0x7f0c006e
+int layout support_simple_spinner_dropdown_item 0x7f0c006f
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
 int plurals mtrl_badge_content_description 0x7f0f0000

@@ -22,7 +22,7 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView FinanceMainTitle;
+  public final TextView RegistrationMainTitle;
 
   @NonNull
   public final ImageButton enrollmentBtn;
@@ -70,7 +70,7 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
   public final TextView registrationTitle;
 
   private RamsRegistrationMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView FinanceMainTitle, @NonNull ImageButton enrollmentBtn,
+      @NonNull TextView RegistrationMainTitle, @NonNull ImageButton enrollmentBtn,
       @NonNull ImageView enrollmentClipboard, @NonNull ImageView enrollmentLine,
       @NonNull TextView enrollmentTitle, @NonNull ImageView imageView3,
       @NonNull ImageButton masterlistBtn, @NonNull ImageView masterlistClipboard,
@@ -79,7 +79,7 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
       @NonNull ImageView registrationClipboard, @NonNull ImageView registrationLine,
       @NonNull ImageButton registrationMainBackBTN, @NonNull TextView registrationTitle) {
     this.rootView = rootView;
-    this.FinanceMainTitle = FinanceMainTitle;
+    this.RegistrationMainTitle = RegistrationMainTitle;
     this.enrollmentBtn = enrollmentBtn;
     this.enrollmentClipboard = enrollmentClipboard;
     this.enrollmentLine = enrollmentLine;
@@ -124,9 +124,9 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.Finance_Main_Title;
-      TextView FinanceMainTitle = ViewBindings.findChildViewById(rootView, id);
-      if (FinanceMainTitle == null) {
+      id = R.id.Registration_Main_Title;
+      TextView RegistrationMainTitle = ViewBindings.findChildViewById(rootView, id);
+      if (RegistrationMainTitle == null) {
         break missingId;
       }
 
@@ -220,7 +220,7 @@ public final class RamsRegistrationMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RamsRegistrationMainBinding((ConstraintLayout) rootView, FinanceMainTitle,
+      return new RamsRegistrationMainBinding((ConstraintLayout) rootView, RegistrationMainTitle,
           enrollmentBtn, enrollmentClipboard, enrollmentLine, enrollmentTitle, imageView3,
           masterlistBtn, masterlistClipboard, masterlistLine, masterlistText, masterlistTitle,
           registrationBtn, registrationClipboard, registrationLine, registrationMainBackBTN,

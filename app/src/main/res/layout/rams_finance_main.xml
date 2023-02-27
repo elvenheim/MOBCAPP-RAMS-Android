@@ -47,37 +47,38 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
+            <ImageButton
+                android:id="@+id/finance_main_backBTN"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/arrow_leftbutton"
+                android:backgroundTint="@color/apc_darker_blue"
+                app:layout_constraintBottom_toBottomOf="@+id/finance_Main_Title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/finance_Main_Title"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
             <TextView
-                android:id="@+id/Finance_Main_Title"
+                android:id="@+id/finance_Main_Title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="26dp"
                 android:fontFamily="@font/nunitosans"
-                android:text="Finance"
+                android:text="Finance Transactions"
                 android:textColor="@color/apc_darker_blue"
-                android:textSize="30sp"
+                android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.257"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toEndOf="@+id/finance_main_backBTN"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
-
-            <ImageButton
-                android:id="@+id/finance_main_backBTN"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginEnd="13dp"
-                android:background="@drawable/arrow_leftbutton"
-                android:backgroundTint="@color/apc_darker_blue"
-                app:layout_constraintBottom_toBottomOf="@+id/Finance_Main_Title"
-                app:layout_constraintEnd_toStartOf="@+id/Finance_Main_Title"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/Finance_Main_Title"
-                app:layout_constraintVertical_bias="0.0"
-                tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageButton
                 android:id="@+id/online_payment_btn"
@@ -87,15 +88,16 @@
                 android:background="@drawable/button_rectangle"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/Finance_Main_Title"
+                app:layout_constraintTop_toBottomOf="@+id/finance_Main_Title"
                 app:layout_constraintVertical_bias="0"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
                 android:id="@+id/online_payment_clipboard"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
                 android:background="@drawable/clipboard_list"
                 app:layout_constraintBottom_toBottomOf="@+id/online_payment_btn"
                 app:layout_constraintEnd_toEndOf="@+id/online_payment_btn"
@@ -118,7 +120,7 @@
                 app:layout_constraintVertical_bias="0.5" />
 
             <TextView
-                android:id="@+id/online_payment_title"
+                android:id="@+id/online_payment_title_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -148,8 +150,8 @@
                 app:layout_constraintBottom_toBottomOf="@+id/online_payment_btn"
                 app:layout_constraintEnd_toEndOf="@+id/online_payment_btn"
                 app:layout_constraintHorizontal_bias="0"
-                app:layout_constraintStart_toStartOf="@+id/online_payment_title"
-                app:layout_constraintTop_toBottomOf="@+id/online_payment_title"
+                app:layout_constraintStart_toStartOf="@+id/online_payment_title_btn"
+                app:layout_constraintTop_toBottomOf="@+id/online_payment_title_btn"
                 app:layout_constraintVertical_bias="0" />
 
             <ImageButton
@@ -167,8 +169,8 @@
 
             <ImageView
                 android:id="@+id/online_payment_records_clipboard"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
                 android:background="@drawable/clipboard_list"
                 app:layout_constraintBottom_toBottomOf="@+id/online_payment_records_btn"
                 app:layout_constraintEnd_toEndOf="@+id/online_payment_records_btn"
@@ -240,8 +242,8 @@
 
             <ImageView
                 android:id="@+id/paynamics_clipboard"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
                 android:background="@drawable/clipboard_list"
                 app:layout_constraintBottom_toBottomOf="@+id/paynamics_btn"
                 app:layout_constraintEnd_toEndOf="@+id/paynamics_btn"

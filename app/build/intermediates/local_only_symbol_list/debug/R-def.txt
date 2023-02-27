@@ -53,7 +53,6 @@ drawable user_picture
 font nunitosans
 font nunitosans_bold
 font nunitosans_regular
-id Finance_Main_Title
 id LoginAPCIS
 id LoginAPCLogo
 id LoginBG
@@ -61,6 +60,7 @@ id LoginEmailBG
 id LoginPassBG
 id LoginWhiteBG
 id LoginYellowBG
+id Registration_Main_Title
 id announcements
 id apcheader
 id bg_card
@@ -87,6 +87,7 @@ id enrollment_clipboard
 id enrollment_line
 id enrollment_text
 id enrollment_title
+id finance_Main_Title
 id finance_main_backBTN
 id home_financeBTN
 id home_registrationBTN
@@ -97,6 +98,9 @@ id imageView
 id imageView1
 id imageView2
 id imageView3
+id imageView4
+id imageView5
+id imageView6
 id loginEmail
 id loginPassword
 id login_btnSignIn
@@ -112,6 +116,7 @@ id my_grades_text
 id my_grades_title
 id nestedScrollView
 id nestedScrollView2
+id online_payment_back
 id online_payment_btn
 id online_payment_clipboard
 id online_payment_line
@@ -122,6 +127,7 @@ id online_payment_records_text
 id online_payment_records_title
 id online_payment_text
 id online_payment_title
+id online_payment_title_btn
 id paynamics_btn
 id paynamics_clipboard
 id paynamics_line
@@ -131,13 +137,13 @@ id profile_Footer
 id profile_btnLogOut
 id profile_line
 id profile_pic
-id records_back_main_BTN
-id records_main_title
 id registration_btn
 id registration_clipboard
 id registration_line
 id registration_main_backBTN
 id registration_title
+id student_records_Main_Title
+id student_records_main_backBTN
 id textView
 id textView2
 id textView3
