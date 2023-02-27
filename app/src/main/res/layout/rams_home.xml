@@ -43,7 +43,7 @@
         android:outlineAmbientShadowColor="@color/black"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="30dp"
-        app:cardElevation="5dp"
+        app:cardElevation="55dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
