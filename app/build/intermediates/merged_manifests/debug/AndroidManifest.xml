@@ -28,6 +28,7 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/apc_emblem"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.RAMSdroid" >
         <activity
             android:name="com.example.ramsdroid.RAMSLogin"
@@ -61,6 +62,9 @@
         <activity
             android:name="com.example.ramsdroid.StudentFinanceOnlinePayment"
             android:parentActivityName="com.example.ramsdroid.StudentFinance" />
+        <activity
+            android:name="com.example.ramsdroid.Masterlist"
+            android:parentActivityName="com.example.ramsdroid.StudentRegistration" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"

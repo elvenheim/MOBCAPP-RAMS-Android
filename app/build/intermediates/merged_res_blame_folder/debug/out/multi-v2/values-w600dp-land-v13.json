@@ -4,7 +4,7 @@
             "outputFile": "com.example.ramsdroid.app-mergeDebugResources-33:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-3\\95950d354b84d5d91cbfde9f6f44b692\\transformed\\material-1.8.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "source": "C:\\Users\\Kin\\.gradle\\caches\\transforms-3\\6adea83e41c9650c4ed4b9f5c7f97dca\\transformed\\material-1.8.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

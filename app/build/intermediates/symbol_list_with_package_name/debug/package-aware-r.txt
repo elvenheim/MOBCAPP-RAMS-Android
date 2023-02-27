@@ -3175,6 +3175,7 @@ id imageView
 id imageView1
 id imageView2
 id imageView3
+id imageView4
 id imageView5
 id imageView6
 id immediateStop
@@ -3207,6 +3208,7 @@ id masked
 id masterlist_btn
 id masterlist_clipboard
 id masterlist_line
+id masterlist_table
 id masterlist_text
 id masterlist_title
 id match_constraint
@@ -3451,9 +3453,17 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
+id textView11
+id textView12
 id textView2
 id textView3
 id textView4
+id textView5
+id textView6
+id textView7
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3698,6 +3708,7 @@ layout rams_finance_main
 layout rams_finance_online_payment
 layout rams_home
 layout rams_login
+layout rams_masterlist
 layout rams_registration_main
 layout rams_student_profile
 layout rams_student_records_main
