@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="0dp"
-        android:layout_height="87dp"
+        android:layout_height="55dp"
         android:scaleType="fitXY"
         android:src="@color/apc_yellow"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,7 +51,7 @@
         android:layout_marginTop="26dp"
         android:fontFamily="@font/nunitosans"
         android:text="Student Records"
-        android:textColor="@color/apc_blue"
+        android:textColor="@color/apc_darker_blue"
         android:textSize="38sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

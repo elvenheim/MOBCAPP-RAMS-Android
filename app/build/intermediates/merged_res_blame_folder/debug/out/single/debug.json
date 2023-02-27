@@ -44,6 +44,10 @@
         "source": "com.example.ramsdroid.app-main-32:/layout/slide_item_container.xml"
     },
     {
+        "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_background_blue_gradient.xml.flat",
+        "source": "com.example.ramsdroid.app-main-32:/drawable/background_blue_gradient.xml"
+    },
+    {
         "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_user_picture.png.flat",
         "source": "com.example.ramsdroid.app-main-32:/drawable/user_picture.png"
     },
@@ -104,12 +108,20 @@
         "source": "com.example.ramsdroid.app-main-32:/drawable/menu_studentrecordsbutton.png"
     },
     {
+        "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_rounded_corner.xml.flat",
+        "source": "com.example.ramsdroid.app-main-32:/drawable/rounded_corner.xml"
+    },
+    {
         "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_button_rectangle.xml.flat",
         "source": "com.example.ramsdroid.app-main-32:/drawable/button_rectangle.xml"
     },
     {
         "merged": "com.example.ramsdroid.app-merged_res-30:/layout_rams_home.xml.flat",
         "source": "com.example.ramsdroid.app-main-32:/layout/rams_home.xml"
+    },
+    {
+        "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_background_home_gradient.xml.flat",
+        "source": "com.example.ramsdroid.app-main-32:/drawable/background_home_gradient.xml"
     },
     {
         "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_announcement_3.png.flat",
@@ -214,6 +226,10 @@
     {
         "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_delete_button.png.flat",
         "source": "com.example.ramsdroid.app-main-32:/drawable/delete_button.png"
+    },
+    {
+        "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_apc_header.png.flat",
+        "source": "com.example.ramsdroid.app-main-32:/drawable/apc_header.png"
     },
     {
         "merged": "com.example.ramsdroid.app-merged_res-30:/drawable_menu_button.png.flat",

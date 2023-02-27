@@ -2723,9 +2723,12 @@ drawable announcement_2
 drawable announcement_3
 drawable apc_building
 drawable apc_emblem
+drawable apc_header
 drawable arrow_leftbutton
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_blue_gradient
+drawable background_home_gradient
 drawable background_yellow_gradient
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2848,6 +2851,7 @@ drawable profile_cover
 drawable profile_default_cover
 drawable profile_logout
 drawable refresh_button
+drawable rounded_corner
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -2944,6 +2948,7 @@ id animateToStart
 id announcements
 id antiClockwise
 id anticipate
+id apcheader
 id arc
 id asConfigured
 id async
@@ -2956,8 +2961,10 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
+id bg_card
 id blocking
 id bottom
+id bottom_banner
 id bounce
 id bounceBoth
 id bounceEnd
@@ -2966,6 +2973,7 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cardView
 id carryVelocity
 id center
 id centerCrop
@@ -3263,19 +3271,7 @@ id position
 id postLayout
 id pressed
 id profile_BG
-id profile_CourseText
-id profile_CourseTitle
-id profile_EmailText
-id profile_EmailTitle
-id profile_EnrollmentText
-id profile_EnrollmentTitle
 id profile_Footer
-id profile_ScholarshipText
-id profile_ScholarshipTitle
-id profile_StudentNameText
-id profile_StudentNameTitle
-id profile_StudentNumberText
-id profile_StudentNumberTitle
 id profile_btnLogOut
 id profile_line
 id profile_pic
@@ -3290,7 +3286,6 @@ id registration_btn
 id registration_clipboard
 id registration_line
 id registration_main_backBTN
-id registration_text
 id registration_title
 id repeat
 id reverseSawtooth
@@ -3396,6 +3391,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
 id textView3
 id textView4
 id text_input_end_icon
@@ -3414,6 +3411,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id top_banner
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3428,8 +3426,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_banner
 id user_profile
-id username
 id vaccination_record_btn
 id vaccination_record_clipboard
 id vaccination_record_line
