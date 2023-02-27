@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -39,46 +38,10 @@ public final class RamsStudentProfileBinding implements ViewBinding {
   public final Button profileBtnLogOut;
 
   @NonNull
-  public final TextView profileCourseText;
-
-  @NonNull
-  public final TextView profileCourseTitle;
-
-  @NonNull
-  public final TextView profileEmailText;
-
-  @NonNull
-  public final TextView profileEmailTitle;
-
-  @NonNull
-  public final TextView profileEnrollmentText;
-
-  @NonNull
-  public final TextView profileEnrollmentTitle;
-
-  @NonNull
   public final ImageView profileFooter;
 
   @NonNull
   public final ImageView profileLine;
-
-  @NonNull
-  public final TextView profileScholarshipText;
-
-  @NonNull
-  public final TextView profileScholarshipTitle;
-
-  @NonNull
-  public final TextView profileStudentNameText;
-
-  @NonNull
-  public final TextView profileStudentNameTitle;
-
-  @NonNull
-  public final TextView profileStudentNumberText;
-
-  @NonNull
-  public final TextView profileStudentNumberTitle;
 
   @NonNull
   public final ImageView userProfile;
@@ -86,34 +49,16 @@ public final class RamsStudentProfileBinding implements ViewBinding {
   private RamsStudentProfileBinding(@NonNull ConstraintLayout rootView,
       @NonNull ShapeableImageView coverPhoto, @NonNull ImageView imageView2,
       @NonNull NestedScrollView nestedScrollView2, @NonNull ShapeableImageView profileBG,
-      @NonNull Button profileBtnLogOut, @NonNull TextView profileCourseText,
-      @NonNull TextView profileCourseTitle, @NonNull TextView profileEmailText,
-      @NonNull TextView profileEmailTitle, @NonNull TextView profileEnrollmentText,
-      @NonNull TextView profileEnrollmentTitle, @NonNull ImageView profileFooter,
-      @NonNull ImageView profileLine, @NonNull TextView profileScholarshipText,
-      @NonNull TextView profileScholarshipTitle, @NonNull TextView profileStudentNameText,
-      @NonNull TextView profileStudentNameTitle, @NonNull TextView profileStudentNumberText,
-      @NonNull TextView profileStudentNumberTitle, @NonNull ImageView userProfile) {
+      @NonNull Button profileBtnLogOut, @NonNull ImageView profileFooter,
+      @NonNull ImageView profileLine, @NonNull ImageView userProfile) {
     this.rootView = rootView;
     this.coverPhoto = coverPhoto;
     this.imageView2 = imageView2;
     this.nestedScrollView2 = nestedScrollView2;
     this.profileBG = profileBG;
     this.profileBtnLogOut = profileBtnLogOut;
-    this.profileCourseText = profileCourseText;
-    this.profileCourseTitle = profileCourseTitle;
-    this.profileEmailText = profileEmailText;
-    this.profileEmailTitle = profileEmailTitle;
-    this.profileEnrollmentText = profileEnrollmentText;
-    this.profileEnrollmentTitle = profileEnrollmentTitle;
     this.profileFooter = profileFooter;
     this.profileLine = profileLine;
-    this.profileScholarshipText = profileScholarshipText;
-    this.profileScholarshipTitle = profileScholarshipTitle;
-    this.profileStudentNameText = profileStudentNameText;
-    this.profileStudentNameTitle = profileStudentNameTitle;
-    this.profileStudentNumberText = profileStudentNumberText;
-    this.profileStudentNumberTitle = profileStudentNumberTitle;
     this.userProfile = userProfile;
   }
 
@@ -174,42 +119,6 @@ public final class RamsStudentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.profile_CourseText;
-      TextView profileCourseText = ViewBindings.findChildViewById(rootView, id);
-      if (profileCourseText == null) {
-        break missingId;
-      }
-
-      id = R.id.profile_CourseTitle;
-      TextView profileCourseTitle = ViewBindings.findChildViewById(rootView, id);
-      if (profileCourseTitle == null) {
-        break missingId;
-      }
-
-      id = R.id.profile_EmailText;
-      TextView profileEmailText = ViewBindings.findChildViewById(rootView, id);
-      if (profileEmailText == null) {
-        break missingId;
-      }
-
-      id = R.id.profile_EmailTitle;
-      TextView profileEmailTitle = ViewBindings.findChildViewById(rootView, id);
-      if (profileEmailTitle == null) {
-        break missingId;
-      }
-
-      id = R.id.profile_EnrollmentText;
-      TextView profileEnrollmentText = ViewBindings.findChildViewById(rootView, id);
-      if (profileEnrollmentText == null) {
-        break missingId;
-      }
-
-      id = R.id.profile_EnrollmentTitle;
-      TextView profileEnrollmentTitle = ViewBindings.findChildViewById(rootView, id);
-      if (profileEnrollmentTitle == null) {
-        break missingId;
-      }
-
       id = R.id.profile_Footer;
       ImageView profileFooter = ViewBindings.findChildViewById(rootView, id);
       if (profileFooter == null) {
@@ -222,42 +131,6 @@ public final class RamsStudentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.profile_ScholarshipText;
-      TextView profileScholarshipText = ViewBindings.findChildViewById(rootView, id);
-      if (profileScholarshipText == null) {
-        break missingId;
-      }
-
-      id = R.id.profile_ScholarshipTitle;
-      TextView profileScholarshipTitle = ViewBindings.findChildViewById(rootView, id);
-      if (profileScholarshipTitle == null) {
-        break missingId;
-      }
-
-      id = R.id.profile_StudentNameText;
-      TextView profileStudentNameText = ViewBindings.findChildViewById(rootView, id);
-      if (profileStudentNameText == null) {
-        break missingId;
-      }
-
-      id = R.id.profile_StudentNameTitle;
-      TextView profileStudentNameTitle = ViewBindings.findChildViewById(rootView, id);
-      if (profileStudentNameTitle == null) {
-        break missingId;
-      }
-
-      id = R.id.profile_StudentNumberText;
-      TextView profileStudentNumberText = ViewBindings.findChildViewById(rootView, id);
-      if (profileStudentNumberText == null) {
-        break missingId;
-      }
-
-      id = R.id.profile_StudentNumberTitle;
-      TextView profileStudentNumberTitle = ViewBindings.findChildViewById(rootView, id);
-      if (profileStudentNumberTitle == null) {
-        break missingId;
-      }
-
       id = R.id.user_profile;
       ImageView userProfile = ViewBindings.findChildViewById(rootView, id);
       if (userProfile == null) {
@@ -265,11 +138,7 @@ public final class RamsStudentProfileBinding implements ViewBinding {
       }
 
       return new RamsStudentProfileBinding((ConstraintLayout) rootView, coverPhoto, imageView2,
-          nestedScrollView2, profileBG, profileBtnLogOut, profileCourseText, profileCourseTitle,
-          profileEmailText, profileEmailTitle, profileEnrollmentText, profileEnrollmentTitle,
-          profileFooter, profileLine, profileScholarshipText, profileScholarshipTitle,
-          profileStudentNameText, profileStudentNameTitle, profileStudentNumberText,
-          profileStudentNumberTitle, userProfile);
+          nestedScrollView2, profileBG, profileBtnLogOut, profileFooter, profileLine, userProfile);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

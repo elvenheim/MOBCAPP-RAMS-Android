@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
@@ -26,6 +27,18 @@ public final class RamsHomeBinding implements ViewBinding {
   public final CardView announcements;
 
   @NonNull
+  public final ImageView apcheader;
+
+  @NonNull
+  public final ImageView bgCard;
+
+  @NonNull
+  public final ImageView bottomBanner;
+
+  @NonNull
+  public final CardView cardView;
+
+  @NonNull
   public final ImageButton homeFinanceBTN;
 
   @NonNull
@@ -44,25 +57,43 @@ public final class RamsHomeBinding implements ViewBinding {
   public final CardView profilePic;
 
   @NonNull
-  public final ImageView username;
+  public final TextView textView;
+
+  @NonNull
+  public final TextView textView2;
+
+  @NonNull
+  public final ImageView topBanner;
+
+  @NonNull
+  public final ImageView userBanner;
 
   @NonNull
   public final ViewPager2 viewPager;
 
   private RamsHomeBinding(@NonNull ConstraintLayout rootView, @NonNull CardView announcements,
-      @NonNull ImageButton homeFinanceBTN, @NonNull ImageButton homeRegistrationBTN,
-      @NonNull ImageButton homeStudentprofileBTN, @NonNull ImageButton homeStudentrecordsBTN,
-      @NonNull ImageView imageView1, @NonNull CardView profilePic, @NonNull ImageView username,
-      @NonNull ViewPager2 viewPager) {
+      @NonNull ImageView apcheader, @NonNull ImageView bgCard, @NonNull ImageView bottomBanner,
+      @NonNull CardView cardView, @NonNull ImageButton homeFinanceBTN,
+      @NonNull ImageButton homeRegistrationBTN, @NonNull ImageButton homeStudentprofileBTN,
+      @NonNull ImageButton homeStudentrecordsBTN, @NonNull ImageView imageView1,
+      @NonNull CardView profilePic, @NonNull TextView textView, @NonNull TextView textView2,
+      @NonNull ImageView topBanner, @NonNull ImageView userBanner, @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
     this.announcements = announcements;
+    this.apcheader = apcheader;
+    this.bgCard = bgCard;
+    this.bottomBanner = bottomBanner;
+    this.cardView = cardView;
     this.homeFinanceBTN = homeFinanceBTN;
     this.homeRegistrationBTN = homeRegistrationBTN;
     this.homeStudentprofileBTN = homeStudentprofileBTN;
     this.homeStudentrecordsBTN = homeStudentrecordsBTN;
     this.imageView1 = imageView1;
     this.profilePic = profilePic;
-    this.username = username;
+    this.textView = textView;
+    this.textView2 = textView2;
+    this.topBanner = topBanner;
+    this.userBanner = userBanner;
     this.viewPager = viewPager;
   }
 
@@ -96,6 +127,30 @@ public final class RamsHomeBinding implements ViewBinding {
       id = R.id.announcements;
       CardView announcements = ViewBindings.findChildViewById(rootView, id);
       if (announcements == null) {
+        break missingId;
+      }
+
+      id = R.id.apcheader;
+      ImageView apcheader = ViewBindings.findChildViewById(rootView, id);
+      if (apcheader == null) {
+        break missingId;
+      }
+
+      id = R.id.bg_card;
+      ImageView bgCard = ViewBindings.findChildViewById(rootView, id);
+      if (bgCard == null) {
+        break missingId;
+      }
+
+      id = R.id.bottom_banner;
+      ImageView bottomBanner = ViewBindings.findChildViewById(rootView, id);
+      if (bottomBanner == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView;
+      CardView cardView = ViewBindings.findChildViewById(rootView, id);
+      if (cardView == null) {
         break missingId;
       }
 
@@ -135,9 +190,27 @@ public final class RamsHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.username;
-      ImageView username = ViewBindings.findChildViewById(rootView, id);
-      if (username == null) {
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.top_banner;
+      ImageView topBanner = ViewBindings.findChildViewById(rootView, id);
+      if (topBanner == null) {
+        break missingId;
+      }
+
+      id = R.id.user_banner;
+      ImageView userBanner = ViewBindings.findChildViewById(rootView, id);
+      if (userBanner == null) {
         break missingId;
       }
 
@@ -147,9 +220,10 @@ public final class RamsHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RamsHomeBinding((ConstraintLayout) rootView, announcements, homeFinanceBTN,
-          homeRegistrationBTN, homeStudentprofileBTN, homeStudentrecordsBTN, imageView1, profilePic,
-          username, viewPager);
+      return new RamsHomeBinding((ConstraintLayout) rootView, announcements, apcheader, bgCard,
+          bottomBanner, cardView, homeFinanceBTN, homeRegistrationBTN, homeStudentprofileBTN,
+          homeStudentrecordsBTN, imageView1, profilePic, textView, textView2, topBanner, userBanner,
+          viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
