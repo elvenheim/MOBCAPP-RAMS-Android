@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class StudentFinance extends AppCompatActivity {
 
-    ImageButton financeBack;
+    ImageButton financeBack, onlinePayment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,15 @@ public class StudentFinance extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(StudentFinance.this, MainActivity.class));
+                finish();
+            }
+        });
+
+        onlinePayment = findViewById(R.id.online_payment_btn);
+        onlinePayment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(StudentFinance.this, StudentFinanceOnlinePayment.class));
                 finish();
             }
         });

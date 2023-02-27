@@ -2864,7 +2864,6 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-id Finance_Main_Title
 id LoginAPCIS
 id LoginAPCLogo
 id LoginBG
@@ -2874,6 +2873,7 @@ id LoginWhiteBG
 id LoginYellowBG
 id META
 id NO_DEBUG
+id Registration_Main_Title
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3079,6 +3079,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id finance_Main_Title
 id finance_main_backBTN
 id fitCenter
 id fitEnd
@@ -3121,6 +3122,9 @@ id imageView
 id imageView1
 id imageView2
 id imageView3
+id imageView4
+id imageView5
+id imageView6
 id immediateStop
 id included
 id indeterminate
@@ -3238,6 +3242,7 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id online_payment_back
 id online_payment_btn
 id online_payment_clipboard
 id online_payment_line
@@ -3248,6 +3253,7 @@ id online_payment_records_text
 id online_payment_records_title
 id online_payment_text
 id online_payment_title
+id online_payment_title_btn
 id outline
 id outward
 id overshoot
@@ -3279,8 +3285,6 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
-id records_back_main_BTN
-id records_main_title
 id rectangles
 id registration_btn
 id registration_clipboard
@@ -3367,6 +3371,8 @@ id staticLayout
 id staticPostLayout
 id stop
 id stretch
+id student_records_Main_Title
+id student_records_main_backBTN
 id submenuarrow
 id submit_area
 id supportScrollUp
@@ -3632,6 +3638,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout rams_finance_main
+layout rams_finance_online_payment
 layout rams_home
 layout rams_login
 layout rams_registration_main

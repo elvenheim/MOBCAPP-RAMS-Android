@@ -16,7 +16,7 @@ public class StudentRecords extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rams_student_records_main);
 
-        recordsBack = findViewById(R.id.records_back_main_BTN);
+        recordsBack = findViewById(R.id.student_records_main_backBTN);
         recordsBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
