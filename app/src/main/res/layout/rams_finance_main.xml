@@ -69,7 +69,7 @@
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="26dp"
                 android:fontFamily="@font/nunitosans"
-                android:text="Student Records"
+                android:text="Finance Transactions"
                 android:textColor="@color/apc_darker_blue"
                 android:textSize="25sp"
                 android:textStyle="bold"
