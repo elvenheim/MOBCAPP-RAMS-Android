@@ -26,4 +26,10 @@
     <style name="RoundedCorners" parent="">
         <item name="cornerSize">20dp</item>
     </style>
+    <style name="Theme.RAMSdroid.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.RAMSdroid.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.RAMSdroid.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

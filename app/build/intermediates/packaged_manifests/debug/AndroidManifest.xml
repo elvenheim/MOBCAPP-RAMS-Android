@@ -24,11 +24,42 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="false"
         android:icon="@drawable/apc_emblem"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@drawable/apc_emblem"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.RAMSdroid" >
+        <activity
+            android:name="com.example.ramsdroid.StudentRec_Grades"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.ramsdroid.StudentRec_ClassSched"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.ramsdroid.Registrar_Enrollment"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.ramsdroid.Registrar_Registration"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name="com.example.ramsdroid.RAMSLogin"
             android:exported="true"
@@ -61,6 +92,9 @@
         <activity
             android:name="com.example.ramsdroid.StudentFinanceOnlinePayment"
             android:parentActivityName="com.example.ramsdroid.StudentFinance" />
+        <activity
+            android:name="com.example.ramsdroid.Registrar_Masterlist"
+            android:parentActivityName="com.example.ramsdroid.StudentRegistration" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
@@ -134,6 +168,13 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
     </application>
 
 </manifest>
