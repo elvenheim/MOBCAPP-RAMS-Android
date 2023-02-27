@@ -123,6 +123,7 @@ id my_grades_title
 id nav_graph
 id nestedScrollView
 id nestedScrollView2
+id online_payment_RB
 id online_payment_back
 id online_payment_btn
 id online_payment_clipboard
@@ -135,6 +136,7 @@ id online_payment_records_title
 id online_payment_text
 id online_payment_title
 id online_payment_title_btn
+id other_payments_RB
 id paynamics_btn
 id paynamics_clipboard
 id paynamics_line
@@ -144,7 +146,6 @@ id profile_Footer
 id profile_btnLogOut
 id profile_line
 id profile_pic
-id radioButton
 id records_back_main_BTN
 id records_main_title
 id registration_btn

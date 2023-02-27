@@ -3353,6 +3353,7 @@ int id notification_main_column_container 0x7f090190
 int id off 0x7f090191
 int id on 0x7f090192
 int id onInterceptTouchReturnSwipe 0x7f090193
+int id online_payment_RB 0x7f090279
 int id online_payment_back 0x7f090194
 int id online_payment_btn 0x7f090195
 int id online_payment_clipboard 0x7f090196
@@ -3365,6 +3366,7 @@ int id online_payment_records_title 0x7f09019c
 int id online_payment_text 0x7f09019d
 int id online_payment_title 0x7f09019e
 int id online_payment_title_btn 0x7f09019f
+int id other_payments_RB 0x7f09027a
 int id outline 0x7f0901a0
 int id outward 0x7f0901a1
 int id overshoot 0x7f0901a2
@@ -3395,7 +3397,6 @@ int id profile_pic 0x7f0901ba
 int id progress_circular 0x7f0901bb
 int id progress_horizontal 0x7f0901bc
 int id radio 0x7f0901bd
-int id radioButton 0x7f0901be
 int id ratio 0x7f0901bf
 int id records_back_main_BTN 0x7f0901c0
 int id records_main_title 0x7f0901c1

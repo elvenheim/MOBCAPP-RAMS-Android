@@ -32,21 +32,25 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
   public final ImageButton onlinePaymentBack;
 
   @NonNull
+  public final RadioButton onlinePaymentRB;
+
+  @NonNull
   public final TextView onlinePaymentTitle;
 
   @NonNull
-  public final RadioButton radioButton;
+  public final RadioButton otherPaymentsRB;
 
   private RamsFinanceOnlinePaymentBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView imageView5, @NonNull ImageView imageView6,
-      @NonNull ImageButton onlinePaymentBack, @NonNull TextView onlinePaymentTitle,
-      @NonNull RadioButton radioButton) {
+      @NonNull ImageButton onlinePaymentBack, @NonNull RadioButton onlinePaymentRB,
+      @NonNull TextView onlinePaymentTitle, @NonNull RadioButton otherPaymentsRB) {
     this.rootView = rootView;
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
     this.onlinePaymentBack = onlinePaymentBack;
+    this.onlinePaymentRB = onlinePaymentRB;
     this.onlinePaymentTitle = onlinePaymentTitle;
-    this.radioButton = radioButton;
+    this.otherPaymentsRB = otherPaymentsRB;
   }
 
   @Override
@@ -94,20 +98,26 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.online_payment_RB;
+      RadioButton onlinePaymentRB = ViewBindings.findChildViewById(rootView, id);
+      if (onlinePaymentRB == null) {
+        break missingId;
+      }
+
       id = R.id.online_payment_title;
       TextView onlinePaymentTitle = ViewBindings.findChildViewById(rootView, id);
       if (onlinePaymentTitle == null) {
         break missingId;
       }
 
-      id = R.id.radioButton;
-      RadioButton radioButton = ViewBindings.findChildViewById(rootView, id);
-      if (radioButton == null) {
+      id = R.id.other_payments_RB;
+      RadioButton otherPaymentsRB = ViewBindings.findChildViewById(rootView, id);
+      if (otherPaymentsRB == null) {
         break missingId;
       }
 
       return new RamsFinanceOnlinePaymentBinding((ConstraintLayout) rootView, imageView5,
-          imageView6, onlinePaymentBack, onlinePaymentTitle, radioButton);
+          imageView6, onlinePaymentBack, onlinePaymentRB, onlinePaymentTitle, otherPaymentsRB);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

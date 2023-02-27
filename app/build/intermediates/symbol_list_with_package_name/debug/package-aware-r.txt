@@ -3354,6 +3354,7 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id online_payment_RB
 id online_payment_back
 id online_payment_btn
 id online_payment_clipboard
@@ -3366,6 +3367,7 @@ id online_payment_records_title
 id online_payment_text
 id online_payment_title
 id online_payment_title_btn
+id other_payments_RB
 id outline
 id outward
 id overshoot
@@ -3396,7 +3398,6 @@ id profile_pic
 id progress_circular
 id progress_horizontal
 id radio
-id radioButton
 id ratio
 id records_back_main_BTN
 id records_main_title
