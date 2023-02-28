@@ -75,10 +75,10 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".StudentFinanceOnlinePayment"
-            android:parentActivityName=".StudentFinance" />
+            android:parentActivityName=".StudentFinance"/>
         <activity
             android:name=".Registrar_Masterlist"
-            android:parentActivityName=".StudentRegistration" />
+            android:parentActivityName=".StudentRegistration"/>
     </application>
 
 </manifest>

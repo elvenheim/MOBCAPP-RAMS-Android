@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enrollment_notif">For late enrollment or load revision requests, please email: registrar@apc.edu.ph</string>
+</resources>

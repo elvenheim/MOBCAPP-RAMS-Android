@@ -86,6 +86,7 @@ id clearance_clipboard
 id clearance_line
 id clearance_text
 id clearance_title
+id constraintLayout
 id cover_photo
 id enrollment_btn
 id enrollment_clipboard
@@ -126,6 +127,7 @@ id nestedScrollView2
 id online_payment_RB
 id online_payment_back
 id online_payment_btn
+id online_payment_choices
 id online_payment_clipboard
 id online_payment_line
 id online_payment_records_btn
