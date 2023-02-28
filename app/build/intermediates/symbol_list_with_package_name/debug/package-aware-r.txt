@@ -3115,6 +3115,7 @@ id collapseActionView
 id compress
 id confirm_button
 id constraint
+id constraintLayout
 id container
 id content
 id contentPanel
@@ -3357,6 +3358,7 @@ id onInterceptTouchReturnSwipe
 id online_payment_RB
 id online_payment_back
 id online_payment_btn
+id online_payment_choices
 id online_payment_clipboard
 id online_payment_line
 id online_payment_records_btn

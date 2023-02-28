@@ -61,7 +61,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.ramsdroid.RAMSLogin"
+            android:name="com.example.ramsdroid.StudentFinanceOnlinePayment"
             android:exported="true"
             android:windowSoftInputMode="stateHidden" >
             <intent-filter>
@@ -89,9 +89,9 @@
         <activity
             android:name="com.example.ramsdroid.StudentProfile"
             android:parentActivityName="com.example.ramsdroid.MainActivity" />
-        <activity
-            android:name="com.example.ramsdroid.StudentFinanceOnlinePayment"
-            android:parentActivityName="com.example.ramsdroid.StudentFinance" />
+        <!-- <activity -->
+        <!-- android:name=".StudentFinanceOnlinePayment" -->
+        <!-- android:parentActivityName=".StudentFinance"/> -->
         <activity
             android:name="com.example.ramsdroid.Registrar_Masterlist"
             android:parentActivityName="com.example.ramsdroid.StudentRegistration" />
@@ -138,6 +138,9 @@
             android:exported="false" >
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
