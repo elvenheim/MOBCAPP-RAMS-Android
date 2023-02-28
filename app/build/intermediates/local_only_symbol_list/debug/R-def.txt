@@ -66,6 +66,7 @@ id LoginYellowBG
 id SecondFragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
+id action_logout
 id announcements
 id apcheader
 id bg_card
@@ -93,8 +94,11 @@ id enrollment_clipboard
 id enrollment_line
 id enrollment_text
 id enrollment_title
+id enrollment_tuition_RB
+id enrollment_tuition_content
 id finance_Main_Title
 id finance_main_backBTN
+id greetingTextView
 id home_financeBTN
 id home_registrationBTN
 id home_studentprofileBTN
@@ -124,7 +128,6 @@ id my_grades_title
 id nav_graph
 id nestedScrollView
 id nestedScrollView2
-id online_payment_RB
 id online_payment_back
 id online_payment_btn
 id online_payment_choices
@@ -138,6 +141,7 @@ id online_payment_records_title
 id online_payment_text
 id online_payment_title
 id online_payment_title_btn
+id other_payment_content
 id other_payments_RB
 id paynamics_btn
 id paynamics_clipboard
@@ -159,7 +163,6 @@ id textView
 id textView10
 id textView11
 id textView12
-id textView2
 id textView3
 id textView4
 id textView5
@@ -189,6 +192,7 @@ layout rams_student_rec_grades
 layout rams_student_records_main
 layout rams_studentrec_class_sched
 layout slide_item_container
+menu logout_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph

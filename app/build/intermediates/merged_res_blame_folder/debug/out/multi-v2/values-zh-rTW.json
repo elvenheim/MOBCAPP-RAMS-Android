@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-45:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-46:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Richmond\\.gradle\\caches\\transforms-3\\9c711f1f82f6c58c159b0e517b566431\\transformed\\play-services-base-18.0.1\\res\\values-zh-rTW\\values.xml",

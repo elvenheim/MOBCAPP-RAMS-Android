@@ -45,7 +45,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".RAMSLogin"
+            android:name=".StudentFinanceOnlinePayment"
             android:exported="true"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
@@ -74,7 +74,7 @@
             android:name=".StudentProfile"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".StudentFinanceOnlinePayment"
+            android:name=".RAMSLogin"
             android:parentActivityName=".StudentFinance"/>
         <activity
             android:name=".Registrar_Masterlist"

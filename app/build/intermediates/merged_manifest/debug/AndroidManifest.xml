@@ -89,9 +89,9 @@
         <activity
             android:name="com.example.ramsdroid.StudentProfile"
             android:parentActivityName="com.example.ramsdroid.MainActivity" />
-        <!-- <activity -->
-        <!-- android:name=".StudentFinanceOnlinePayment" -->
-        <!-- android:parentActivityName=".StudentFinance"/> -->
+        <activity
+            android:name="com.example.ramsdroid.RAMSLogin"
+            android:parentActivityName="com.example.ramsdroid.StudentFinance" />
         <activity
             android:name="com.example.ramsdroid.Registrar_Masterlist"
             android:parentActivityName="com.example.ramsdroid.StudentRegistration" />

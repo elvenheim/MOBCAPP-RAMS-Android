@@ -27,6 +27,12 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
   public final ConstraintLayout constraintLayout;
 
   @NonNull
+  public final ConstraintLayout enrollmentTuitionContent;
+
+  @NonNull
+  public final RadioButton enrollmentTuitionRB;
+
+  @NonNull
   public final ImageView imageView5;
 
   @NonNull
@@ -39,27 +45,31 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
   public final RadioGroup onlinePaymentChoices;
 
   @NonNull
-  public final RadioButton onlinePaymentRB;
+  public final TextView onlinePaymentTitle;
 
   @NonNull
-  public final TextView onlinePaymentTitle;
+  public final ConstraintLayout otherPaymentContent;
 
   @NonNull
   public final RadioButton otherPaymentsRB;
 
   private RamsFinanceOnlinePaymentBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout constraintLayout, @NonNull ImageView imageView5,
-      @NonNull ImageView imageView6, @NonNull ImageButton onlinePaymentBack,
-      @NonNull RadioGroup onlinePaymentChoices, @NonNull RadioButton onlinePaymentRB,
-      @NonNull TextView onlinePaymentTitle, @NonNull RadioButton otherPaymentsRB) {
+      @NonNull ConstraintLayout constraintLayout,
+      @NonNull ConstraintLayout enrollmentTuitionContent, @NonNull RadioButton enrollmentTuitionRB,
+      @NonNull ImageView imageView5, @NonNull ImageView imageView6,
+      @NonNull ImageButton onlinePaymentBack, @NonNull RadioGroup onlinePaymentChoices,
+      @NonNull TextView onlinePaymentTitle, @NonNull ConstraintLayout otherPaymentContent,
+      @NonNull RadioButton otherPaymentsRB) {
     this.rootView = rootView;
     this.constraintLayout = constraintLayout;
+    this.enrollmentTuitionContent = enrollmentTuitionContent;
+    this.enrollmentTuitionRB = enrollmentTuitionRB;
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
     this.onlinePaymentBack = onlinePaymentBack;
     this.onlinePaymentChoices = onlinePaymentChoices;
-    this.onlinePaymentRB = onlinePaymentRB;
     this.onlinePaymentTitle = onlinePaymentTitle;
+    this.otherPaymentContent = otherPaymentContent;
     this.otherPaymentsRB = otherPaymentsRB;
   }
 
@@ -96,6 +106,18 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.enrollment_tuition_content;
+      ConstraintLayout enrollmentTuitionContent = ViewBindings.findChildViewById(rootView, id);
+      if (enrollmentTuitionContent == null) {
+        break missingId;
+      }
+
+      id = R.id.enrollment_tuition_RB;
+      RadioButton enrollmentTuitionRB = ViewBindings.findChildViewById(rootView, id);
+      if (enrollmentTuitionRB == null) {
+        break missingId;
+      }
+
       id = R.id.imageView5;
       ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
       if (imageView5 == null) {
@@ -120,15 +142,15 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.online_payment_RB;
-      RadioButton onlinePaymentRB = ViewBindings.findChildViewById(rootView, id);
-      if (onlinePaymentRB == null) {
-        break missingId;
-      }
-
       id = R.id.online_payment_title;
       TextView onlinePaymentTitle = ViewBindings.findChildViewById(rootView, id);
       if (onlinePaymentTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.other_payment_content;
+      ConstraintLayout otherPaymentContent = ViewBindings.findChildViewById(rootView, id);
+      if (otherPaymentContent == null) {
         break missingId;
       }
 
@@ -139,8 +161,8 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
       }
 
       return new RamsFinanceOnlinePaymentBinding((ConstraintLayout) rootView, constraintLayout,
-          imageView5, imageView6, onlinePaymentBack, onlinePaymentChoices, onlinePaymentRB,
-          onlinePaymentTitle, otherPaymentsRB);
+          enrollmentTuitionContent, enrollmentTuitionRB, imageView5, imageView6, onlinePaymentBack,
+          onlinePaymentChoices, onlinePaymentTitle, otherPaymentContent, otherPaymentsRB);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

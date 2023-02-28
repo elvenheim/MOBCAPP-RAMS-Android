@@ -5,6 +5,7 @@ INJECTED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOB
 INJECTED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:2:1-84:12
 INJECTED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:2:1-84:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\Richmond\.gradle\caches\transforms-3\b98e1a928def740e08642e29ccf475d4\transformed\viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\70eaf879a1d8897b70046533814147a6\transformed\constraint-layout-1.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\Richmond\.gradle\caches\transforms-3\6c241612d6049eb754683455006fc2b8\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Richmond\.gradle\caches\transforms-3\6adea83e41c9650c4ed4b9f5c7f97dca\transformed\material-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Richmond\.gradle\caches\transforms-3\42b9ab78819aa58f8147d099d5571812\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -100,6 +101,8 @@ MERGED from [com.google.firebase:firebase-database:20.0.4] C:\Users\Richmond\.gr
 		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:5:22-64
 application
 ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:7:5-82:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\70eaf879a1d8897b70046533814147a6\transformed\constraint-layout-1.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\70eaf879a1d8897b70046533814147a6\transformed\constraint-layout-1.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Richmond\.gradle\caches\transforms-3\6adea83e41c9650c4ed4b9f5c7f97dca\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Richmond\.gradle\caches\transforms-3\6adea83e41c9650c4ed4b9f5c7f97dca\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Richmond\.gradle\caches\transforms-3\42b9ab78819aa58f8147d099d5571812\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -236,6 +239,12 @@ ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAP
 		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:75:13-55
 	android:name
 		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:74:13-43
+activity#com.example.ramsdroid.RAMSLogin
+ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:76:9-78:59
+	android:parentActivityName
+		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:78:13-57
+	android:name
+		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:77:13-38
 activity#com.example.ramsdroid.Registrar_Masterlist
 ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:79:9-81:64
 	android:parentActivityName
@@ -248,6 +257,8 @@ INJECTED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOB
 INJECTED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\Richmond\.gradle\caches\transforms-3\b98e1a928def740e08642e29ccf475d4\transformed\viewbinding-7.3.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\Richmond\.gradle\caches\transforms-3\b98e1a928def740e08642e29ccf475d4\transformed\viewbinding-7.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\70eaf879a1d8897b70046533814147a6\transformed\constraint-layout-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\70eaf879a1d8897b70046533814147a6\transformed\constraint-layout-1.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\Richmond\.gradle\caches\transforms-3\6c241612d6049eb754683455006fc2b8\transformed\navigation-ui-2.5.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\Richmond\.gradle\caches\transforms-3\6c241612d6049eb754683455006fc2b8\transformed\navigation-ui-2.5.3\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Richmond\.gradle\caches\transforms-3\6adea83e41c9650c4ed4b9f5c7f97dca\transformed\material-1.8.0\AndroidManifest.xml:20:5-22:41

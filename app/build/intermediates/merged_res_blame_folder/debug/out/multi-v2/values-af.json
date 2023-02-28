@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-45:/values-af/values-af.xml",
+            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-46:/values-af/values-af.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Richmond\\.gradle\\caches\\transforms-3\\39f39684208022e351d946180bf63063\\transformed\\play-services-basement-18.1.0\\res\\values-af\\values.xml",

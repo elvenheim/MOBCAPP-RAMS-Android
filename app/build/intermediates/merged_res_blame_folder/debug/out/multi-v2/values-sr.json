@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-45:/values-sr/values-sr.xml",
+            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-46:/values-sr/values-sr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Richmond\\.gradle\\caches\\transforms-3\\a19e1a339d7d7de1393db556d86400dc\\transformed\\appcompat-1.6.1\\res\\values-sr\\values-sr.xml",

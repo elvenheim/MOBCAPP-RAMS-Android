@@ -163,9 +163,12 @@
 90-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:74:13-43
 91            android:parentActivityName="com.example.ramsdroid.MainActivity" />
 91-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:75:13-55
-92        <!-- <activity -->
-93        <!-- android:name=".StudentFinanceOnlinePayment" -->
-94        <!-- android:parentActivityName=".StudentFinance"/> -->
+92        <activity
+92-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:76:9-78:59
+93            android:name="com.example.ramsdroid.RAMSLogin"
+93-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:77:13-38
+94            android:parentActivityName="com.example.ramsdroid.StudentFinance" />
+94-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:78:13-57
 95        <activity
 95-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:79:9-81:64
 96            android:name="com.example.ramsdroid.Registrar_Masterlist"
