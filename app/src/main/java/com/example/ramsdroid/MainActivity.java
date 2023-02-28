@@ -8,21 +8,22 @@ import androidx.viewpager2.widget.MarginPageTransformer;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.content.Intent;
+import android.icu.util.Calendar;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private static long back_pressed;
     ImageButton profile, registration, record, finance;
-
     ViewPager2 viewPager2;
-
     //autoslide
 
     private Handler slideHandler = new Handler();
@@ -31,6 +32,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rams_home);
+
+        //________________________________________________________
+        TextView greetingTextView = findViewById(R.id.greetingTextView);
+        Calendar calendar = Calendar.getInstance();
+        int hourOfDay = calendar.get(Calendar.HOUR_OF_DAY);
+        if (hourOfDay >= 0 && hourOfDay < 12) {
+            greetingTextView.setText("Good morning");
+        } else if (hourOfDay >= 12 && hourOfDay < 18) {
+            greetingTextView.setText("Good afternoon");
+        } else {
+            greetingTextView.setText("Good evening");
+        }
+
+        //________________________________________________________
+
 
         viewPager2 = findViewById(R.id.viewPager); // change id
 
