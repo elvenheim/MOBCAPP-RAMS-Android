@@ -58,6 +58,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
         <activity
             android:name=".MainActivity"
             android:parentActivityName=".RAMSLogin" />
@@ -65,17 +66,25 @@
             android:name=".StudentRegistration"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".StudentFinance"
-            android:parentActivityName=".MainActivity" />
-        <activity
             android:name=".StudentRecords"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".StudentProfile"
             android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".StudentFinance"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".StudentFinanceOnlinePayment"
-            android:parentActivityName=".StudentFinance"/>
+            android:parentActivityName=".StudentFinance" />
+        <activity
+            android:name=".StudentFinancePaynamics"
+            android:parentActivityName=".StudentFinance" />
+        <activity
+            android:name=".StudentFinanceRecord"
+            android:parentActivityName=".StudentFinance" />
+
         <activity
             android:name=".Registrar_Masterlist"
             android:parentActivityName=".StudentRegistration"/>

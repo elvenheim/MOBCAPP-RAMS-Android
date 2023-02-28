@@ -81,16 +81,22 @@
             android:name="com.example.ramsdroid.StudentRegistration"
             android:parentActivityName="com.example.ramsdroid.MainActivity" />
         <activity
-            android:name="com.example.ramsdroid.StudentFinance"
-            android:parentActivityName="com.example.ramsdroid.MainActivity" />
-        <activity
             android:name="com.example.ramsdroid.StudentRecords"
             android:parentActivityName="com.example.ramsdroid.MainActivity" />
         <activity
             android:name="com.example.ramsdroid.StudentProfile"
             android:parentActivityName="com.example.ramsdroid.MainActivity" />
         <activity
+            android:name="com.example.ramsdroid.StudentFinance"
+            android:parentActivityName="com.example.ramsdroid.MainActivity" />
+        <activity
             android:name="com.example.ramsdroid.StudentFinanceOnlinePayment"
+            android:parentActivityName="com.example.ramsdroid.StudentFinance" />
+        <activity
+            android:name="com.example.ramsdroid.StudentFinancePaynamics"
+            android:parentActivityName="com.example.ramsdroid.StudentFinance" />
+        <activity
+            android:name="com.example.ramsdroid.StudentFinanceRecord"
             android:parentActivityName="com.example.ramsdroid.StudentFinance" />
         <activity
             android:name="com.example.ramsdroid.Registrar_Masterlist"

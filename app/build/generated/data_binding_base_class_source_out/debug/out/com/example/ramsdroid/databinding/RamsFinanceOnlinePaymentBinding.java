@@ -4,6 +4,7 @@ package com.example.ramsdroid.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RadioButton;
@@ -12,6 +13,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.ramsdroid.R;
@@ -31,6 +33,12 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
 
   @NonNull
   public final RadioButton enrollmentTuitionRB;
+
+  @NonNull
+  public final NestedScrollView financeOthersScrollView;
+
+  @NonNull
+  public final TextView fullNameTitle;
 
   @NonNull
   public final ImageView imageView5;
@@ -54,7 +62,28 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
   public final RadioButton otherPaymentsRB;
 
   @NonNull
+  public final EditText otherPersonalEmail;
+
+  @NonNull
+  public final ConstraintLayout otherStudentConstraint;
+
+  @NonNull
+  public final ImageView othersPersonalEmailBg;
+
+  @NonNull
+  public final EditText othersStudentFirstname;
+
+  @NonNull
+  public final ImageView othersStudentFirstnameBg;
+
+  @NonNull
+  public final TextView personalEmailTitle;
+
+  @NonNull
   public final TextView textView13;
+
+  @NonNull
+  public final TextView textView15;
 
   @NonNull
   public final TextView textView2;
@@ -62,15 +91,21 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
   private RamsFinanceOnlinePaymentBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout constraintLayout,
       @NonNull ConstraintLayout enrollmentTuitionContent, @NonNull RadioButton enrollmentTuitionRB,
+      @NonNull NestedScrollView financeOthersScrollView, @NonNull TextView fullNameTitle,
       @NonNull ImageView imageView5, @NonNull ImageView imageView6,
       @NonNull ImageButton onlinePaymentBack, @NonNull RadioGroup onlinePaymentChoices,
       @NonNull TextView onlinePaymentTitle, @NonNull ConstraintLayout otherPaymentContent,
-      @NonNull RadioButton otherPaymentsRB, @NonNull TextView textView13,
-      @NonNull TextView textView2) {
+      @NonNull RadioButton otherPaymentsRB, @NonNull EditText otherPersonalEmail,
+      @NonNull ConstraintLayout otherStudentConstraint, @NonNull ImageView othersPersonalEmailBg,
+      @NonNull EditText othersStudentFirstname, @NonNull ImageView othersStudentFirstnameBg,
+      @NonNull TextView personalEmailTitle, @NonNull TextView textView13,
+      @NonNull TextView textView15, @NonNull TextView textView2) {
     this.rootView = rootView;
     this.constraintLayout = constraintLayout;
     this.enrollmentTuitionContent = enrollmentTuitionContent;
     this.enrollmentTuitionRB = enrollmentTuitionRB;
+    this.financeOthersScrollView = financeOthersScrollView;
+    this.fullNameTitle = fullNameTitle;
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
     this.onlinePaymentBack = onlinePaymentBack;
@@ -78,7 +113,14 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
     this.onlinePaymentTitle = onlinePaymentTitle;
     this.otherPaymentContent = otherPaymentContent;
     this.otherPaymentsRB = otherPaymentsRB;
+    this.otherPersonalEmail = otherPersonalEmail;
+    this.otherStudentConstraint = otherStudentConstraint;
+    this.othersPersonalEmailBg = othersPersonalEmailBg;
+    this.othersStudentFirstname = othersStudentFirstname;
+    this.othersStudentFirstnameBg = othersStudentFirstnameBg;
+    this.personalEmailTitle = personalEmailTitle;
     this.textView13 = textView13;
+    this.textView15 = textView15;
     this.textView2 = textView2;
   }
 
@@ -127,6 +169,18 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.finance_others_scroll_view;
+      NestedScrollView financeOthersScrollView = ViewBindings.findChildViewById(rootView, id);
+      if (financeOthersScrollView == null) {
+        break missingId;
+      }
+
+      id = R.id.full_name_title;
+      TextView fullNameTitle = ViewBindings.findChildViewById(rootView, id);
+      if (fullNameTitle == null) {
+        break missingId;
+      }
+
       id = R.id.imageView5;
       ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
       if (imageView5 == null) {
@@ -169,9 +223,51 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.other_personal_email;
+      EditText otherPersonalEmail = ViewBindings.findChildViewById(rootView, id);
+      if (otherPersonalEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.other_student_constraint;
+      ConstraintLayout otherStudentConstraint = ViewBindings.findChildViewById(rootView, id);
+      if (otherStudentConstraint == null) {
+        break missingId;
+      }
+
+      id = R.id.others_personal_email_bg;
+      ImageView othersPersonalEmailBg = ViewBindings.findChildViewById(rootView, id);
+      if (othersPersonalEmailBg == null) {
+        break missingId;
+      }
+
+      id = R.id.others_student_firstname;
+      EditText othersStudentFirstname = ViewBindings.findChildViewById(rootView, id);
+      if (othersStudentFirstname == null) {
+        break missingId;
+      }
+
+      id = R.id.others_student_firstname_bg;
+      ImageView othersStudentFirstnameBg = ViewBindings.findChildViewById(rootView, id);
+      if (othersStudentFirstnameBg == null) {
+        break missingId;
+      }
+
+      id = R.id.personal_email_title;
+      TextView personalEmailTitle = ViewBindings.findChildViewById(rootView, id);
+      if (personalEmailTitle == null) {
+        break missingId;
+      }
+
       id = R.id.textView13;
       TextView textView13 = ViewBindings.findChildViewById(rootView, id);
       if (textView13 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView15;
+      TextView textView15 = ViewBindings.findChildViewById(rootView, id);
+      if (textView15 == null) {
         break missingId;
       }
 
@@ -182,9 +278,11 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
       }
 
       return new RamsFinanceOnlinePaymentBinding((ConstraintLayout) rootView, constraintLayout,
-          enrollmentTuitionContent, enrollmentTuitionRB, imageView5, imageView6, onlinePaymentBack,
-          onlinePaymentChoices, onlinePaymentTitle, otherPaymentContent, otherPaymentsRB,
-          textView13, textView2);
+          enrollmentTuitionContent, enrollmentTuitionRB, financeOthersScrollView, fullNameTitle,
+          imageView5, imageView6, onlinePaymentBack, onlinePaymentChoices, onlinePaymentTitle,
+          otherPaymentContent, otherPaymentsRB, otherPersonalEmail, otherStudentConstraint,
+          othersPersonalEmailBg, othersStudentFirstname, othersStudentFirstnameBg,
+          personalEmailTitle, textView13, textView15, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
