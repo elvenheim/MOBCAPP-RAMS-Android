@@ -12,10 +12,6 @@
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\slide_item_container.xml"
     },
     {
-        "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/rams_registrar_registration.xml",
-        "source": "com.example.ramsdroid.app-main-49:/layout/rams_registrar_registration.xml"
-    },
-    {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_finance_paynamics.xml",
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_finance_paynamics.xml"
     },

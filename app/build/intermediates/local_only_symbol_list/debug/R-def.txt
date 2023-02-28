@@ -30,6 +30,7 @@ drawable delete_button
 drawable edit_button
 drawable eye_button
 drawable eye_slash_button
+drawable finance_list
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable login_background
@@ -47,6 +48,7 @@ drawable o365_logo
 drawable profile_cover
 drawable profile_default_cover
 drawable profile_logout
+drawable records_list
 drawable refresh_button
 drawable rounded_corner
 drawable rounded_rectangle

@@ -2837,6 +2837,7 @@ int drawable design_snackbar_background 0x7f0700a7
 int drawable edit_button 0x7f0700a8
 int drawable eye_button 0x7f0700a9
 int drawable eye_slash_button 0x7f0700aa
+int drawable finance_list 0x7f070118
 int drawable googleg_disabled_color_18 0x7f0700ab
 int drawable googleg_standard_color_18 0x7f0700ac
 int drawable ic_arrow_back_black_24 0x7f0700ad
@@ -2939,6 +2940,7 @@ int drawable o365_logo 0x7f07010d
 int drawable profile_cover 0x7f07010e
 int drawable profile_default_cover 0x7f07010f
 int drawable profile_logout 0x7f070110
+int drawable records_list 0x7f070119
 int drawable refresh_button 0x7f070111
 int drawable rounded_corner 0x7f070112
 int drawable rounded_rectangle 0x7f070113

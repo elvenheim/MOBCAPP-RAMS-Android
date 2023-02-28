@@ -2838,6 +2838,7 @@ drawable design_snackbar_background
 drawable edit_button
 drawable eye_button
 drawable eye_slash_button
+drawable finance_list
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24
@@ -2940,6 +2941,7 @@ drawable o365_logo
 drawable profile_cover
 drawable profile_default_cover
 drawable profile_logout
+drawable records_list
 drawable refresh_button
 drawable rounded_corner
 drawable rounded_rectangle
