@@ -29,13 +29,13 @@ public final class RamsMasterlistBinding implements ViewBinding {
   public final ImageView imageView4;
 
   @NonNull
+  public final ImageButton masterlistMainBackBTN;
+
+  @NonNull
   public final TableLayout masterlistTable;
 
   @NonNull
   public final TextView masterlistTitle;
-
-  @NonNull
-  public final ImageButton registrationMainBackBTN;
 
   @NonNull
   public final TextView textView10;
@@ -62,17 +62,17 @@ public final class RamsMasterlistBinding implements ViewBinding {
   public final TextView textView9;
 
   private RamsMasterlistBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView3,
-      @NonNull ImageView imageView4, @NonNull TableLayout masterlistTable,
-      @NonNull TextView masterlistTitle, @NonNull ImageButton registrationMainBackBTN,
+      @NonNull ImageView imageView4, @NonNull ImageButton masterlistMainBackBTN,
+      @NonNull TableLayout masterlistTable, @NonNull TextView masterlistTitle,
       @NonNull TextView textView10, @NonNull TextView textView11, @NonNull TextView textView12,
       @NonNull TextView textView5, @NonNull TextView textView6, @NonNull TextView textView7,
       @NonNull TextView textView8, @NonNull TextView textView9) {
     this.rootView = rootView;
     this.imageView3 = imageView3;
     this.imageView4 = imageView4;
+    this.masterlistMainBackBTN = masterlistMainBackBTN;
     this.masterlistTable = masterlistTable;
     this.masterlistTitle = masterlistTitle;
-    this.registrationMainBackBTN = registrationMainBackBTN;
     this.textView10 = textView10;
     this.textView11 = textView11;
     this.textView12 = textView12;
@@ -122,6 +122,12 @@ public final class RamsMasterlistBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.masterlist_main_backBTN;
+      ImageButton masterlistMainBackBTN = ViewBindings.findChildViewById(rootView, id);
+      if (masterlistMainBackBTN == null) {
+        break missingId;
+      }
+
       id = R.id.masterlist_table;
       TableLayout masterlistTable = ViewBindings.findChildViewById(rootView, id);
       if (masterlistTable == null) {
@@ -131,12 +137,6 @@ public final class RamsMasterlistBinding implements ViewBinding {
       id = R.id.masterlist_title;
       TextView masterlistTitle = ViewBindings.findChildViewById(rootView, id);
       if (masterlistTitle == null) {
-        break missingId;
-      }
-
-      id = R.id.registration_main_backBTN;
-      ImageButton registrationMainBackBTN = ViewBindings.findChildViewById(rootView, id);
-      if (registrationMainBackBTN == null) {
         break missingId;
       }
 
@@ -189,7 +189,7 @@ public final class RamsMasterlistBinding implements ViewBinding {
       }
 
       return new RamsMasterlistBinding((ConstraintLayout) rootView, imageView3, imageView4,
-          masterlistTable, masterlistTitle, registrationMainBackBTN, textView10, textView11,
+          masterlistMainBackBTN, masterlistTable, masterlistTitle, textView10, textView11,
           textView12, textView5, textView6, textView7, textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
