@@ -2861,7 +2861,6 @@ drawable login_password
 drawable login_plaintextborder
 drawable login_white
 drawable login_yellow
-drawable logout_rectangle
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -2944,6 +2943,7 @@ drawable profile_default_cover
 drawable profile_logout
 drawable refresh_button
 drawable rounded_corner
+drawable rounded_rectangle
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3517,6 +3517,8 @@ id textView
 id textView10
 id textView11
 id textView12
+id textView13
+id textView2
 id textView3
 id textView4
 id textView5

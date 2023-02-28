@@ -53,13 +53,20 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
   @NonNull
   public final RadioButton otherPaymentsRB;
 
+  @NonNull
+  public final TextView textView13;
+
+  @NonNull
+  public final TextView textView2;
+
   private RamsFinanceOnlinePaymentBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout constraintLayout,
       @NonNull ConstraintLayout enrollmentTuitionContent, @NonNull RadioButton enrollmentTuitionRB,
       @NonNull ImageView imageView5, @NonNull ImageView imageView6,
       @NonNull ImageButton onlinePaymentBack, @NonNull RadioGroup onlinePaymentChoices,
       @NonNull TextView onlinePaymentTitle, @NonNull ConstraintLayout otherPaymentContent,
-      @NonNull RadioButton otherPaymentsRB) {
+      @NonNull RadioButton otherPaymentsRB, @NonNull TextView textView13,
+      @NonNull TextView textView2) {
     this.rootView = rootView;
     this.constraintLayout = constraintLayout;
     this.enrollmentTuitionContent = enrollmentTuitionContent;
@@ -71,6 +78,8 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
     this.onlinePaymentTitle = onlinePaymentTitle;
     this.otherPaymentContent = otherPaymentContent;
     this.otherPaymentsRB = otherPaymentsRB;
+    this.textView13 = textView13;
+    this.textView2 = textView2;
   }
 
   @Override
@@ -160,9 +169,22 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView13;
+      TextView textView13 = ViewBindings.findChildViewById(rootView, id);
+      if (textView13 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
+        break missingId;
+      }
+
       return new RamsFinanceOnlinePaymentBinding((ConstraintLayout) rootView, constraintLayout,
           enrollmentTuitionContent, enrollmentTuitionRB, imageView5, imageView6, onlinePaymentBack,
-          onlinePaymentChoices, onlinePaymentTitle, otherPaymentContent, otherPaymentsRB);
+          onlinePaymentChoices, onlinePaymentTitle, otherPaymentContent, otherPaymentsRB,
+          textView13, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-50:\\layout\\rams_student_records_main.xml"
     },
     {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-47:\\layout\\rams_registrar_enrollment.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-50:\\layout\\rams_registrar_enrollment.xml"
-    },
-    {
         "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-47:\\layout\\rams_masterlist.xml",
         "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-50:\\layout\\rams_masterlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-47:\\layout\\rams_registrar_enrollment.xml",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-50:\\layout\\rams_registrar_enrollment.xml"
     },
     {
         "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-47:\\layout\\rams_login.xml",

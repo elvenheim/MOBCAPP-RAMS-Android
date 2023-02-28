@@ -38,7 +38,6 @@ drawable login_password
 drawable login_plaintextborder
 drawable login_white
 drawable login_yellow
-drawable logout_rectangle
 drawable menu_button
 drawable menu_finance_button
 drawable menu_registrationbutton
@@ -50,6 +49,7 @@ drawable profile_default_cover
 drawable profile_logout
 drawable refresh_button
 drawable rounded_corner
+drawable rounded_rectangle
 drawable user_picture
 font nunitosans
 font nunitosans_bold
@@ -163,6 +163,8 @@ id textView
 id textView10
 id textView11
 id textView12
+id textView13
+id textView2
 id textView3
 id textView4
 id textView5

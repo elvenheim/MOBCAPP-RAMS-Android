@@ -191,14 +191,14 @@ ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAP
 		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
 		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:41:13-51
-activity#com.example.ramsdroid.StudentFinanceOnlinePayment
+activity#com.example.ramsdroid.RAMSLogin
 ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:47:9-60:20
 	android:windowSoftInputMode
 		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:50:13-54
 	android:exported
 		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:49:13-36
 	android:name
-		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:48:13-56
+		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:48:13-38
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:51:13-55:29
 action#android.intent.action.MAIN
@@ -239,12 +239,12 @@ ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAP
 		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:75:13-55
 	android:name
 		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:74:13-43
-activity#com.example.ramsdroid.RAMSLogin
+activity#com.example.ramsdroid.StudentFinanceOnlinePayment
 ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:76:9-78:59
 	android:parentActivityName
 		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:78:13-57
 	android:name
-		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:77:13-38
+		ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:77:13-56
 activity#com.example.ramsdroid.Registrar_Masterlist
 ADDED from C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:79:9-81:64
 	android:parentActivityName

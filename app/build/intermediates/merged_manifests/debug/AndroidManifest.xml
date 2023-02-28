@@ -61,7 +61,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.ramsdroid.StudentFinanceOnlinePayment"
+            android:name="com.example.ramsdroid.RAMSLogin"
             android:exported="true"
             android:windowSoftInputMode="stateHidden" >
             <intent-filter>
@@ -90,7 +90,7 @@
             android:name="com.example.ramsdroid.StudentProfile"
             android:parentActivityName="com.example.ramsdroid.MainActivity" />
         <activity
-            android:name="com.example.ramsdroid.RAMSLogin"
+            android:name="com.example.ramsdroid.StudentFinanceOnlinePayment"
             android:parentActivityName="com.example.ramsdroid.StudentFinance" />
         <activity
             android:name="com.example.ramsdroid.Registrar_Masterlist"
