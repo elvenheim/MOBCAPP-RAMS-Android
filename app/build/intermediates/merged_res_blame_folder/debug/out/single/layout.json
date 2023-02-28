@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_registrar_enrollment.xml"
     },
     {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_student_records_main.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_student_records_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_home.xml",
         "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_student_records_main.xml",
+        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_student_records_main.xml"
     },
     {
         "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_finance_online_payment.xml",

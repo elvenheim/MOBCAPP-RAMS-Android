@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,6 +24,9 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ConstraintLayout constraintLayout;
+
+  @NonNull
   public final ImageView imageView5;
 
   @NonNull
@@ -30,6 +34,9 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
 
   @NonNull
   public final ImageButton onlinePaymentBack;
+
+  @NonNull
+  public final RadioGroup onlinePaymentChoices;
 
   @NonNull
   public final RadioButton onlinePaymentRB;
@@ -41,13 +48,16 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
   public final RadioButton otherPaymentsRB;
 
   private RamsFinanceOnlinePaymentBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView5, @NonNull ImageView imageView6,
-      @NonNull ImageButton onlinePaymentBack, @NonNull RadioButton onlinePaymentRB,
+      @NonNull ConstraintLayout constraintLayout, @NonNull ImageView imageView5,
+      @NonNull ImageView imageView6, @NonNull ImageButton onlinePaymentBack,
+      @NonNull RadioGroup onlinePaymentChoices, @NonNull RadioButton onlinePaymentRB,
       @NonNull TextView onlinePaymentTitle, @NonNull RadioButton otherPaymentsRB) {
     this.rootView = rootView;
+    this.constraintLayout = constraintLayout;
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
     this.onlinePaymentBack = onlinePaymentBack;
+    this.onlinePaymentChoices = onlinePaymentChoices;
     this.onlinePaymentRB = onlinePaymentRB;
     this.onlinePaymentTitle = onlinePaymentTitle;
     this.otherPaymentsRB = otherPaymentsRB;
@@ -80,6 +90,12 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.constraintLayout;
+      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout == null) {
+        break missingId;
+      }
+
       id = R.id.imageView5;
       ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
       if (imageView5 == null) {
@@ -95,6 +111,12 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
       id = R.id.online_payment_back;
       ImageButton onlinePaymentBack = ViewBindings.findChildViewById(rootView, id);
       if (onlinePaymentBack == null) {
+        break missingId;
+      }
+
+      id = R.id.online_payment_choices;
+      RadioGroup onlinePaymentChoices = ViewBindings.findChildViewById(rootView, id);
+      if (onlinePaymentChoices == null) {
         break missingId;
       }
 
@@ -116,8 +138,9 @@ public final class RamsFinanceOnlinePaymentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RamsFinanceOnlinePaymentBinding((ConstraintLayout) rootView, imageView5,
-          imageView6, onlinePaymentBack, onlinePaymentRB, onlinePaymentTitle, otherPaymentsRB);
+      return new RamsFinanceOnlinePaymentBinding((ConstraintLayout) rootView, constraintLayout,
+          imageView5, imageView6, onlinePaymentBack, onlinePaymentChoices, onlinePaymentRB,
+          onlinePaymentTitle, otherPaymentsRB);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

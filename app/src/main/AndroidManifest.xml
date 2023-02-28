@@ -45,7 +45,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".RAMSLogin"
+            android:name=".StudentFinanceOnlinePayment"
             android:exported="true"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
@@ -73,12 +73,12 @@
         <activity
             android:name=".StudentProfile"
             android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".StudentFinanceOnlinePayment"
-            android:parentActivityName=".StudentFinance" />
+<!--        <activity-->
+<!--            android:name=".StudentFinanceOnlinePayment"-->
+<!--            android:parentActivityName=".StudentFinance"/>-->
         <activity
             android:name=".Registrar_Masterlist"
-            android:parentActivityName=".StudentRegistration" />
+            android:parentActivityName=".StudentRegistration"/>
     </application>
 
 </manifest>

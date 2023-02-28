@@ -109,8 +109,8 @@
 62        </activity>
 63        <activity
 63-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:47:9-60:20
-64            android:name="com.example.ramsdroid.RAMSLogin"
-64-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:48:13-38
+64            android:name="com.example.ramsdroid.StudentFinanceOnlinePayment"
+64-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:48:13-56
 65            android:exported="true"
 65-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:49:13-36
 66            android:windowSoftInputMode="stateHidden" >
@@ -163,14 +163,11 @@
 90-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:74:13-43
 91            android:parentActivityName="com.example.ramsdroid.MainActivity" />
 91-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:75:13-55
-92        <activity
-92-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:76:9-78:60
-93            android:name="com.example.ramsdroid.StudentFinanceOnlinePayment"
-93-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:77:13-56
-94            android:parentActivityName="com.example.ramsdroid.StudentFinance" />
-94-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:78:13-57
+92        <!-- <activity -->
+93        <!-- android:name=".StudentFinanceOnlinePayment" -->
+94        <!-- android:parentActivityName=".StudentFinance"/> -->
 95        <activity
-95-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:79:9-81:65
+95-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:79:9-81:64
 96            android:name="com.example.ramsdroid.Registrar_Masterlist"
 96-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:80:13-49
 97            android:parentActivityName="com.example.ramsdroid.StudentRegistration" />
@@ -260,71 +257,77 @@
 140-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
 141                android:value="com.google.firebase.components.ComponentRegistrar" />
 141-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
-142        </service>
-143
-144        <provider
-144-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
-145            android:name="com.google.firebase.provider.FirebaseInitProvider"
-145-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
-146            android:authorities="com.example.ramsdroid.firebaseinitprovider"
-146-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
-147            android:directBootAware="true"
-147-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
-148            android:exported="false"
-148-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
-149            android:initOrder="100" />
-149-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
-150
-151        <activity
-151-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\07f75d70c8188e7810119db3b174a6eb\transformed\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-152            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-152-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\07f75d70c8188e7810119db3b174a6eb\transformed\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-153            android:exported="false"
-153-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\07f75d70c8188e7810119db3b174a6eb\transformed\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-154            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-154-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\07f75d70c8188e7810119db3b174a6eb\transformed\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-155
-156        <meta-data
-156-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\39f39684208022e351d946180bf63063\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-157            android:name="com.google.android.gms.version"
-157-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\39f39684208022e351d946180bf63063\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-158            android:value="@integer/google_play_services_version" />
-158-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\39f39684208022e351d946180bf63063\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-159
-160        <provider
-160-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-161            android:name="androidx.startup.InitializationProvider"
-161-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-162            android:authorities="com.example.ramsdroid.androidx-startup"
-162-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-163            android:exported="false" >
-163-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-164            <meta-data
-164-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-165                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-165-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-166                android:value="androidx.startup" />
-166-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+142            <meta-data
+142-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Richmond\.gradle\caches\transforms-3\624d57ed3e9d1641f6634ab7bee1b361\transformed\firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
+143                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+143-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Richmond\.gradle\caches\transforms-3\624d57ed3e9d1641f6634ab7bee1b361\transformed\firebase-database-20.0.4\AndroidManifest.xml:33:17-109
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Richmond\.gradle\caches\transforms-3\624d57ed3e9d1641f6634ab7bee1b361\transformed\firebase-database-20.0.4\AndroidManifest.xml:34:17-82
+145        </service>
+146
+147        <provider
+147-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+148            android:name="com.google.firebase.provider.FirebaseInitProvider"
+148-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+149            android:authorities="com.example.ramsdroid.firebaseinitprovider"
+149-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+150            android:directBootAware="true"
+150-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+151            android:exported="false"
+151-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+152            android:initOrder="100" />
+152-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+153
+154        <activity
+154-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Richmond\.gradle\caches\transforms-3\9c711f1f82f6c58c159b0e517b566431\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+155-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Richmond\.gradle\caches\transforms-3\9c711f1f82f6c58c159b0e517b566431\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Richmond\.gradle\caches\transforms-3\9c711f1f82f6c58c159b0e517b566431\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Richmond\.gradle\caches\transforms-3\9c711f1f82f6c58c159b0e517b566431\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+158
+159        <meta-data
+159-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\39f39684208022e351d946180bf63063\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+160            android:name="com.google.android.gms.version"
+160-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\39f39684208022e351d946180bf63063\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+161            android:value="@integer/google_play_services_version" />
+161-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\39f39684208022e351d946180bf63063\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+162
+163        <provider
+163-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+164            android:name="androidx.startup.InitializationProvider"
+164-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+165            android:authorities="com.example.ramsdroid.androidx-startup"
+165-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+166            android:exported="false" >
+166-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 167            <meta-data
-167-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\c30da2090faf116f00091bbf17919727\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-168                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-168-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\c30da2090faf116f00091bbf17919727\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+167-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+168                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+168-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 169                android:value="androidx.startup" />
-169-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\c30da2090faf116f00091bbf17919727\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-170        </provider>
-171
-172        <uses-library
-172-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-173            android:name="androidx.window.extensions"
-173-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-174            android:required="false" />
-174-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+169-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+170            <meta-data
+170-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\c30da2090faf116f00091bbf17919727\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+171                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+171-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\c30da2090faf116f00091bbf17919727\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+172                android:value="androidx.startup" />
+172-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\c30da2090faf116f00091bbf17919727\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+173        </provider>
+174
 175        <uses-library
-175-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-176            android:name="androidx.window.sidecar"
-176-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+175-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+176            android:name="androidx.window.extensions"
+176-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 177            android:required="false" />
-177-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-178    </application>
-179
-180</manifest>
+177-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+178        <uses-library
+178-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+179            android:name="androidx.window.sidecar"
+179-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+180            android:required="false" />
+180-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+181    </application>
+182
+183</manifest>
