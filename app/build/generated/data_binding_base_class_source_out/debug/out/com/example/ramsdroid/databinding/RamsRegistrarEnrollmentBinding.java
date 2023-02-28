@@ -22,6 +22,9 @@ public final class RamsRegistrarEnrollmentBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageButton enrollmentMainBackBTN;
+
+  @NonNull
   public final ImageView imageView3;
 
   @NonNull
@@ -31,23 +34,20 @@ public final class RamsRegistrarEnrollmentBinding implements ViewBinding {
   public final TextView masterlistTitle;
 
   @NonNull
-  public final ImageButton registrationMainBackBTN;
-
-  @NonNull
   public final TextView textView13;
 
   @NonNull
   public final TextView textView2;
 
   private RamsRegistrarEnrollmentBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView3, @NonNull ImageView imageView4,
-      @NonNull TextView masterlistTitle, @NonNull ImageButton registrationMainBackBTN,
+      @NonNull ImageButton enrollmentMainBackBTN, @NonNull ImageView imageView3,
+      @NonNull ImageView imageView4, @NonNull TextView masterlistTitle,
       @NonNull TextView textView13, @NonNull TextView textView2) {
     this.rootView = rootView;
+    this.enrollmentMainBackBTN = enrollmentMainBackBTN;
     this.imageView3 = imageView3;
     this.imageView4 = imageView4;
     this.masterlistTitle = masterlistTitle;
-    this.registrationMainBackBTN = registrationMainBackBTN;
     this.textView13 = textView13;
     this.textView2 = textView2;
   }
@@ -79,6 +79,12 @@ public final class RamsRegistrarEnrollmentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.enrollment_main_backBTN;
+      ImageButton enrollmentMainBackBTN = ViewBindings.findChildViewById(rootView, id);
+      if (enrollmentMainBackBTN == null) {
+        break missingId;
+      }
+
       id = R.id.imageView3;
       ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
       if (imageView3 == null) {
@@ -97,12 +103,6 @@ public final class RamsRegistrarEnrollmentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.registration_main_backBTN;
-      ImageButton registrationMainBackBTN = ViewBindings.findChildViewById(rootView, id);
-      if (registrationMainBackBTN == null) {
-        break missingId;
-      }
-
       id = R.id.textView13;
       TextView textView13 = ViewBindings.findChildViewById(rootView, id);
       if (textView13 == null) {
@@ -115,8 +115,8 @@ public final class RamsRegistrarEnrollmentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RamsRegistrarEnrollmentBinding((ConstraintLayout) rootView, imageView3, imageView4,
-          masterlistTitle, registrationMainBackBTN, textView13, textView2);
+      return new RamsRegistrarEnrollmentBinding((ConstraintLayout) rootView, enrollmentMainBackBTN,
+          imageView3, imageView4, masterlistTitle, textView13, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

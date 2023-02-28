@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 
 public class Registrar_Enrollment extends AppCompatActivity {
 
@@ -12,6 +13,15 @@ public class Registrar_Enrollment extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rams_registrar_enrollment);
+
+        ImageButton enrollment_backBTN = findViewById(R.id.enrollment_main_backBTN);
+        enrollment_backBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Registrar_Enrollment.this, StudentRegistration.class));
+                finish();
+            }
+        });
     }
 
     @Override

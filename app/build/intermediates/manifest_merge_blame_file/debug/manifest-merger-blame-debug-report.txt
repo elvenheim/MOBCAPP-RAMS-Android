@@ -6,343 +6,341 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml
+8-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml
+9-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:5:22-64
+11-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
-12-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
+12-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
 13
 14    <permission
-14-->[androidx.core:core:1.9.0] C:\Users\Richmond\.gradle\caches\transforms-3\fbe2fa2a044bee0111ccea0cd5cfb304\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14-->[androidx.core:core:1.9.0] C:\Users\Kin\.gradle\caches\transforms-3\fbe2fa2a044bee0111ccea0cd5cfb304\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 15        android:name="com.example.ramsdroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-15-->[androidx.core:core:1.9.0] C:\Users\Richmond\.gradle\caches\transforms-3\fbe2fa2a044bee0111ccea0cd5cfb304\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15-->[androidx.core:core:1.9.0] C:\Users\Kin\.gradle\caches\transforms-3\fbe2fa2a044bee0111ccea0cd5cfb304\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 16        android:protectionLevel="signature" />
-16-->[androidx.core:core:1.9.0] C:\Users\Richmond\.gradle\caches\transforms-3\fbe2fa2a044bee0111ccea0cd5cfb304\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16-->[androidx.core:core:1.9.0] C:\Users\Kin\.gradle\caches\transforms-3\fbe2fa2a044bee0111ccea0cd5cfb304\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 17
 18    <uses-permission android:name="com.example.ramsdroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-18-->[androidx.core:core:1.9.0] C:\Users\Richmond\.gradle\caches\transforms-3\fbe2fa2a044bee0111ccea0cd5cfb304\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-18-->[androidx.core:core:1.9.0] C:\Users\Richmond\.gradle\caches\transforms-3\fbe2fa2a044bee0111ccea0cd5cfb304\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18-->[androidx.core:core:1.9.0] C:\Users\Kin\.gradle\caches\transforms-3\fbe2fa2a044bee0111ccea0cd5cfb304\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\Kin\.gradle\caches\transforms-3\fbe2fa2a044bee0111ccea0cd5cfb304\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:7:5-91:19
+20-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:7:5-90:19
 21        android:allowBackup="true"
-21-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:8:9-35
+21-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:8:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.9.0] C:\Users\Richmond\.gradle\caches\transforms-3\fbe2fa2a044bee0111ccea0cd5cfb304\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22-->[androidx.core:core:1.9.0] C:\Users\Kin\.gradle\caches\transforms-3\fbe2fa2a044bee0111ccea0cd5cfb304\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:9:9-65
+23-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:9:9-65
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:fullBackupContent="@xml/backup_rules"
-26-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:10:9-54
-27        android:hardwareAccelerated="false"
-27-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:13:9-44
-28        android:icon="@drawable/apc_emblem"
-28-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:11:9-44
-29        android:label="@string/app_name"
-29-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:12:9-41
-30        android:largeHeap="true"
-30-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:14:9-33
-31        android:roundIcon="@drawable/apc_emblem"
-31-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:15:9-49
-32        android:supportsRtl="true"
-32-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:16:9-35
-33        android:testOnly="true"
-34        android:theme="@style/Theme.RAMSdroid" >
-34-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:17:9-47
-35        <activity
-35-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:19:9-25:20
-36            android:name="com.example.ramsdroid.StudentRec_Grades"
-36-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:20:13-46
-37            android:exported="false" >
-37-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:21:13-37
-38            <meta-data
-38-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:22:13-24:36
-39                android:name="android.app.lib_name"
-39-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:23:17-52
-40                android:value="" />
-40-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:24:17-33
-41        </activity>
-42        <activity
-42-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:26:9-32:20
-43            android:name="com.example.ramsdroid.StudentRec_ClassSched"
-43-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:27:13-50
-44            android:exported="false" >
-44-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:28:13-37
-45            <meta-data
-45-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:22:13-24:36
-46                android:name="android.app.lib_name"
-46-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:23:17-52
-47                android:value="" />
-47-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:24:17-33
-48        </activity>
-49        <activity
-49-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:33:9-39:20
-50            android:name="com.example.ramsdroid.Registrar_Enrollment"
-50-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:34:13-49
-51            android:exported="false" >
-51-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:35:13-37
-52            <meta-data
-52-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:22:13-24:36
-53                android:name="android.app.lib_name"
-53-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:23:17-52
-54                android:value="" />
-54-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:24:17-33
-55        </activity>
-56        <activity
-56-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:40:9-46:20
-57            android:name="com.example.ramsdroid.Registrar_Registration"
-57-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:41:13-51
-58            android:exported="false" >
-58-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:42:13-37
-59            <meta-data
-59-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:22:13-24:36
-60                android:name="android.app.lib_name"
-60-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:23:17-52
-61                android:value="" />
-61-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:24:17-33
-62        </activity>
-63        <activity
-63-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:47:9-60:20
-64            android:name="com.example.ramsdroid.RAMSLogin"
-64-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:48:13-38
-65            android:exported="true"
-65-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:49:13-36
-66            android:windowSoftInputMode="stateHidden" >
-66-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:50:13-54
-67            <intent-filter>
-67-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:51:13-55:29
-68                <action android:name="android.intent.action.MAIN" />
-68-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:52:17-69
-68-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:52:25-66
-69
-70                <category android:name="android.intent.category.LAUNCHER" />
-70-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:54:17-77
-70-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:54:27-74
-71            </intent-filter>
-72
-73            <meta-data
-73-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:22:13-24:36
-74                android:name="android.app.lib_name"
-74-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:23:17-52
-75                android:value="" />
-75-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:24:17-33
-76        </activity>
-77        <activity
-77-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:62:9-64:55
-78            android:name="com.example.ramsdroid.MainActivity"
-78-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:63:13-41
-79            android:parentActivityName="com.example.ramsdroid.RAMSLogin" />
-79-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:64:13-52
-80        <activity
-80-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:65:9-67:58
-81            android:name="com.example.ramsdroid.StudentRegistration"
-81-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:66:13-48
-82            android:parentActivityName="com.example.ramsdroid.MainActivity" />
-82-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:67:13-55
-83        <activity
-83-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:68:9-70:58
-84            android:name="com.example.ramsdroid.StudentRecords"
-84-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:69:13-43
-85            android:parentActivityName="com.example.ramsdroid.MainActivity" />
-85-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:70:13-55
-86        <activity
-86-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:71:9-73:58
-87            android:name="com.example.ramsdroid.StudentProfile"
-87-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:72:13-43
-88            android:parentActivityName="com.example.ramsdroid.MainActivity" />
-88-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:73:13-55
-89        <activity
-89-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:75:9-77:57
-90            android:name="com.example.ramsdroid.StudentFinance"
-90-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:76:13-43
-91            android:parentActivityName="com.example.ramsdroid.MainActivity" />
-91-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:77:13-55
-92        <activity
-92-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:78:9-80:60
-93            android:name="com.example.ramsdroid.StudentFinanceOnlinePayment"
-93-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:79:13-56
-94            android:parentActivityName="com.example.ramsdroid.StudentFinance" />
-94-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:80:13-57
-95        <activity
-95-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:81:9-83:60
-96            android:name="com.example.ramsdroid.StudentFinancePaynamics"
-96-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:82:13-52
-97            android:parentActivityName="com.example.ramsdroid.StudentFinance" />
-97-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:83:13-57
-98        <activity
-98-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:84:9-86:60
-99            android:name="com.example.ramsdroid.StudentFinanceRecord"
-99-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:85:13-49
-100            android:parentActivityName="com.example.ramsdroid.StudentFinance" />
-100-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:86:13-57
-101        <activity
-101-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:88:9-90:64
-102            android:name="com.example.ramsdroid.Registrar_Masterlist"
-102-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:89:13-49
-103            android:parentActivityName="com.example.ramsdroid.StudentRegistration" />
-103-->C:\Users\Richmond\Documents\APC 2nd Year College 2nd Trimester\MOBCAPP1\RAMSDROID\app\src\main\AndroidManifest.xml:90:13-62
-104        <activity
-104-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
-105            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-105-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
-106            android:excludeFromRecents="true"
-106-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
-107            android:exported="true"
-107-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
-108            android:launchMode="singleTask"
-108-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
-109            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-109-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
-110            <intent-filter>
-110-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
-111                <action android:name="android.intent.action.VIEW" />
-111-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
-111-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
-112
-113                <category android:name="android.intent.category.DEFAULT" />
-113-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
-113-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
-114                <category android:name="android.intent.category.BROWSABLE" />
-114-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
-114-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
-115
-116                <data
-116-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
-117                    android:host="firebase.auth"
-117-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
-118                    android:path="/"
-118-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
-119                    android:scheme="genericidp" />
-119-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
-120            </intent-filter>
-121        </activity>
-122        <activity
-122-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
-123            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-123-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
-124            android:excludeFromRecents="true"
-124-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
-125            android:exported="true"
-125-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
-126            android:launchMode="singleTask"
-126-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
-127            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-127-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
-128            <intent-filter>
-128-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
-129                <action android:name="android.intent.action.VIEW" />
-129-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
-129-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
-130
-131                <category android:name="android.intent.category.DEFAULT" />
-131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
-131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
-132                <category android:name="android.intent.category.BROWSABLE" />
-132-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
-132-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
-133
-134                <data
-134-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
-135                    android:host="firebase.auth"
-135-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
-136                    android:path="/"
-136-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
-137                    android:scheme="recaptcha" />
-137-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
-138            </intent-filter>
-139        </activity>
-140
-141        <service
-141-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
-142            android:name="com.google.firebase.components.ComponentDiscoveryService"
-142-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:65:13-84
-143            android:directBootAware="true"
-143-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
-144            android:exported="false" >
-144-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
-145            <meta-data
-145-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
-146                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-146-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
-147                android:value="com.google.firebase.components.ComponentRegistrar" />
-147-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
-148            <meta-data
-148-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Richmond\.gradle\caches\transforms-3\624d57ed3e9d1641f6634ab7bee1b361\transformed\firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
-149                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-149-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Richmond\.gradle\caches\transforms-3\624d57ed3e9d1641f6634ab7bee1b361\transformed\firebase-database-20.0.4\AndroidManifest.xml:33:17-109
-150                android:value="com.google.firebase.components.ComponentRegistrar" />
-150-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Richmond\.gradle\caches\transforms-3\624d57ed3e9d1641f6634ab7bee1b361\transformed\firebase-database-20.0.4\AndroidManifest.xml:34:17-82
-151        </service>
-152
-153        <provider
-153-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
-154            android:name="com.google.firebase.provider.FirebaseInitProvider"
-154-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
-155            android:authorities="com.example.ramsdroid.firebaseinitprovider"
-155-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
-156            android:directBootAware="true"
-156-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
-157            android:exported="false"
-157-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
-158            android:initOrder="100" />
-158-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
-159
-160        <activity
-160-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Richmond\.gradle\caches\transforms-3\9c711f1f82f6c58c159b0e517b566431\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-161            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-161-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Richmond\.gradle\caches\transforms-3\9c711f1f82f6c58c159b0e517b566431\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-162            android:exported="false"
-162-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Richmond\.gradle\caches\transforms-3\9c711f1f82f6c58c159b0e517b566431\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-163            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-163-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Richmond\.gradle\caches\transforms-3\9c711f1f82f6c58c159b0e517b566431\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-164
-165        <meta-data
-165-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\39f39684208022e351d946180bf63063\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-166            android:name="com.google.android.gms.version"
-166-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\39f39684208022e351d946180bf63063\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-167            android:value="@integer/google_play_services_version" />
-167-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Richmond\.gradle\caches\transforms-3\39f39684208022e351d946180bf63063\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-168
-169        <provider
-169-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-170            android:name="androidx.startup.InitializationProvider"
-170-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-171            android:authorities="com.example.ramsdroid.androidx-startup"
-171-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-172            android:exported="false" >
-172-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-173            <meta-data
-173-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-174                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-174-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-175                android:value="androidx.startup" />
-175-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Richmond\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-176            <meta-data
-176-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\c30da2090faf116f00091bbf17919727\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-177                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-177-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\c30da2090faf116f00091bbf17919727\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-178                android:value="androidx.startup" />
-178-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Richmond\.gradle\caches\transforms-3\c30da2090faf116f00091bbf17919727\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-179        </provider>
-180
-181        <uses-library
-181-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-182            android:name="androidx.window.extensions"
-182-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-183            android:required="false" />
-183-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-184        <uses-library
-184-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-185            android:name="androidx.window.sidecar"
-185-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-186            android:required="false" />
-186-->[androidx.window:window:1.0.0] C:\Users\Richmond\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-187    </application>
-188
-189</manifest>
+26-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:10:9-54
+27        android:icon="@drawable/apc_emblem"
+27-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:11:9-44
+28        android:label="@string/app_name"
+28-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:12:9-41
+29        android:largeHeap="true"
+29-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:13:9-33
+30        android:roundIcon="@drawable/apc_emblem"
+30-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:14:9-49
+31        android:supportsRtl="true"
+31-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:15:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.RAMSdroid" >
+33-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:16:9-47
+34        <activity
+34-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:18:9-24:20
+35            android:name="com.example.ramsdroid.StudentRec_Grades"
+35-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:19:13-46
+36            android:exported="false" >
+36-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:20:13-37
+37            <meta-data
+37-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:21:13-23:36
+38                android:name="android.app.lib_name"
+38-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:22:17-52
+39                android:value="" />
+39-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:23:17-33
+40        </activity>
+41        <activity
+41-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:25:9-31:20
+42            android:name="com.example.ramsdroid.StudentRec_ClassSched"
+42-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:26:13-50
+43            android:exported="false" >
+43-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:27:13-37
+44            <meta-data
+44-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:21:13-23:36
+45                android:name="android.app.lib_name"
+45-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:22:17-52
+46                android:value="" />
+46-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:23:17-33
+47        </activity>
+48        <activity
+48-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:32:9-38:20
+49            android:name="com.example.ramsdroid.Registrar_Enrollment"
+49-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:33:13-49
+50            android:exported="false" >
+50-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:34:13-37
+51            <meta-data
+51-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:21:13-23:36
+52                android:name="android.app.lib_name"
+52-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:22:17-52
+53                android:value="" />
+53-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:23:17-33
+54        </activity>
+55        <activity
+55-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:39:9-45:20
+56            android:name="com.example.ramsdroid.Registrar_Registration"
+56-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:40:13-51
+57            android:exported="false" >
+57-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:41:13-37
+58            <meta-data
+58-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:21:13-23:36
+59                android:name="android.app.lib_name"
+59-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:22:17-52
+60                android:value="" />
+60-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:23:17-33
+61        </activity>
+62        <activity
+62-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:46:9-59:20
+63            android:name="com.example.ramsdroid.RAMSLogin"
+63-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:47:13-38
+64            android:exported="true"
+64-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:48:13-36
+65            android:windowSoftInputMode="stateHidden" >
+65-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:49:13-54
+66            <intent-filter>
+66-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:50:13-54:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:51:17-69
+67-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:51:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:53:17-77
+69-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:53:27-74
+70            </intent-filter>
+71
+72            <meta-data
+72-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:21:13-23:36
+73                android:name="android.app.lib_name"
+73-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:22:17-52
+74                android:value="" />
+74-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:23:17-33
+75        </activity>
+76        <activity
+76-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:61:9-63:55
+77            android:name="com.example.ramsdroid.MainActivity"
+77-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:62:13-41
+78            android:parentActivityName="com.example.ramsdroid.RAMSLogin" />
+78-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:63:13-52
+79        <activity
+79-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:64:9-66:58
+80            android:name="com.example.ramsdroid.StudentRegistration"
+80-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:65:13-48
+81            android:parentActivityName="com.example.ramsdroid.MainActivity" />
+81-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:66:13-55
+82        <activity
+82-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:67:9-69:58
+83            android:name="com.example.ramsdroid.StudentRecords"
+83-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:68:13-43
+84            android:parentActivityName="com.example.ramsdroid.MainActivity" />
+84-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:69:13-55
+85        <activity
+85-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:70:9-72:58
+86            android:name="com.example.ramsdroid.StudentProfile"
+86-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:71:13-43
+87            android:parentActivityName="com.example.ramsdroid.MainActivity" />
+87-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:72:13-55
+88        <activity
+88-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:74:9-76:57
+89            android:name="com.example.ramsdroid.StudentFinance"
+89-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:75:13-43
+90            android:parentActivityName="com.example.ramsdroid.MainActivity" />
+90-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:76:13-55
+91        <activity
+91-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:77:9-79:60
+92            android:name="com.example.ramsdroid.StudentFinanceOnlinePayment"
+92-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:78:13-56
+93            android:parentActivityName="com.example.ramsdroid.StudentFinance" />
+93-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:79:13-57
+94        <activity
+94-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:80:9-82:60
+95            android:name="com.example.ramsdroid.StudentFinancePaynamics"
+95-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:81:13-52
+96            android:parentActivityName="com.example.ramsdroid.StudentFinance" />
+96-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:82:13-57
+97        <activity
+97-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:83:9-85:60
+98            android:name="com.example.ramsdroid.StudentFinanceRecord"
+98-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:84:13-49
+99            android:parentActivityName="com.example.ramsdroid.StudentFinance" />
+99-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:85:13-57
+100        <activity
+100-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:87:9-89:64
+101            android:name="com.example.ramsdroid.Registrar_Masterlist"
+101-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:88:13-49
+102            android:parentActivityName="com.example.ramsdroid.StudentRegistration" />
+102-->D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:89:13-62
+103        <activity
+103-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+104            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+104-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+105            android:excludeFromRecents="true"
+105-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+106            android:exported="true"
+106-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+107            android:launchMode="singleTask"
+107-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+108-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+109            <intent-filter>
+109-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+110                <action android:name="android.intent.action.VIEW" />
+110-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+110-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+111
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+112-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+113                <category android:name="android.intent.category.BROWSABLE" />
+113-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+113-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+114
+115                <data
+115-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+116                    android:host="firebase.auth"
+116-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+117                    android:path="/"
+117-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+118                    android:scheme="genericidp" />
+118-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+119            </intent-filter>
+120        </activity>
+121        <activity
+121-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+122            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+122-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+123            android:excludeFromRecents="true"
+123-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+124            android:exported="true"
+124-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+125            android:launchMode="singleTask"
+125-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+126-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+127            <intent-filter>
+127-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+128                <action android:name="android.intent.action.VIEW" />
+128-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+128-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+129
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+130-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+131                <category android:name="android.intent.category.BROWSABLE" />
+131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+132
+133                <data
+133-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+134                    android:host="firebase.auth"
+134-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+135                    android:path="/"
+135-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+136                    android:scheme="recaptcha" />
+136-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+137            </intent-filter>
+138        </activity>
+139
+140        <service
+140-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
+141            android:name="com.google.firebase.components.ComponentDiscoveryService"
+141-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:65:13-84
+142            android:directBootAware="true"
+142-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Kin\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+143            android:exported="false" >
+143-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+144            <meta-data
+144-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+145                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+145-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Kin\.gradle\caches\transforms-3\4e3c8ee66a070e8146c2d61b365713ef\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Kin\.gradle\caches\transforms-3\624d57ed3e9d1641f6634ab7bee1b361\transformed\firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
+148                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+148-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Kin\.gradle\caches\transforms-3\624d57ed3e9d1641f6634ab7bee1b361\transformed\firebase-database-20.0.4\AndroidManifest.xml:33:17-109
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Kin\.gradle\caches\transforms-3\624d57ed3e9d1641f6634ab7bee1b361\transformed\firebase-database-20.0.4\AndroidManifest.xml:34:17-82
+150        </service>
+151
+152        <provider
+152-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Kin\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+153            android:name="com.google.firebase.provider.FirebaseInitProvider"
+153-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Kin\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+154            android:authorities="com.example.ramsdroid.firebaseinitprovider"
+154-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Kin\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+155            android:directBootAware="true"
+155-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Kin\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+156            android:exported="false"
+156-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Kin\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+157            android:initOrder="100" />
+157-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Kin\.gradle\caches\transforms-3\ccd82d4af985c0295d4e30f3d992f418\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+158
+159        <activity
+159-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Kin\.gradle\caches\transforms-3\9c711f1f82f6c58c159b0e517b566431\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+160            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+160-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Kin\.gradle\caches\transforms-3\9c711f1f82f6c58c159b0e517b566431\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+161            android:exported="false"
+161-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Kin\.gradle\caches\transforms-3\9c711f1f82f6c58c159b0e517b566431\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+162            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+162-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Kin\.gradle\caches\transforms-3\9c711f1f82f6c58c159b0e517b566431\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+163
+164        <meta-data
+164-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Kin\.gradle\caches\transforms-3\39f39684208022e351d946180bf63063\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+165            android:name="com.google.android.gms.version"
+165-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Kin\.gradle\caches\transforms-3\39f39684208022e351d946180bf63063\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+166            android:value="@integer/google_play_services_version" />
+166-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Kin\.gradle\caches\transforms-3\39f39684208022e351d946180bf63063\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+167
+168        <provider
+168-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kin\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+169            android:name="androidx.startup.InitializationProvider"
+169-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kin\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+170            android:authorities="com.example.ramsdroid.androidx-startup"
+170-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kin\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+171            android:exported="false" >
+171-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kin\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+172            <meta-data
+172-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kin\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+173                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+173-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kin\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+174                android:value="androidx.startup" />
+174-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kin\.gradle\caches\transforms-3\b5a5f0e2d449361f94eca048b6ab9d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+175            <meta-data
+175-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Kin\.gradle\caches\transforms-3\c30da2090faf116f00091bbf17919727\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+176                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+176-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Kin\.gradle\caches\transforms-3\c30da2090faf116f00091bbf17919727\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+177                android:value="androidx.startup" />
+177-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Kin\.gradle\caches\transforms-3\c30da2090faf116f00091bbf17919727\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+178        </provider>
+179
+180        <uses-library
+180-->[androidx.window:window:1.0.0] C:\Users\Kin\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+181            android:name="androidx.window.extensions"
+181-->[androidx.window:window:1.0.0] C:\Users\Kin\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+182            android:required="false" />
+182-->[androidx.window:window:1.0.0] C:\Users\Kin\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+183        <uses-library
+183-->[androidx.window:window:1.0.0] C:\Users\Kin\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+184            android:name="androidx.window.sidecar"
+184-->[androidx.window:window:1.0.0] C:\Users\Kin\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+185            android:required="false" />
+185-->[androidx.window:window:1.0.0] C:\Users\Kin\.gradle\caches\transforms-3\9d6421319b1c8c83d5a027e8043f0612\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+186    </application>
+187
+188</manifest>

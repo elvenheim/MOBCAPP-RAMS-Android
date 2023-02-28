@@ -57,8 +57,6 @@ public class RAMSLogin extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
-                            getUserID();
-
                             Toast.makeText(RAMSLogin.this, "Login Successfully", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(RAMSLogin.this, MainActivity.class));
                         } else {
@@ -69,10 +67,6 @@ public class RAMSLogin extends AppCompatActivity {
             }
         }
 
-        public String getUserID(){
-            String userId = currentUser.getUid();
-        return getUserID();
-        }
     @Override
     public void onBackPressed() {
         if (back_pressed + 2000 > System.currentTimeMillis()) {
