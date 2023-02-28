@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-45:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-46:/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Kin\\.gradle\\caches\\transforms-3\\9c711f1f82f6c58c159b0e517b566431\\transformed\\play-services-base-18.0.1\\res\\values-b+sr+Latn\\values.xml",

@@ -33,19 +33,14 @@ public final class RamsRegistrarRegistrationBinding implements ViewBinding {
   @NonNull
   public final ImageButton registrationMainBackBTN;
 
-  @NonNull
-  public final TextView textView2;
-
   private RamsRegistrarRegistrationBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView imageView3, @NonNull ImageView imageView4,
-      @NonNull TextView masterlistTitle, @NonNull ImageButton registrationMainBackBTN,
-      @NonNull TextView textView2) {
+      @NonNull TextView masterlistTitle, @NonNull ImageButton registrationMainBackBTN) {
     this.rootView = rootView;
     this.imageView3 = imageView3;
     this.imageView4 = imageView4;
     this.masterlistTitle = masterlistTitle;
     this.registrationMainBackBTN = registrationMainBackBTN;
-    this.textView2 = textView2;
   }
 
   @Override
@@ -99,14 +94,8 @@ public final class RamsRegistrarRegistrationBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
-        break missingId;
-      }
-
       return new RamsRegistrarRegistrationBinding((ConstraintLayout) rootView, imageView3,
-          imageView4, masterlistTitle, registrationMainBackBTN, textView2);
+          imageView4, masterlistTitle, registrationMainBackBTN);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

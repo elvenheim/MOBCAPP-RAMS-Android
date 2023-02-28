@@ -38,7 +38,6 @@ drawable login_password
 drawable login_plaintextborder
 drawable login_white
 drawable login_yellow
-drawable logout_rectangle
 drawable menu_button
 drawable menu_finance_button
 drawable menu_registrationbutton
@@ -50,6 +49,7 @@ drawable profile_default_cover
 drawable profile_logout
 drawable refresh_button
 drawable rounded_corner
+drawable rounded_rectangle
 drawable user_picture
 font nunitosans
 font nunitosans_bold
@@ -94,6 +94,8 @@ id enrollment_clipboard
 id enrollment_line
 id enrollment_text
 id enrollment_title
+id enrollment_tuition_RB
+id enrollment_tuition_content
 id finance_Main_Title
 id finance_main_backBTN
 id greetingTextView
@@ -127,7 +129,6 @@ id my_grades_title
 id nav_graph
 id nestedScrollView
 id nestedScrollView2
-id online_payment_RB
 id online_payment_back
 id online_payment_btn
 id online_payment_choices
@@ -141,6 +142,7 @@ id online_payment_records_title
 id online_payment_text
 id online_payment_title
 id online_payment_title_btn
+id other_payment_content
 id other_payments_RB
 id paynamics_btn
 id paynamics_clipboard
