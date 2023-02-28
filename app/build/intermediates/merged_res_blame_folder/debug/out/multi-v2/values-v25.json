@@ -4,7 +4,7 @@
             "outputFile": "com.example.ramsdroid.app-mergeDebugResources-46:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Richmond\\.gradle\\caches\\transforms-3\\a19e1a339d7d7de1393db556d86400dc\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\Kin\\.gradle\\caches\\transforms-3\\a19e1a339d7d7de1393db556d86400dc\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

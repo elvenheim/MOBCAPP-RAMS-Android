@@ -117,6 +117,7 @@ id login_btnSignIn
 id masterlist_btn
 id masterlist_clipboard
 id masterlist_line
+id masterlist_main_backBTN
 id masterlist_table
 id masterlist_text
 id masterlist_title
@@ -200,6 +201,7 @@ mipmap ic_launcher_round
 navigation nav_graph
 string app_name
 string default_web_client_id
+string enrollment_notif
 string first_fragment_label
 string gcm_defaultSenderId
 string google_api_key

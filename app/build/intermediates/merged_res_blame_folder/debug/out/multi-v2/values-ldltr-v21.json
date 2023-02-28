@@ -4,7 +4,7 @@
             "outputFile": "com.example.ramsdroid.app-mergeDebugResources-46:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Richmond\\.gradle\\caches\\transforms-3\\a19e1a339d7d7de1393db556d86400dc\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\Kin\\.gradle\\caches\\transforms-3\\a19e1a339d7d7de1393db556d86400dc\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
