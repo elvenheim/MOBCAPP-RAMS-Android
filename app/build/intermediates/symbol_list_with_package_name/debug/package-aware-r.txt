@@ -3024,6 +3024,7 @@ id action_container
 id action_context_bar
 id action_divider
 id action_image
+id action_logout
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
@@ -3203,6 +3204,7 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
+id greetingTextView
 id group_divider
 id grouping
 id groups
@@ -3263,6 +3265,7 @@ id masked
 id masterlist_btn
 id masterlist_clipboard
 id masterlist_line
+id masterlist_main_backBTN
 id masterlist_table
 id masterlist_text
 id masterlist_title
@@ -3520,6 +3523,7 @@ id textView
 id textView10
 id textView11
 id textView12
+id textView13
 id textView2
 id textView3
 id textView4
@@ -3786,6 +3790,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout slide_item_container
 layout support_simple_spinner_dropdown_item
+menu logout_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
@@ -3852,6 +3857,7 @@ string common_signin_button_text_long
 string copy_toast_msg
 string default_web_client_id
 string define_roundedimageview
+string enrollment_notif
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description

@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class StudentRegistration extends AppCompatActivity {
 
     ImageButton registrationBack;
-    ImageButton masterlist;
+    ImageButton masterlist, enrollment, registration;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,25 @@ public class StudentRegistration extends AppCompatActivity {
                 finish();
             }
         });
+
+        enrollment = findViewById(R.id.enrollment_btn);
+        enrollment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(StudentRegistration.this, Registrar_Enrollment.class));
+                finish();
+            }
+        });
+
+        registration = findViewById(R.id.registration_btn);
+        registration.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(StudentRegistration.this, Registrar_Registration.class));
+                finish();
+            }
+        });
+
         registrationBack = findViewById(R.id.registration_main_backBTN);
         registrationBack.setOnClickListener(new View.OnClickListener() {
             @Override

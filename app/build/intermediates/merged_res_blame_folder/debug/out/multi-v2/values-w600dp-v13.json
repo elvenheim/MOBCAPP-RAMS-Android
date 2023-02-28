@@ -4,6 +4,23 @@
             "outputFile": "com.example.ramsdroid.app-mergeDebugResources-45:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
+                    "source": "D:\\MOBCAPP-RAMS-Android2\\app\\src\\main\\res\\values-w600dp\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "126",
+                        "endOffsets": "179"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "97",
+                        "endColumns": "126",
+                        "endOffsets": "219"
+                    }
+                },
+                {
                     "source": "D:\\MOBCAPP-RAMS-Android2\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
