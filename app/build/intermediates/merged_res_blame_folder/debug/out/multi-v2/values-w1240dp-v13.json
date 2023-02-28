@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-46:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-45:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Richmond\\Documents\\APC 2nd Year College 2nd Trimester\\MOBCAPP1\\RAMSDROID\\app\\src\\main\\res\\values-w1240dp\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "126",
+                        "endOffsets": "179"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "98",
+                        "endColumns": "126",
+                        "endOffsets": "220"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Richmond\\Documents\\APC 2nd Year College 2nd Trimester\\MOBCAPP1\\RAMSDROID\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
@@ -18,23 +35,6 @@
                         "startOffsets": "55",
                         "endColumns": "42",
                         "endOffsets": "93"
-                    }
-                },
-                {
-                    "source": "D:\\MOBCAPP-RAMS-Android2\\app\\src\\main\\res\\values-w1240dp\\strings.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "126",
-                        "endOffsets": "179"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "98",
-                        "endColumns": "126",
-                        "endOffsets": "220"
                     }
                 }
             ]

@@ -60,13 +60,13 @@ public final class RamsHomeBinding implements ViewBinding {
   public final CardView profilePic;
 
   @NonNull
-  public final TextView textView;
-
-  @NonNull
   public final ImageView topBanner;
 
   @NonNull
   public final ImageView userBanner;
+
+  @NonNull
+  public final TextView userTextView;
 
   @NonNull
   public final ViewPager2 viewPager;
@@ -76,8 +76,9 @@ public final class RamsHomeBinding implements ViewBinding {
       @NonNull CardView cardView, @NonNull TextView greetingTextView,
       @NonNull ImageButton homeFinanceBTN, @NonNull ImageButton homeRegistrationBTN,
       @NonNull ImageButton homeStudentprofileBTN, @NonNull ImageButton homeStudentrecordsBTN,
-      @NonNull ImageView imageView1, @NonNull CardView profilePic, @NonNull TextView textView,
-      @NonNull ImageView topBanner, @NonNull ImageView userBanner, @NonNull ViewPager2 viewPager) {
+      @NonNull ImageView imageView1, @NonNull CardView profilePic, @NonNull ImageView topBanner,
+      @NonNull ImageView userBanner, @NonNull TextView userTextView,
+      @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
     this.announcements = announcements;
     this.apcheader = apcheader;
@@ -91,9 +92,9 @@ public final class RamsHomeBinding implements ViewBinding {
     this.homeStudentrecordsBTN = homeStudentrecordsBTN;
     this.imageView1 = imageView1;
     this.profilePic = profilePic;
-    this.textView = textView;
     this.topBanner = topBanner;
     this.userBanner = userBanner;
+    this.userTextView = userTextView;
     this.viewPager = viewPager;
   }
 
@@ -196,12 +197,6 @@ public final class RamsHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
-        break missingId;
-      }
-
       id = R.id.top_banner;
       ImageView topBanner = ViewBindings.findChildViewById(rootView, id);
       if (topBanner == null) {
@@ -214,6 +209,12 @@ public final class RamsHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.userTextView;
+      TextView userTextView = ViewBindings.findChildViewById(rootView, id);
+      if (userTextView == null) {
+        break missingId;
+      }
+
       id = R.id.viewPager;
       ViewPager2 viewPager = ViewBindings.findChildViewById(rootView, id);
       if (viewPager == null) {
@@ -222,8 +223,8 @@ public final class RamsHomeBinding implements ViewBinding {
 
       return new RamsHomeBinding((ConstraintLayout) rootView, announcements, apcheader, bgCard,
           bottomBanner, cardView, greetingTextView, homeFinanceBTN, homeRegistrationBTN,
-          homeStudentprofileBTN, homeStudentrecordsBTN, imageView1, profilePic, textView, topBanner,
-          userBanner, viewPager);
+          homeStudentprofileBTN, homeStudentrecordsBTN, imageView1, profilePic, topBanner,
+          userBanner, userTextView, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

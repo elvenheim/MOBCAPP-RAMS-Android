@@ -33,14 +33,23 @@ public final class RamsRegistrarEnrollmentBinding implements ViewBinding {
   @NonNull
   public final ImageButton registrationMainBackBTN;
 
+  @NonNull
+  public final TextView textView13;
+
+  @NonNull
+  public final TextView textView2;
+
   private RamsRegistrarEnrollmentBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView imageView3, @NonNull ImageView imageView4,
-      @NonNull TextView masterlistTitle, @NonNull ImageButton registrationMainBackBTN) {
+      @NonNull TextView masterlistTitle, @NonNull ImageButton registrationMainBackBTN,
+      @NonNull TextView textView13, @NonNull TextView textView2) {
     this.rootView = rootView;
     this.imageView3 = imageView3;
     this.imageView4 = imageView4;
     this.masterlistTitle = masterlistTitle;
     this.registrationMainBackBTN = registrationMainBackBTN;
+    this.textView13 = textView13;
+    this.textView2 = textView2;
   }
 
   @Override
@@ -94,8 +103,20 @@ public final class RamsRegistrarEnrollmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView13;
+      TextView textView13 = ViewBindings.findChildViewById(rootView, id);
+      if (textView13 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
+        break missingId;
+      }
+
       return new RamsRegistrarEnrollmentBinding((ConstraintLayout) rootView, imageView3, imageView4,
-          masterlistTitle, registrationMainBackBTN);
+          masterlistTitle, registrationMainBackBTN, textView13, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

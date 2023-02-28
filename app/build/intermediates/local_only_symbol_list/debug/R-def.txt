@@ -98,6 +98,8 @@ id enrollment_tuition_RB
 id enrollment_tuition_content
 id finance_Main_Title
 id finance_main_backBTN
+id finance_others_scroll_view
+id full_name_title
 id greetingTextView
 id home_financeBTN
 id home_registrationBTN
@@ -134,6 +136,7 @@ id online_payment_btn
 id online_payment_choices
 id online_payment_clipboard
 id online_payment_line
+id online_payment_records_back
 id online_payment_records_btn
 id online_payment_records_clipboard
 id online_payment_records_line
@@ -144,10 +147,17 @@ id online_payment_title
 id online_payment_title_btn
 id other_payment_content
 id other_payments_RB
+id other_personal_email
+id other_student_constraint
+id others_personal_email_bg
+id others_student_firstname
+id others_student_firstname_bg
+id paynamics_back
 id paynamics_btn
 id paynamics_clipboard
 id paynamics_line
 id paynamics_title
+id personal_email_title
 id profile_BG
 id profile_Footer
 id profile_btnLogOut
@@ -160,11 +170,11 @@ id registration_clipboard
 id registration_line
 id registration_main_backBTN
 id registration_title
-id textView
 id textView10
 id textView11
 id textView12
 id textView13
+id textView15
 id textView2
 id textView3
 id textView4
@@ -174,6 +184,7 @@ id textView7
 id textView8
 id textView9
 id top_banner
+id userTextView
 id user_banner
 id user_profile
 id vaccination_record_btn
@@ -184,6 +195,8 @@ id vaccination_record_title
 id viewPager
 layout rams_finance_main
 layout rams_finance_online_payment
+layout rams_finance_online_payment_records
+layout rams_finance_paynamics
 layout rams_home
 layout rams_login
 layout rams_masterlist

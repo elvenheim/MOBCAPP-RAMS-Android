@@ -33,6 +33,24 @@ public class StudentFinance extends AppCompatActivity {
                 finish();
             }
         });
+
+        onlinePaymentRecords = findViewById(R.id.online_payment_records_btn);
+        onlinePaymentRecords.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(StudentFinance.this, StudentFinanceRecord.class));
+                finish();
+            }
+        });
+
+        paynamics = findViewById(R.id.paynamics_btn);
+        paynamics.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(StudentFinance.this, StudentFinancePaynamics.class));
+                finish();
+            }
+        });
     }
 
     @Override
