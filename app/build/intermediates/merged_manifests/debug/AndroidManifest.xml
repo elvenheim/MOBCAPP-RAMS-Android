@@ -32,14 +32,35 @@
         android:testOnly="true"
         android:theme="@style/Theme.RAMSdroid" >
         <activity
-            android:name="com.example.ramsdroid.StudentRec_Grades"
+            android:name="com.example.ramsdroid.Records_Vaccination"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.ramsdroid.StudentRec_ClassSched"
+            android:name="com.example.ramsdroid.Records_Clearance"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.ramsdroid.Records_Grades"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.ramsdroid.Records_Assesments"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.ramsdroid.Records_ClassSched"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"

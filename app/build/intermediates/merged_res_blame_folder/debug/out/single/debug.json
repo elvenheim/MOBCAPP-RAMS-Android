@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_finance_online_payment_records.xml"
     },
     {
+        "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\drawable_gradestable.png.flat",
+        "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\drawable\\gradestable.png"
+    },
+    {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -16,12 +20,12 @@
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\drawable\\login_password.png"
     },
     {
-        "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\navigation\\nav_graph.xml"
-    },
-    {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\drawable_o365_logo.png.flat",
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\drawable\\o365_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\navigation\\nav_graph.xml"
     },
     {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\menu_logout_menu.xml.flat",
@@ -30,6 +34,10 @@
     {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\drawable_user_rich.png.flat",
+        "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\drawable\\user_rich.png"
     },
     {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\drawable_finance_list.png.flat",
@@ -76,6 +84,10 @@
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\layout_rams_registrar_masterlist.xml.flat",
+        "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_registrar_masterlist.xml"
+    },
+    {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -84,8 +96,8 @@
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.ramsdroid.app-merged_res-47:/layout_rams_registrar_enrollment.xml.flat",
-        "source": "com.example.ramsdroid.app-main-49:/layout/rams_registrar_enrollment.xml"
+        "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\layout_rams_records_clearance.xml.flat",
+        "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_records_clearance.xml"
     },
     {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\xml_data_extraction_rules.xml.flat",
@@ -152,6 +164,10 @@
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\drawable\\menu_studentrecordsbutton.png"
     },
     {
+        "merged": "com.example.ramsdroid.app-merged_res-47:/layout_grades_recycler_view.xml.flat",
+        "source": "com.example.ramsdroid.app-main-49:/layout/grades_recycler_view.xml"
+    },
+    {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\font_nunitosans_bold.ttf.flat",
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\font\\nunitosans_bold.ttf"
     },
@@ -208,6 +224,10 @@
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\drawable-v24\\profile_logout.png"
     },
     {
+        "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\drawable_user_marj.png.flat",
+        "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\drawable\\user_marj.png"
+    },
+    {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\layout_rams_student_profile.xml.flat",
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_student_profile.xml"
     },
@@ -224,12 +244,24 @@
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\drawable\\menu_finance_button.png"
     },
     {
+        "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\layout_rams_records_assesments.xml.flat",
+        "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_records_assesments.xml"
+    },
+    {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\drawable_background_yellow_gradient.xml.flat",
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\drawable\\background_yellow_gradient.xml"
     },
     {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\layout_rams_studentrec_class_sched.xml.flat",
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_studentrec_class_sched.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\layout_rams_records_vaccination.xml.flat",
+        "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_records_vaccination.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\layout_rams_records_class_sched.xml.flat",
+        "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_records_class_sched.xml"
     },
     {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -242,6 +274,10 @@
     {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\drawable-v24_profile_default_cover.png.flat",
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\drawable-v24\\profile_default_cover.png"
+    },
+    {
+        "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\layout_rams_records_grades.xml.flat",
+        "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_records_grades.xml"
     },
     {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\font_nunitosans_regular.ttf.flat",
@@ -284,6 +320,10 @@
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.example.ramsdroid.app-merged_res-47:/layout_rams_records_grades.xml.flat",
+        "source": "com.example.ramsdroid.app-main-49:/layout/rams_records_grades.xml"
+    },
+    {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\layout_rams_registrar_enrollment.xml.flat",
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_registrar_enrollment.xml"
     },
@@ -294,6 +334,10 @@
     {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\layout_rams_registrar_registration.xml.flat",
         "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_registrar_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\drawable_user_don.png.flat",
+        "source": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\drawable\\user_don.png"
     },
     {
         "merged": "C:\\Users\\Kin\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-merged_res-47:\\layout_rams_student_records_main.xml.flat",

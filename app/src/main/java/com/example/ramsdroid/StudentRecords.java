@@ -9,14 +9,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class StudentRecords extends AppCompatActivity {
 
-    ImageButton recordsBack;
+    private ImageButton classSched;
+    private ImageButton assesments;
+    private ImageButton grades;
+    private ImageButton clearance;
+    private ImageButton vaccination;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rams_student_records_main);
 
-        recordsBack = findViewById(R.id.records_back_main_BTN);
+        ImageButton recordsBack = findViewById(R.id.records_back_main_BTN);
         recordsBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,6 +28,51 @@ public class StudentRecords extends AppCompatActivity {
                 finish();
             }
         });
+
+        classSched = findViewById(R.id.class_sched_btn);
+        classSched.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(StudentRecords.this, Records_ClassSched.class));
+                finish();
+            }
+        });
+        grades = findViewById(R.id.my_grades_btn);
+        grades.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(StudentRecords.this, Records_Grades.class));
+                finish();
+            }
+        });
+
+        clearance = findViewById(R.id.clearance_btn);
+        clearance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(StudentRecords.this, Records_Clearance.class));
+                finish();
+            }
+        });
+
+        assesments = findViewById(R.id.class_assess_btn);
+        assesments.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(StudentRecords.this, Records_Assesments.class));
+                finish();
+            }
+        });
+
+        vaccination = findViewById(R.id.vaccination_record_btn);
+        vaccination.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(StudentRecords.this, Records_Vaccination.class));
+                finish();
+            }
+        });
+
     }
 
     @Override

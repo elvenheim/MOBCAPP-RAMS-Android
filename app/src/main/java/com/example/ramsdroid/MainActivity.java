@@ -42,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rams_home);
 
+
+
+
         String path = "s1/first_name";
         myRef =  database.getReference(path);
         myRef.addValueEventListener(new ValueEventListener() {

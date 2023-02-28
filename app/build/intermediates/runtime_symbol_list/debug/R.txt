@@ -2840,6 +2840,7 @@ int drawable eye_slash_button 0x7f0700aa
 int drawable finance_list 0x7f070118
 int drawable googleg_disabled_color_18 0x7f0700ab
 int drawable googleg_standard_color_18 0x7f0700ac
+int drawable gradestable 0x7f07011a
 int drawable ic_arrow_back_black_24 0x7f0700ad
 int drawable ic_clear_black_24 0x7f0700ae
 int drawable ic_clock_black_24dp 0x7f0700af
@@ -2947,7 +2948,10 @@ int drawable rounded_rectangle 0x7f070113
 int drawable test_level_drawable 0x7f070114
 int drawable tooltip_frame_dark 0x7f070115
 int drawable tooltip_frame_light 0x7f070116
+int drawable user_don 0x7f07011b
+int drawable user_marj 0x7f07011c
 int drawable user_picture 0x7f070117
+int drawable user_rich 0x7f07011d
 int font nunitosans 0x7f080000
 int font nunitosans_bold 0x7f080001
 int font nunitosans_regular 0x7f080002
@@ -3051,7 +3055,9 @@ int id anticipate 0x7f090060
 int id apcheader 0x7f090061
 int id arc 0x7f090062
 int id asConfigured 0x7f090063
+int id assesments_title 0x7f09028f
 int id async 0x7f090064
+int id attempted 0x7f090293
 int id auto 0x7f090065
 int id autoComplete 0x7f090066
 int id autoCompleteToEnd 0x7f090067
@@ -3093,6 +3099,7 @@ int id checked 0x7f09008a
 int id chronometer 0x7f09008b
 int id circle_center 0x7f09008c
 int id clamp 0x7f09008d
+int id classSched_title 0x7f090290
 int id class_assess_btn 0x7f09008e
 int id class_assess_clipboard 0x7f09008f
 int id class_assess_line 0x7f090090
@@ -3124,6 +3131,7 @@ int id contentPanel 0x7f0900a9
 int id contiguous 0x7f0900aa
 int id continuousVelocity 0x7f0900ab
 int id coordinator 0x7f0900ac
+int id correct 0x7f090294
 int id cos 0x7f0900ad
 int id counterclockwise 0x7f0900ae
 int id cover_photo 0x7f0900af
@@ -3208,6 +3216,8 @@ int id fullscreen_header 0x7f0900fc
 int id ghost_view 0x7f0900fd
 int id ghost_view_holder 0x7f0900fe
 int id gone 0x7f0900ff
+int id grades_backBTN 0x7f090292
+int id grades_desc_text_view 0x7f090295
 int id graph 0x7f090100
 int id graph_wrap 0x7f090101
 int id greetingTextView 0x7f090102
@@ -3418,6 +3428,7 @@ int id progress_circular 0x7f0901ce
 int id progress_horizontal 0x7f0901cf
 int id radio 0x7f0901d0
 int id ratio 0x7f0901d1
+int id recordsClearance_title 0x7f090291
 int id records_back_main_BTN 0x7f0901d2
 int id records_main_title 0x7f0901d3
 int id rectangles 0x7f0901d4
@@ -3577,6 +3588,7 @@ int id uniform 0x7f09026d
 int id unlabeled 0x7f09026e
 int id up 0x7f09026f
 int id useLogo 0x7f090270
+int id userName 0x7f090296
 int id userTextView 0x7f090271
 int id user_banner 0x7f090272
 int id user_profile 0x7f090273
@@ -3731,6 +3743,7 @@ int layout design_navigation_menu 0x7f0c002a
 int layout design_navigation_menu_item 0x7f0c002b
 int layout design_text_input_end_icon 0x7f0c002c
 int layout design_text_input_start_icon 0x7f0c002d
+int layout grades_recycler_view 0x7f0c0080
 int layout m3_alert_dialog 0x7f0c002e
 int layout m3_alert_dialog_actions 0x7f0c002f
 int layout m3_alert_dialog_title 0x7f0c0030
@@ -3794,14 +3807,17 @@ int layout rams_finance_online_payment_records 0x7f0c0069
 int layout rams_finance_paynamics 0x7f0c006a
 int layout rams_home 0x7f0c006b
 int layout rams_login 0x7f0c006c
-int layout rams_masterlist 0x7f0c006d
+int layout rams_records_assesments 0x7f0c007a
+int layout rams_records_class_sched 0x7f0c007b
+int layout rams_records_clearance 0x7f0c007c
+int layout rams_records_grades 0x7f0c007d
+int layout rams_records_vaccination 0x7f0c007e
 int layout rams_registrar_enrollment 0x7f0c006e
+int layout rams_registrar_masterlist 0x7f0c007f
 int layout rams_registrar_registration 0x7f0c006f
 int layout rams_registration_main 0x7f0c0070
 int layout rams_student_profile 0x7f0c0071
-int layout rams_student_rec_grades 0x7f0c0072
 int layout rams_student_records_main 0x7f0c0073
-int layout rams_studentrec_class_sched 0x7f0c0074
 int layout select_dialog_item_material 0x7f0c0075
 int layout select_dialog_multichoice_material 0x7f0c0076
 int layout select_dialog_singlechoice_material 0x7f0c0077

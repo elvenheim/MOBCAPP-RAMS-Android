@@ -12,7 +12,7 @@ public class Registrar_Masterlist extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rams_masterlist);
+        setContentView(R.layout.rams_registrar_masterlist);
 
         ImageButton masterlist_backBTN = findViewById(R.id.masterlist_main_backBTN);
         masterlist_backBTN.setOnClickListener(new View.OnClickListener() {

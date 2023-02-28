@@ -43,7 +43,9 @@ public class RAMSLogin extends AppCompatActivity {
             loginUser();
             }
         });
-        }private void loginUser(){
+        }
+
+        private void loginUser(){
             String Email = email.getText().toString();
             String Pass = pass.getText().toString();
 

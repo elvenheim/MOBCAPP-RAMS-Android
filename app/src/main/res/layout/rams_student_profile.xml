@@ -48,18 +48,37 @@
         app:layout_constraintVertical_bias="0"
         app:shapeAppearanceOverlay="@style/RoundedCorners" />
 
-    <ImageView
-        android:id="@+id/user_profile"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/profile_pic"
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="12dp"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        android:thicknessRatio="1.9"
+        app:cardCornerRadius="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0"
-        app:srcCompat="@drawable/user_picture" />
+        app:layout_constraintVertical_bias="0.126">
+
+
+            <ImageView
+                android:id="@+id/user_profile"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0"
+                app:srcCompat="@drawable/user_marj" />
+
+    </androidx.cardview.widget.CardView>
 
     <Button
         android:id="@+id/profile_btnLogOut"
@@ -107,7 +126,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/profile_BG"
         app:layout_constraintEnd_toEndOf="@+id/profile_BG"
         app:layout_constraintStart_toStartOf="@+id/profile_BG"
-        app:layout_constraintTop_toBottomOf="@+id/user_profile"
+        app:layout_constraintTop_toBottomOf="@+id/profile_pic"
         app:layout_constraintVertical_bias="0"/>
 
     <androidx.core.widget.NestedScrollView
@@ -119,7 +138,7 @@
         app:layout_constraintEnd_toEndOf="@+id/profile_line"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/profile_line"
-        app:layout_constraintTop_toBottomOf="@+id/profile_line"
+        app:layout_constraintTop_toTopOf="@+id/profile_line"
         app:layout_constraintVertical_bias="0">
 
         <LinearLayout
@@ -128,172 +147,165 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_marginStart="1dp"
-                android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textColor="@color/apc_darker_blue"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="15dp"
                 android:fontFamily="@font/nunitosans_bold"
-                android:textSize="23sp"
                 android:text="Student Name"
-                />
+                android:textColor="@color/apc_darker_blue"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="normal"
-                android:textColor="@color/apc_gray_edit"
                 android:fontFamily="@font/nunitosans"
+                android:text="Marjorie Co"
+                android:textColor="@color/apc_gray_edit"
                 android:textSize="20dp"
-                android:text="Patatas de la Pinya"
-                />
+                android:textStyle="normal" />
 
             <TextView
-                android:layout_marginStart="1dp"
-                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textColor="@color/apc_darker_blue"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="@font/nunitosans_bold"
-                android:textSize="23sp"
                 android:text="Student Number"
-                />
+                android:textColor="@color/apc_darker_blue"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="11dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="normal"
-                android:textColor="@color/apc_gray_edit"
                 android:fontFamily="@font/nunitosans"
+                android:text="2021-140043"
+                android:textColor="@color/apc_gray_edit"
                 android:textSize="20sp"
-                android:text="2021-150023"
-                />
+                android:textStyle="normal" />
 
             <TextView
-                android:layout_marginStart="1dp"
-                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textColor="@color/apc_darker_blue"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="@font/nunitosans_bold"
-                android:textSize="23sp"
                 android:text="Course"
-                />
+                android:textColor="@color/apc_darker_blue"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="11dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="normal"
-                android:textColor="@color/apc_gray_edit"
                 android:fontFamily="@font/nunitosans"
-                android:textSize="20sp"
                 android:text="Computer Engineering"
-                />
+                android:textColor="@color/apc_gray_edit"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
             <TextView
-                android:layout_marginStart="1dp"
-                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textColor="@color/apc_darker_blue"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="@font/nunitosans_bold"
-                android:textSize="23sp"
                 android:text="Email"
-                />
+                android:textColor="@color/apc_darker_blue"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="11dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="normal"
-                android:textColor="@color/apc_gray_edit"
                 android:fontFamily="@font/nunitosans"
+                android:text="mjco@student.apc.edu.ph"
+                android:textColor="@color/apc_gray_edit"
                 android:textSize="20sp"
-                android:text="pdpinya@student.apc.edu.ph"
-                />
+                android:textStyle="normal" />
 
             <TextView
-                android:layout_marginStart="1dp"
-                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textColor="@color/apc_darker_blue"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="@font/nunitosans_bold"
-                android:textSize="23sp"
                 android:text="Scholarship Type"
-                />
+                android:textColor="@color/apc_darker_blue"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="11dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="normal"
-                android:textColor="@color/apc_gray_edit"
                 android:fontFamily="@font/nunitosans"
-                android:textSize="20sp"
                 android:text="SM Scholarship (100%)"
-                />
+                android:textColor="@color/apc_gray_edit"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
             <TextView
-                android:layout_marginStart="1dp"
-                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textColor="@color/apc_darker_blue"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="@font/nunitosans_bold"
-                android:textSize="23sp"
                 android:text="Academic Year"
-                />
-            <TextView
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="11dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="normal"
-                android:textColor="@color/apc_gray_edit"
-                android:fontFamily="@font/nunitosans"
-                android:textSize="20sp"
-                android:text="2023"
-                />
+                android:textColor="@color/apc_darker_blue"
+                android:textSize="23sp"
+                android:textStyle="bold" />
 
             <TextView
-                android:layout_marginStart="1dp"
-                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textColor="@color/apc_darker_blue"
-                android:fontFamily="@font/nunitosans_bold"
-                android:textSize="23sp"
-                android:text="Term"
-                />
-            <TextView
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="11dp"
+                android:fontFamily="@font/nunitosans"
+                android:text="2023"
+                android:textColor="@color/apc_gray_edit"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="normal"
-                android:textColor="@color/apc_gray_edit"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/nunitosans_bold"
+                android:text="Term"
+                android:textColor="@color/apc_darker_blue"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="11dp"
                 android:fontFamily="@font/nunitosans"
-                android:textSize="20sp"
                 android:text="3"
-                />
+                android:textColor="@color/apc_gray_edit"
+                android:textSize="20sp"
+                android:textStyle="normal" />
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 

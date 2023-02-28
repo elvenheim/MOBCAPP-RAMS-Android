@@ -2841,6 +2841,7 @@ drawable eye_slash_button
 drawable finance_list
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable gradestable
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -2948,7 +2949,10 @@ drawable rounded_rectangle
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable user_don
+drawable user_marj
 drawable user_picture
+drawable user_rich
 font nunitosans
 font nunitosans_bold
 font nunitosans_regular
@@ -3052,7 +3056,9 @@ id anticipate
 id apcheader
 id arc
 id asConfigured
+id assesments_title
 id async
+id attempted
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -3094,6 +3100,7 @@ id checked
 id chronometer
 id circle_center
 id clamp
+id classSched_title
 id class_assess_btn
 id class_assess_clipboard
 id class_assess_line
@@ -3125,6 +3132,7 @@ id contentPanel
 id contiguous
 id continuousVelocity
 id coordinator
+id correct
 id cos
 id counterclockwise
 id cover_photo
@@ -3209,6 +3217,8 @@ id fullscreen_header
 id ghost_view
 id ghost_view_holder
 id gone
+id grades_backBTN
+id grades_desc_text_view
 id graph
 id graph_wrap
 id greetingTextView
@@ -3419,6 +3429,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id recordsClearance_title
 id records_back_main_BTN
 id records_main_title
 id rectangles
@@ -3578,6 +3589,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userName
 id userTextView
 id user_banner
 id user_profile
@@ -3732,6 +3744,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout grades_recycler_view
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3795,14 +3808,17 @@ layout rams_finance_online_payment_records
 layout rams_finance_paynamics
 layout rams_home
 layout rams_login
-layout rams_masterlist
+layout rams_records_assesments
+layout rams_records_class_sched
+layout rams_records_clearance
+layout rams_records_grades
+layout rams_records_vaccination
 layout rams_registrar_enrollment
+layout rams_registrar_masterlist
 layout rams_registrar_registration
 layout rams_registration_main
 layout rams_student_profile
-layout rams_student_rec_grades
 layout rams_student_records_main
-layout rams_studentrec_class_sched
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

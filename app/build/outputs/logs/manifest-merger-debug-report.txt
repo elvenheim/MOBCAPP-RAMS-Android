@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-92:12
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-111:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\Kin\.gradle\caches\transforms-3\b98e1a928def740e08642e29ccf475d4\transformed\viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\Kin\.gradle\caches\transforms-3\6c241612d6049eb754683455006fc2b8\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Kin\.gradle\caches\transforms-3\6adea83e41c9650c4ed4b9f5c7f97dca\transformed\material-1.8.0\AndroidManifest.xml:17:1-26:12
@@ -71,22 +71,22 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Kin\.gradle\cach
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Kin\.gradle\caches\transforms-3\2563e11d332f424018d376a860637389\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Kin\.gradle\caches\transforms-3\92f4217297ebea9f6ae2ca7230f95888\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Kin\.gradle\caches\transforms-3\28e4abb5e3d5c7ab680c474b74f5f765\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-111:12
 	package
 		INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-92:12
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-111:12
 		INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-92:12
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-111:12
 		INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-92:12
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:1-111:12
 		INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:2:11-69
@@ -99,7 +99,7 @@ MERGED from [com.google.firebase:firebase-database:20.0.4] C:\Users\Kin\.gradle\
 	android:name
 		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:7:5-90:19
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:7:5-109:19
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Kin\.gradle\caches\transforms-3\6adea83e41c9650c4ed4b9f5c7f97dca\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Kin\.gradle\caches\transforms-3\6adea83e41c9650c4ed4b9f5c7f97dca\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Kin\.gradle\caches\transforms-3\42b9ab78819aa58f8147d099d5571812\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -156,108 +156,126 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Kin\.gradle\caches
 		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:16:9-47
 	android:dataExtractionRules
 		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:9:9-65
-activity#com.example.ramsdroid.StudentRec_Grades
+activity#com.example.ramsdroid.Records_Vaccination
 ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:exported
 		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:19:13-46
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:19:13-48
 meta-data#android.app.lib_name
 ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:21:13-23:36
 	android:value
 		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:23:17-33
 	android:name
 		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:22:17-52
-activity#com.example.ramsdroid.StudentRec_ClassSched
+activity#com.example.ramsdroid.Records_Clearance
 ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:exported
 		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:26:13-50
-activity#com.example.ramsdroid.Registrar_Enrollment
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:26:13-46
+activity#com.example.ramsdroid.Records_Grades
 ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:32:9-38:20
 	android:exported
 		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:33:13-49
-activity#com.example.ramsdroid.Registrar_Registration
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:33:13-43
+activity#com.example.ramsdroid.Records_Assesments
 ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:39:9-45:20
 	android:exported
 		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:40:13-51
-activity#com.example.ramsdroid.RAMSLogin
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:46:9-59:20
-	android:windowSoftInputMode
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:49:13-54
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:40:13-47
+activity#com.example.ramsdroid.Records_ClassSched
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:46:9-52:20
 	android:exported
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:48:13-36
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:48:13-37
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:47:13-38
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:47:13-47
+activity#com.example.ramsdroid.Registrar_Enrollment
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:54:9-60:20
+	android:exported
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:55:13-49
+activity#com.example.ramsdroid.Registrar_Registration
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:61:9-67:20
+	android:exported
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:62:13-51
+activity#com.example.ramsdroid.RAMSLogin
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:68:9-81:20
+	android:windowSoftInputMode
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:71:13-54
+	android:exported
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:70:13-36
+	android:name
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:69:13-38
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:50:13-54:29
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:72:13-76:29
 action#android.intent.action.MAIN
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:51:17-69
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:73:17-69
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:51:25-66
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:73:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:53:17-77
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:75:17-77
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:53:27-74
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:75:27-74
 activity#com.example.ramsdroid.MainActivity
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:61:9-63:55
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:82:9-84:55
 	android:parentActivityName
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:63:13-52
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:84:13-52
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:62:13-41
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:83:13-41
 activity#com.example.ramsdroid.StudentRegistration
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:64:9-66:58
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:85:9-87:58
 	android:parentActivityName
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:66:13-55
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:87:13-55
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:65:13-48
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:86:13-48
 activity#com.example.ramsdroid.StudentRecords
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:67:9-69:58
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:88:9-90:58
 	android:parentActivityName
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:69:13-55
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:90:13-55
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:68:13-43
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:89:13-43
 activity#com.example.ramsdroid.StudentProfile
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:70:9-72:58
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:91:9-93:58
 	android:parentActivityName
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:72:13-55
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:93:13-55
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:71:13-43
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:92:13-43
 activity#com.example.ramsdroid.StudentFinance
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:74:9-76:57
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:94:9-96:58
 	android:parentActivityName
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:76:13-55
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:96:13-55
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:75:13-43
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:95:13-43
 activity#com.example.ramsdroid.StudentFinanceOnlinePayment
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:77:9-79:60
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:97:9-99:60
 	android:parentActivityName
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:79:13-57
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:99:13-57
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:78:13-56
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:98:13-56
 activity#com.example.ramsdroid.StudentFinancePaynamics
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:80:9-82:60
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:100:9-102:60
 	android:parentActivityName
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:82:13-57
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:102:13-57
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:81:13-52
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:101:13-52
 activity#com.example.ramsdroid.StudentFinanceRecord
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:83:9-85:60
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:103:9-105:60
 	android:parentActivityName
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:85:13-57
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:105:13-57
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:84:13-49
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:104:13-49
 activity#com.example.ramsdroid.Registrar_Masterlist
-ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:87:9-89:64
+ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:106:9-108:65
 	android:parentActivityName
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:89:13-62
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:108:13-62
 	android:name
-		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:88:13-49
+		ADDED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml:107:13-49
 uses-sdk
 INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\MOBCAPP-RAMS-Android2\app\src\main\AndroidManifest.xml
