@@ -64,13 +64,15 @@
         android:layout_width="363dp"
         android:layout_height="748dp"
         android:layout_marginTop="31dp"
-        app:cardCornerRadius="15dp"
-        android:background="@color/white"
         android:layout_marginBottom="15dp"
+        android:background="@color/white"
+        app:cardCornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/masterlist_title">
+        app:layout_constraintTop_toBottomOf="@+id/masterlist_title"
+        app:layout_constraintVertical_bias="0.122">
 
         <TextView
             android:layout_width="match_parent"
