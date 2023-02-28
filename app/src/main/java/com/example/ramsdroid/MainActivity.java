@@ -26,13 +26,14 @@ import java.util.ArrayList;
 
 import java.util.List;
 
+
 public class MainActivity extends AppCompatActivity {
     private static long back_pressed;
     ImageButton profile, registration, record, finance;
     ViewPager2 viewPager2;
     //autoslide
     FirebaseDatabase database = FirebaseDatabase.getInstance();
-    DatabaseReference myRef =  database.getReference("s1/first_name");
+    DatabaseReference myRef;
 
     private Handler slideHandler = new Handler();
 
@@ -41,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rams_home);
 
+        String path = "s1/first_name";
+        myRef =  database.getReference(path);
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -51,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 TextView textView = findViewById(R.id.userTextView);
                 textView.setText(firstName);
             }
+
 
             @Override
             public void onCancelled(DatabaseError error) {
