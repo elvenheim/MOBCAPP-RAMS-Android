@@ -24,6 +24,7 @@
     <dimen name="mtrl_calendar_title_baseline_to_top_fullscreen">32dp</dimen>
     <integer name="mtrl_calendar_header_orientation">0</integer>
     <integer name="mtrl_calendar_selection_text_lines">6</integer>
+    <string name="enrollment_notif">For late enrollment or load revision requests, please email: registrar@apc.edu.ph</string>
     <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
     <item name="tabGravity">center</item>
     <item name="tabMode">fixed</item>

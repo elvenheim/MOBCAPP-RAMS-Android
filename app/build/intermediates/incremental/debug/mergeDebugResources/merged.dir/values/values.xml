@@ -124,6 +124,10 @@
     <attr format="color" name="elevationOverlayAccentColor"/>
     <attr format="color" name="elevationOverlayColor"/>
     <attr format="boolean" name="elevationOverlayEnabled"/>
+    <attr name="emptyVisibility">
+        <enum name="gone" value="0"/>
+        <enum name="invisible" value="1"/>
+    </attr>
     <attr format="boolean" name="enableEdgeToEdge"/>
     <attr format="boolean" name="ensureMinTouchTargetSize"/>
     <attr format="reference" name="extendedFloatingActionButtonPrimaryStyle"/>
@@ -245,7 +249,7 @@
         <enum name="parent" value="0"/>
     </attr>
     <attr format="reference" name="layout_constraintCircle"/>
-    <attr format="float" name="layout_constraintCircleAngle"/>
+    <attr format="integer" name="layout_constraintCircleAngle"/>
     <attr format="dimension" name="layout_constraintCircleRadius"/>
     <attr format="string" name="layout_constraintDimensionRatio"/>
     <attr format="reference|enum" name="layout_constraintEnd_toEndOf">
@@ -347,19 +351,11 @@
     <attr format="dimension" name="layout_marginBaseline"/>
     <attr name="layout_optimizationLevel">
         <flag name="none" value="0"/>
-        <flag name="legacy" value="0"/>
-        <flag name="standard" value="257"/> 
+        <flag name="standard" value="3"/> 
         <flag name="direct" value="1"/>
         <flag name="barrier" value="2"/>
         <flag name="chains" value="4"/>
         <flag name="dimensions" value="8"/>
-        <flag name="ratio" value="16"/>
-        <flag name="groups" value="32"/>
-        <flag name="graph" value="64"/>
-        <flag name="graph_wrap" value="128"/>
-        <flag name="cache_measures" value="256"/>
-        <flag name="dependency_ordering" value="512"/>
-        <flag name="grouping" value="1024"/>
     </attr>
     <attr format="enum" name="layout_wrapBehaviorInParent">
         <enum name="included" value="0"/>
@@ -1865,6 +1861,7 @@
     <string name="copy_toast_msg">Link copied to clipboard</string>
     <string name="default_web_client_id" translatable="false">436294477902-fft7gad7jg27mtc2ohtpo8rg1ib7rk1s.apps.googleusercontent.com</string>
     <string name="define_roundedimageview"/>
+    <string name="enrollment_notif">For late enrollment or load revision requests, please email: registrar@apc.edu.ph</string>
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
     Error: invalid
   </string>
@@ -10318,144 +10315,14 @@
         <attr name="quantizeMotionPhase"/>
         <attr name="quantizeMotionInterpolator"/>
     </declare-styleable>
-    <declare-styleable name="ConstraintLayout_Layout">
-        <attr name="android:orientation"/>
-        <attr name="android:minWidth"/>
-        <attr name="android:minHeight"/>
-        <attr name="android:maxWidth"/>
-        <attr name="android:maxHeight"/>
-        <attr name="android:visibility"/>
-        <attr name="android:elevation"/>
-
-        <attr name="layout_optimizationLevel"/>
-        <attr name="layoutDescription"/>
-
-        <attr name="constraintSet"/>
-        <attr name="barrierDirection"/>
-        <attr name="barrierAllowsGoneWidgets"/>
-        <attr name="barrierMargin"/>
-        <attr name="constraint_referenced_ids"/>
-        <attr name="constraint_referenced_tags"/>
-        <attr name="chainUseRtl"/>
-
-        <attr name="flow_horizontalStyle"/>
-        <attr name="flow_verticalStyle"/>
-        <attr name="flow_wrapMode"/>
-        <attr name="flow_maxElementsWrap"/>
-        <attr name="flow_horizontalGap"/>
-        <attr name="flow_verticalGap"/>
-        <attr name="android:padding"/>
-        <attr name="android:paddingTop"/>
-        <attr name="android:paddingBottom"/>
-        <attr name="android:paddingLeft"/>
-        <attr name="android:paddingRight"/>
-        <attr name="android:paddingStart"/>
-        <attr name="android:paddingEnd"/>
-        <attr name="flow_verticalAlign"/>
-        <attr name="flow_horizontalAlign"/>
-        <attr name="flow_verticalBias"/>
-        <attr name="flow_horizontalBias"/>
-        
-        
-
-        <attr name="flow_firstHorizontalStyle"/>
-        <attr name="flow_firstVerticalStyle"/>
-        <attr name="flow_firstHorizontalBias"/>
-        <attr name="flow_firstVerticalBias"/>
-
-        <attr name="flow_lastHorizontalStyle"/>
-        <attr name="flow_lastVerticalStyle"/>
-        <attr name="flow_lastHorizontalBias"/>
-        <attr name="flow_lastVerticalBias"/>
-
-        <attr name="circularflow_radiusInDP"/>
-        <attr name="circularflow_angles"/>
-        <attr name="circularflow_viewCenter"/>
-        <attr name="circularflow_defaultRadius"/>
-        <attr name="circularflow_defaultAngle"/>
-
-
-        <attr name="layout_constraintCircle"/>
-        <attr name="layout_constraintCircleRadius"/>
-        <attr name="layout_constraintCircleAngle"/>
-
-        <attr name="layout_constraintGuide_begin"/>
-        <attr name="layout_constraintGuide_end"/>
-        <attr name="layout_constraintGuide_percent"/>
-        <attr name="guidelineUseRtl"/>
-        <attr name="layout_constraintLeft_toLeftOf"/>
-        <attr name="layout_constraintLeft_toRightOf"/>
-        <attr name="layout_constraintRight_toLeftOf"/>
-        <attr name="layout_constraintRight_toRightOf"/>
-        <attr name="layout_constraintTop_toTopOf"/>
-        <attr name="layout_constraintTop_toBottomOf"/>
-        <attr name="layout_constraintBottom_toTopOf"/>
-        <attr name="layout_constraintBottom_toBottomOf"/>
-        <attr name="layout_constraintBaseline_toBaselineOf"/>
-        <attr name="layout_constraintBaseline_toTopOf"/>
-        <attr name="layout_constraintBaseline_toBottomOf"/>
-        <attr name="layout_constraintStart_toEndOf"/>
-        <attr name="layout_constraintStart_toStartOf"/>
-        <attr name="layout_constraintEnd_toStartOf"/>
-        <attr name="layout_constraintEnd_toEndOf"/>
-        <attr name="layout_goneMarginLeft"/>
-        <attr name="layout_goneMarginTop"/>
-        <attr name="layout_goneMarginRight"/>
-        <attr name="layout_goneMarginBottom"/>
-        <attr name="layout_goneMarginStart"/>
-        <attr name="layout_goneMarginEnd"/>
-        <attr name="layout_goneMarginBaseline"/>
-        <attr name="layout_marginBaseline"/>
-        <attr name="layout_constraintWidth"/>
-        <attr name="layout_constraintHeight"/>
-        <attr name="android:layout_width"/>
-        <attr name="android:layout_height"/>
-        <attr name="android:layout_margin"/>
-        <attr name="android:layout_marginHorizontal"/>
-        <attr name="android:layout_marginVertical"/>
-        <attr name="android:layout_marginLeft"/>
-        <attr name="android:layout_marginRight"/>
-        <attr name="android:layout_marginTop"/>
-        <attr name="android:layout_marginBottom"/>
-        <attr name="android:layout_marginStart"/>
-        <attr name="android:layout_marginEnd"/>
-        <attr name="layout_constrainedWidth"/>
-        <attr name="layout_constrainedHeight"/>
-        <attr name="layout_constraintHorizontal_bias"/>
-        <attr name="layout_constraintVertical_bias"/>
-        <attr name="layout_constraintWidth_default"/>
-        <attr name="layout_constraintHeight_default"/>
-        <attr name="layout_constraintWidth_min"/>
-        <attr name="layout_constraintWidth_max"/>
-        <attr name="layout_constraintWidth_percent"/>
-        <attr name="layout_constraintHeight_min"/>
-        <attr name="layout_constraintHeight_max"/>
-        <attr name="layout_constraintHeight_percent"/>
-        <attr name="layout_constraintLeft_creator"/>
-        <attr name="layout_constraintTop_creator"/>
-        <attr name="layout_constraintRight_creator"/>
-        <attr name="layout_constraintBottom_creator"/>
-        <attr name="layout_constraintBaseline_creator"/>
-        <attr name="layout_constraintDimensionRatio"/>
-        <attr name="layout_constraintHorizontal_weight"/>
-        <attr name="layout_constraintVertical_weight"/>
-        <attr name="layout_constraintHorizontal_chainStyle"/>
-        <attr name="layout_constraintVertical_chainStyle"/>
-        <attr name="layout_editor_absoluteX"/>
-        <attr name="layout_editor_absoluteY"/>
-        <attr name="layout_constraintTag"/>
-        <attr name="layout_wrapBehaviorInParent"/>
-    </declare-styleable>
+    <declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="android:visibility"/><attr name="android:elevation"/><attr name="layout_optimizationLevel"/><attr name="layoutDescription"/><attr name="constraintSet"/><attr name="barrierDirection"/><attr name="barrierAllowsGoneWidgets"/><attr name="barrierMargin"/><attr name="constraint_referenced_ids"/><attr name="constraint_referenced_tags"/><attr name="chainUseRtl"/><attr name="flow_horizontalStyle"/><attr name="flow_verticalStyle"/><attr name="flow_wrapMode"/><attr name="flow_maxElementsWrap"/><attr name="flow_horizontalGap"/><attr name="flow_verticalGap"/><attr name="android:padding"/><attr name="android:paddingTop"/><attr name="android:paddingBottom"/><attr name="android:paddingLeft"/><attr name="android:paddingRight"/><attr name="android:paddingStart"/><attr name="android:paddingEnd"/><attr name="flow_verticalAlign"/><attr name="flow_horizontalAlign"/><attr name="flow_verticalBias"/><attr name="flow_horizontalBias"/><attr name="flow_firstHorizontalStyle"/><attr name="flow_firstVerticalStyle"/><attr name="flow_firstHorizontalBias"/><attr name="flow_firstVerticalBias"/><attr name="flow_lastHorizontalStyle"/><attr name="flow_lastVerticalStyle"/><attr name="flow_lastHorizontalBias"/><attr name="flow_lastVerticalBias"/><attr name="circularflow_radiusInDP"/><attr name="circularflow_angles"/><attr name="circularflow_viewCenter"/><attr name="circularflow_defaultRadius"/><attr name="circularflow_defaultAngle"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="guidelineUseRtl"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintBaseline_toTopOf"/><attr name="layout_constraintBaseline_toBottomOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_goneMarginBaseline"/><attr name="layout_marginBaseline"/><attr name="layout_constraintWidth"/><attr name="layout_constraintHeight"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_margin"/><attr name="android:layout_marginHorizontal"/><attr name="android:layout_marginVertical"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/><attr name="layout_constraintTag"/><attr name="layout_wrapBehaviorInParent"/></declare-styleable>
     <declare-styleable name="ConstraintLayout_ReactiveGuide">
         <attr format="reference" name="reactiveGuide_valueId"/>
         <attr format="boolean" name="reactiveGuide_animateChange"/>
         <attr format="boolean" name="reactiveGuide_applyToAllConstraintSets"/>
         <attr format="reference" name="reactiveGuide_applyToConstraintSet"/>
     </declare-styleable>
-    <declare-styleable name="ConstraintLayout_placeholder">
-        <attr name="placeholder_emptyVisibility"/>
-        <attr name="content"/>
-    </declare-styleable>
+    <declare-styleable name="ConstraintLayout_placeholder"><attr name="placeholder_emptyVisibility"/><attr name="content"/><attr name="emptyVisibility"/></declare-styleable>
     <declare-styleable name="ConstraintOverride">
         <attr name="android:orientation"/>
         <attr name="android:id"/>
@@ -10605,151 +10472,13 @@
         <attr name="quantizeMotionPhase"/>
         <attr name="quantizeMotionInterpolator"/>
     </declare-styleable>
-    <declare-styleable name="ConstraintSet">
-        <attr format="reference" name="deriveConstraintsFrom"/>
-        <attr format="enum" name="constraintRotate">
+    <declare-styleable name="ConstraintSet"><attr format="reference" name="deriveConstraintsFrom"/><attr format="enum" name="constraintRotate">
             <enum name="none" value="0"/>
             <enum name="right" value="1"/>
             <enum name="left" value="2"/>
             <enum name="x_right" value="3"/>
             <enum name="x_left" value="4"/>
-        </attr>
-        <attr name="android:orientation"/>
-        <attr name="android:id"/>
-        <attr name="android:visibility"/>
-        <attr name="android:alpha"/>
-        <attr name="android:elevation"/>
-        <attr name="android:rotation"/>
-        <attr name="android:rotationX"/>
-        <attr name="android:rotationY"/>
-        <attr name="android:scaleX"/>
-        <attr name="android:scaleY"/>
-        <attr name="pivotAnchor"/>
-        <attr name="android:pivotX"/>
-        <attr name="android:pivotY"/>
-        <attr name="android:transformPivotX"/>
-        <attr name="android:transformPivotY"/>
-        <attr name="android:translationX"/>
-        <attr name="android:translationY"/>
-        <attr name="android:translationZ"/>
-        <attr name="android:layout_width"/>
-        
-        <attr name="android:layout_height"/>
-        
-        <attr name="android:layout_marginStart"/>
-        
-        <attr name="android:layout_marginBottom"/>
-        <attr name="android:layout_marginTop"/>
-        <attr name="android:layout_marginEnd"/>
-        <attr name="android:layout_marginLeft"/>
-        <attr name="android:layout_marginRight"/>
-
-        <attr name="layout_constraintCircle"/>
-        <attr name="layout_constraintCircleRadius"/>
-        <attr name="layout_constraintCircleAngle"/>
-
-        <attr name="layout_constraintGuide_begin"/>
-        <attr name="layout_constraintGuide_end"/>
-        <attr name="layout_constraintGuide_percent"/>
-        <attr name="guidelineUseRtl"/>
-
-        <attr name="layout_constraintLeft_toLeftOf"/>
-        <attr name="layout_constraintLeft_toRightOf"/>
-        <attr name="layout_constraintRight_toLeftOf"/>
-        <attr name="layout_constraintRight_toRightOf"/>
-        <attr name="layout_constraintTop_toTopOf"/>
-        <attr name="layout_constraintTop_toBottomOf"/>
-        <attr name="layout_constraintBottom_toTopOf"/>
-        <attr name="layout_constraintBottom_toBottomOf"/>
-        <attr name="layout_constraintBaseline_toBaselineOf"/>
-        <attr name="layout_constraintBaseline_toTopOf"/>
-        <attr name="layout_constraintBaseline_toBottomOf"/>
-        <attr name="layout_constraintStart_toEndOf"/>
-        <attr name="layout_constraintStart_toStartOf"/>
-        <attr name="layout_constraintEnd_toStartOf"/>
-        <attr name="layout_constraintEnd_toEndOf"/>
-        <attr name="layout_goneMarginLeft"/>
-        <attr name="layout_goneMarginTop"/>
-        <attr name="layout_goneMarginRight"/>
-        <attr name="layout_goneMarginBottom"/>
-        <attr name="layout_goneMarginStart"/>
-        <attr name="layout_goneMarginEnd"/>
-        <attr name="layout_goneMarginBaseline"/>
-        <attr name="layout_marginBaseline"/>
-        <attr name="layout_constrainedWidth"/>
-        <attr name="layout_constrainedHeight"/>
-        <attr name="layout_constraintHorizontal_bias"/>
-        <attr name="layout_constraintVertical_bias"/>
-        <attr name="layout_constraintWidth_default"/>
-        <attr name="layout_constraintHeight_default"/>
-        <attr name="layout_constraintWidth_min"/>
-        <attr name="layout_constraintWidth_max"/>
-        <attr name="layout_constraintWidth_percent"/>
-        <attr name="layout_constraintHeight_min"/>
-        <attr name="layout_constraintHeight_max"/>
-        <attr name="layout_constraintHeight_percent"/>
-        <attr name="layout_constraintLeft_creator"/>
-        <attr name="layout_constraintTop_creator"/>
-        <attr name="layout_constraintRight_creator"/>
-        <attr name="layout_constraintBottom_creator"/>
-        <attr name="layout_constraintBaseline_creator"/>
-        <attr name="layout_constraintDimensionRatio"/>
-        <attr name="layout_constraintHorizontal_weight"/>
-        <attr name="layout_constraintVertical_weight"/>
-        <attr name="layout_constraintHorizontal_chainStyle"/>
-        <attr name="layout_constraintVertical_chainStyle"/>
-        <attr name="layout_editor_absoluteX"/>
-        <attr name="layout_editor_absoluteY"/>
-        <attr name="layout_wrapBehaviorInParent"/>
-
-        <attr name="barrierDirection"/>
-        <attr name="constraint_referenced_ids"/>
-        <attr name="constraint_referenced_tags"/>
-        <attr name="barrierMargin"/>
-        <attr name="android:maxHeight"/>
-        <attr name="android:maxWidth"/>
-        <attr name="android:minHeight"/>
-        <attr name="android:minWidth"/>
-        <attr name="barrierAllowsGoneWidgets"/>
-        <attr name="chainUseRtl"/>
-
-        <attr name="flow_horizontalStyle"/>
-        <attr name="flow_verticalStyle"/>
-        <attr name="flow_verticalAlign"/>
-        <attr name="flow_horizontalAlign"/>
-        <attr name="flow_verticalBias"/>
-        <attr name="flow_horizontalBias"/>
-        <attr name="flow_wrapMode"/>
-        <attr name="flow_maxElementsWrap"/>
-        <attr name="flow_horizontalGap"/>
-        <attr name="flow_verticalGap"/>
-        
-        
-
-        <attr name="flow_firstHorizontalStyle"/>
-        <attr name="flow_firstVerticalStyle"/>
-        <attr name="flow_firstHorizontalBias"/>
-        <attr name="flow_firstVerticalBias"/>
-
-        <attr name="flow_lastHorizontalStyle"/>
-        <attr name="flow_lastVerticalStyle"/>
-        <attr name="flow_lastHorizontalBias"/>
-        <attr name="flow_lastVerticalBias"/>
-
-        <attr name="animateRelativeTo"/>
-        <attr name="animateCircleAngleTo"/>
-
-        <attr name="transitionEasing"/>
-        <attr name="pathMotionArc"/>
-        <attr name="polarRelativeTo"/>
-        <attr name="transitionPathRotate"/>
-        <attr name="motionStagger"/>
-        <attr name="quantizeMotionSteps"/>
-        <attr name="drawPath"/>
-        <attr name="motionProgress"/>
-        <attr name="layout_constraintTag"/>
-
-    </declare-styleable>
+        </attr><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="pivotAnchor"/><attr name="android:pivotX"/><attr name="android:pivotY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="guidelineUseRtl"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintBaseline_toTopOf"/><attr name="layout_constraintBaseline_toBottomOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_goneMarginBaseline"/><attr name="layout_marginBaseline"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/><attr name="layout_wrapBehaviorInParent"/><attr name="barrierDirection"/><attr name="constraint_referenced_ids"/><attr name="constraint_referenced_tags"/><attr name="barrierMargin"/><attr name="android:maxHeight"/><attr name="android:maxWidth"/><attr name="android:minHeight"/><attr name="android:minWidth"/><attr name="barrierAllowsGoneWidgets"/><attr name="chainUseRtl"/><attr name="flow_horizontalStyle"/><attr name="flow_verticalStyle"/><attr name="flow_verticalAlign"/><attr name="flow_horizontalAlign"/><attr name="flow_verticalBias"/><attr name="flow_horizontalBias"/><attr name="flow_wrapMode"/><attr name="flow_maxElementsWrap"/><attr name="flow_horizontalGap"/><attr name="flow_verticalGap"/><attr name="flow_firstHorizontalStyle"/><attr name="flow_firstVerticalStyle"/><attr name="flow_firstHorizontalBias"/><attr name="flow_firstVerticalBias"/><attr name="flow_lastHorizontalStyle"/><attr name="flow_lastVerticalStyle"/><attr name="flow_lastHorizontalBias"/><attr name="flow_lastVerticalBias"/><attr name="animateRelativeTo"/><attr name="animateCircleAngleTo"/><attr name="transitionEasing"/><attr name="pathMotionArc"/><attr name="polarRelativeTo"/><attr name="transitionPathRotate"/><attr name="motionStagger"/><attr name="quantizeMotionSteps"/><attr name="drawPath"/><attr name="motionProgress"/><attr name="layout_constraintTag"/></declare-styleable>
     <declare-styleable name="CoordinatorLayout">
         
         <attr format="reference" name="keylines"/>
@@ -11312,6 +11041,7 @@
         <attr name="barrierAllowsGoneWidgets"/>
         <attr name="chainUseRtl"/>
     </declare-styleable>
+    <declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat">
         
         <attr name="android:orientation"/>

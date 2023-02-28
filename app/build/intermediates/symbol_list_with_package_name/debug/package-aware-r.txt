@@ -3261,6 +3261,7 @@ id masked
 id masterlist_btn
 id masterlist_clipboard
 id masterlist_line
+id masterlist_main_backBTN
 id masterlist_table
 id masterlist_text
 id masterlist_title
@@ -3513,7 +3514,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id textView10
 id textView11
 id textView12
@@ -3557,6 +3557,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userTextView
 id user_banner
 id user_profile
 id vaccination_record_btn
@@ -3851,6 +3852,7 @@ string common_signin_button_text_long
 string copy_toast_msg
 string default_web_client_id
 string define_roundedimageview
+string enrollment_notif
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description

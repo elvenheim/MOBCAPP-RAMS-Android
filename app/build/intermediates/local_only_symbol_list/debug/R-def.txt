@@ -160,7 +160,6 @@ id registration_clipboard
 id registration_line
 id registration_main_backBTN
 id registration_title
-id textView
 id textView10
 id textView11
 id textView12
@@ -174,6 +173,7 @@ id textView7
 id textView8
 id textView9
 id top_banner
+id userTextView
 id user_banner
 id user_profile
 id vaccination_record_btn

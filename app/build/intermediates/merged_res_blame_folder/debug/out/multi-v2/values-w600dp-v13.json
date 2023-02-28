@@ -4,7 +4,7 @@
             "outputFile": "com.example.ramsdroid.app-mergeDebugResources-46:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Richmond\\Documents\\APC 2nd Year College 2nd Trimester\\MOBCAPP1\\RAMSDROID\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "C:\\Users\\Darwin\\OneDrive\\Desktop\\MOBCAPP-RAMS-Android\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "6",
@@ -18,6 +18,23 @@
                         "startOffsets": "55",
                         "endColumns": "41",
                         "endOffsets": "92"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Darwin\\OneDrive\\Desktop\\MOBCAPP-RAMS-Android\\app\\src\\main\\res\\values-w600dp\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "126",
+                        "endOffsets": "179"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "97",
+                        "endColumns": "126",
+                        "endOffsets": "219"
                     }
                 }
             ]
