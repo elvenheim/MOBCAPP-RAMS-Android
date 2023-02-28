@@ -2808,6 +2808,7 @@ int drawable btn_radio_off_to_on_mtrl_animation 0x7f07008a
 int drawable btn_radio_on_mtrl 0x7f07008b
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f07008c
 int drawable button_rectangle 0x7f07008d
+int drawable class_sched 0x7f07011e
 int drawable clipboard_list 0x7f07008e
 int drawable common_full_open_on_phone 0x7f07008f
 int drawable common_google_signin_btn_icon_dark 0x7f070090
@@ -2949,6 +2950,7 @@ int drawable test_level_drawable 0x7f070114
 int drawable tooltip_frame_dark 0x7f070115
 int drawable tooltip_frame_light 0x7f070116
 int drawable user_don 0x7f07011b
+int drawable user_kin 0x7f07011f
 int drawable user_marj 0x7f07011c
 int drawable user_picture 0x7f070117
 int drawable user_rich 0x7f07011d
@@ -3055,6 +3057,7 @@ int id anticipate 0x7f090060
 int id apcheader 0x7f090061
 int id arc 0x7f090062
 int id asConfigured 0x7f090063
+int id assesment_note 0x7f090297
 int id assesments_title 0x7f09028f
 int id async 0x7f090064
 int id attempted 0x7f090293
@@ -3368,6 +3371,7 @@ int id noState 0x7f090192
 int id none 0x7f090193
 int id normal 0x7f090194
 int id north 0x7f090195
+int id notif 0x7f090298
 int id notification_background 0x7f090196
 int id notification_main_column 0x7f090197
 int id notification_main_column_container 0x7f090198
@@ -3592,11 +3596,6 @@ int id userName 0x7f090296
 int id userTextView 0x7f090271
 int id user_banner 0x7f090272
 int id user_profile 0x7f090273
-int id vaccination_record_btn 0x7f090274
-int id vaccination_record_clipboard 0x7f090275
-int id vaccination_record_line 0x7f090276
-int id vaccination_record_text 0x7f090277
-int id vaccination_record_title 0x7f090278
 int id vertical_only 0x7f090279
 int id viewPager 0x7f09027a
 int id view_offset_helper 0x7f09027b

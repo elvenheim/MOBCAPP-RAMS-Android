@@ -64,14 +64,14 @@ public class StudentRecords extends AppCompatActivity {
             }
         });
 
-        vaccination = findViewById(R.id.vaccination_record_btn);
-        vaccination.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(StudentRecords.this, Records_Vaccination.class));
-                finish();
-            }
-        });
+//        vaccination = findViewById(R.id.vaccination_record_btn);
+//        vaccination.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(StudentRecords.this, Records_Vaccination.class));
+//                finish();
+//            }
+//        });
 
     }
 

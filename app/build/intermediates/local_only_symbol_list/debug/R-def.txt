@@ -25,6 +25,7 @@ drawable background_blue_gradient
 drawable background_home_gradient
 drawable background_yellow_gradient
 drawable button_rectangle
+drawable class_sched
 drawable clipboard_list
 drawable delete_button
 drawable edit_button
@@ -54,6 +55,7 @@ drawable refresh_button
 drawable rounded_corner
 drawable rounded_rectangle
 drawable user_don
+drawable user_kin
 drawable user_marj
 drawable user_picture
 drawable user_rich
@@ -75,6 +77,7 @@ id action_SecondFragment_to_FirstFragment
 id action_logout
 id announcements
 id apcheader
+id assesment_note
 id assesments_title
 id attempted
 id bg_card
@@ -144,6 +147,7 @@ id my_grades_title
 id nav_graph
 id nestedScrollView
 id nestedScrollView2
+id notif
 id online_payment_back
 id online_payment_btn
 id online_payment_choices
@@ -203,11 +207,6 @@ id userName
 id userTextView
 id user_banner
 id user_profile
-id vaccination_record_btn
-id vaccination_record_clipboard
-id vaccination_record_line
-id vaccination_record_text
-id vaccination_record_title
 id viewPager
 layout grades_recycler_view
 layout rams_finance_main

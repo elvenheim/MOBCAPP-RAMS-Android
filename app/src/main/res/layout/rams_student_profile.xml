@@ -50,14 +50,14 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/profile_pic"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         android:layout_centerHorizontal="true"
         android:elevation="12dp"
         android:innerRadius="0dp"
         android:shape="ring"
         android:thicknessRatio="1.9"
-        app:cardCornerRadius="70dp"
+        app:cardCornerRadius="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -68,15 +68,16 @@
 
             <ImageView
                 android:id="@+id/user_profile"
-                android:layout_width="140dp"
-                android:layout_height="140dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0"
-                app:srcCompat="@drawable/user_marj" />
+                app:srcCompat="@drawable/user_kin" />
 
     </androidx.cardview.widget.CardView>
 
@@ -164,7 +165,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:fontFamily="@font/nunitosans"
-                android:text="Marjorie Co"
+                android:text="Don Joacquin M. Perez"
                 android:textColor="@color/apc_gray_edit"
                 android:textSize="20dp"
                 android:textStyle="normal" />
@@ -187,7 +188,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="11dp"
                 android:fontFamily="@font/nunitosans"
-                android:text="2021-140043"
+                android:text="2021-140047"
                 android:textColor="@color/apc_gray_edit"
                 android:textSize="20sp"
                 android:textStyle="normal" />
@@ -231,9 +232,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginBottom="11dp"
+                android:layout_marginBottom="10dp"
                 android:fontFamily="@font/nunitosans"
-                android:text="mjco@student.apc.edu.ph"
+                android:text="dmperez@student.apc.edu.ph"
                 android:textColor="@color/apc_gray_edit"
                 android:textSize="20sp"
                 android:textStyle="normal" />
@@ -256,7 +257,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="11dp"
                 android:fontFamily="@font/nunitosans"
-                android:text="SM Scholarship (100%)"
+                android:text="Regular"
                 android:textColor="@color/apc_gray_edit"
                 android:textSize="20sp"
                 android:textStyle="normal" />

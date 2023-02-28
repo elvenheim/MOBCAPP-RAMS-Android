@@ -108,18 +108,18 @@
                 android:id="@+id/userTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/nunitosans"
-                android:text="Patatas"
                 android:elevation="11dp"
+                android:fontFamily="@font/nunitosans"
+                android:text="Don Joacquin"
                 android:textColor="@color/apc_darker_blue"
                 android:textSize="20sp"
                 android:textStyle=""
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.344"
+                app:layout_constraintEnd_toEndOf="@+id/greetingTextView"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/greetingTextView"
-                app:layout_constraintVertical_bias="0.111" />
+                app:layout_constraintVertical_bias="0.411" />
 
             <TextView
                 android:id="@+id/greetingTextView"
@@ -157,7 +157,8 @@
                     android:id="@+id/imageView1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/user_picture"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/user_kin"
                     tools:layout_conversion_absoluteHeight="80dp"
                     tools:layout_conversion_absoluteWidth="80dp"
                     tools:layout_editor_absoluteX="287dp"

@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        String path = "s1/first_name";
+        String path = "s2/first_name";
         myRef =  database.getReference(path);
         myRef.addValueEventListener(new ValueEventListener() {
             @Override

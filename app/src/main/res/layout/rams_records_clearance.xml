@@ -41,10 +41,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintHorizontal_bias="0.221"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.074" />
+        app:layout_constraintVertical_bias="0.092" />
 
     <ImageButton
         android:id="@+id/grades_backBTN"
@@ -88,7 +88,20 @@
             <ScrollView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:scrollbars="vertical"/>
+                android:scrollbars="vertical">
+
+                <TextView
+                    android:id="@+id/notif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nunitosans"
+                    android:gravity="center"
+                    android:text="You have no pending clearance"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </ScrollView>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.cardview.widget.CardView>

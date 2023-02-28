@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
@@ -44,13 +45,17 @@ public final class RamsStudentProfileBinding implements ViewBinding {
   public final ImageView profileLine;
 
   @NonNull
+  public final CardView profilePic;
+
+  @NonNull
   public final ImageView userProfile;
 
   private RamsStudentProfileBinding(@NonNull ConstraintLayout rootView,
       @NonNull ShapeableImageView coverPhoto, @NonNull ImageView imageView2,
       @NonNull NestedScrollView nestedScrollView2, @NonNull ShapeableImageView profileBG,
       @NonNull Button profileBtnLogOut, @NonNull ImageView profileFooter,
-      @NonNull ImageView profileLine, @NonNull ImageView userProfile) {
+      @NonNull ImageView profileLine, @NonNull CardView profilePic,
+      @NonNull ImageView userProfile) {
     this.rootView = rootView;
     this.coverPhoto = coverPhoto;
     this.imageView2 = imageView2;
@@ -59,6 +64,7 @@ public final class RamsStudentProfileBinding implements ViewBinding {
     this.profileBtnLogOut = profileBtnLogOut;
     this.profileFooter = profileFooter;
     this.profileLine = profileLine;
+    this.profilePic = profilePic;
     this.userProfile = userProfile;
   }
 
@@ -131,6 +137,12 @@ public final class RamsStudentProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.profile_pic;
+      CardView profilePic = ViewBindings.findChildViewById(rootView, id);
+      if (profilePic == null) {
+        break missingId;
+      }
+
       id = R.id.user_profile;
       ImageView userProfile = ViewBindings.findChildViewById(rootView, id);
       if (userProfile == null) {
@@ -138,7 +150,8 @@ public final class RamsStudentProfileBinding implements ViewBinding {
       }
 
       return new RamsStudentProfileBinding((ConstraintLayout) rootView, coverPhoto, imageView2,
-          nestedScrollView2, profileBG, profileBtnLogOut, profileFooter, profileLine, userProfile);
+          nestedScrollView2, profileBG, profileBtnLogOut, profileFooter, profileLine, profilePic,
+          userProfile);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
