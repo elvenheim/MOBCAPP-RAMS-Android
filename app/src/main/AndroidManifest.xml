@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -16,32 +16,69 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RAMSdroid"
         tools:targetApi="33">
-
         <activity
-            android:windowSoftInputMode="stateHidden"
-            android:name=".RAMSLogin"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:name=".StudentRec_Grades"
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
-                android:value=""/>
+                android:value="" />
         </activity>
+        <activity
+            android:name=".StudentRec_ClassSched"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Registrar_Enrollment"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Registrar_Registration"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".RAMSLogin"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".MainActivity"
-            android:parentActivityName=".RAMSLogin"/>
-        <activity android:name=".StudentRegistration"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".StudentFinance"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".StudentRecords"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".StudentProfile"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".StudentFinanceOnlinePayment"
-            android:parentActivityName=".StudentFinance"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".RAMSLogin" />
+        <activity
+            android:name=".StudentRegistration"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StudentFinance"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StudentRecords"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StudentProfile"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StudentFinanceOnlinePayment"
+            android:parentActivityName=".StudentFinance" />
+        <activity
+            android:name=".Registrar_Masterlist"
+            android:parentActivityName=".StudentRegistration" />
     </application>
 
 </manifest>
