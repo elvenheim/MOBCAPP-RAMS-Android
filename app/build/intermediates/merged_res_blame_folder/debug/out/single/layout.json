@@ -1,58 +1,54 @@
 [
     {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_registrar_enrollment.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_registrar_enrollment.xml"
+        "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/rams_student_records_main.xml",
+        "source": "com.example.ramsdroid.app-main-49:/layout/rams_student_records_main.xml"
     },
     {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_home.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_home.xml"
+        "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/slide_item_container.xml",
+        "source": "com.example.ramsdroid.app-main-49:/layout/slide_item_container.xml"
     },
     {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_student_records_main.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_student_records_main.xml"
+        "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/rams_login.xml",
+        "source": "com.example.ramsdroid.app-main-49:/layout/rams_login.xml"
     },
     {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_finance_online_payment.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_finance_online_payment.xml"
+        "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/rams_registrar_enrollment.xml",
+        "source": "com.example.ramsdroid.app-main-49:/layout/rams_registrar_enrollment.xml"
     },
     {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\slide_item_container.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\slide_item_container.xml"
+        "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/rams_student_profile.xml",
+        "source": "com.example.ramsdroid.app-main-49:/layout/rams_student_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_studentrec_class_sched.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_studentrec_class_sched.xml"
+        "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/rams_home.xml",
+        "source": "com.example.ramsdroid.app-main-49:/layout/rams_home.xml"
+    },
+    {
+        "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/rams_registrar_registration.xml",
+        "source": "com.example.ramsdroid.app-main-49:/layout/rams_registrar_registration.xml"
+    },
+    {
+        "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/rams_studentrec_class_sched.xml",
+        "source": "com.example.ramsdroid.app-main-49:/layout/rams_studentrec_class_sched.xml"
+    },
+    {
+        "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/rams_finance_main.xml",
+        "source": "com.example.ramsdroid.app-main-49:/layout/rams_finance_main.xml"
     },
     {
         "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/rams_finance_online_payment.xml",
         "source": "com.example.ramsdroid.app-main-49:/layout/rams_finance_online_payment.xml"
     },
     {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_student_profile.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_student_profile.xml"
+        "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/rams_masterlist.xml",
+        "source": "com.example.ramsdroid.app-main-49:/layout/rams_masterlist.xml"
     },
     {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_login.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_login.xml"
+        "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/rams_student_rec_grades.xml",
+        "source": "com.example.ramsdroid.app-main-49:/layout/rams_student_rec_grades.xml"
     },
     {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_registrar_registration.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_registrar_registration.xml"
-    },
-    {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_finance_main.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_finance_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_student_rec_grades.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_student_rec_grades.xml"
-    },
-    {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_registration_main.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_registration_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-mergeDebugResources-46:\\layout\\rams_masterlist.xml",
-        "source": "C:\\Users\\Richmond\\.gradle\\daemon\\7.5\\com.example.ramsdroid.app-main-49:\\layout\\rams_masterlist.xml"
+        "merged": "com.example.ramsdroid.app-mergeDebugResources-46:/layout/rams_registration_main.xml",
+        "source": "com.example.ramsdroid.app-main-49:/layout/rams_registration_main.xml"
     }
 ]

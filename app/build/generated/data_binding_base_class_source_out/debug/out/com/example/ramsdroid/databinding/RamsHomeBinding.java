@@ -39,6 +39,9 @@ public final class RamsHomeBinding implements ViewBinding {
   public final CardView cardView;
 
   @NonNull
+  public final TextView greetingTextView;
+
+  @NonNull
   public final ImageButton homeFinanceBTN;
 
   @NonNull
@@ -60,9 +63,6 @@ public final class RamsHomeBinding implements ViewBinding {
   public final TextView textView;
 
   @NonNull
-  public final TextView textView2;
-
-  @NonNull
   public final ImageView topBanner;
 
   @NonNull
@@ -73,10 +73,10 @@ public final class RamsHomeBinding implements ViewBinding {
 
   private RamsHomeBinding(@NonNull ConstraintLayout rootView, @NonNull CardView announcements,
       @NonNull ImageView apcheader, @NonNull ImageView bgCard, @NonNull ImageView bottomBanner,
-      @NonNull CardView cardView, @NonNull ImageButton homeFinanceBTN,
-      @NonNull ImageButton homeRegistrationBTN, @NonNull ImageButton homeStudentprofileBTN,
-      @NonNull ImageButton homeStudentrecordsBTN, @NonNull ImageView imageView1,
-      @NonNull CardView profilePic, @NonNull TextView textView, @NonNull TextView textView2,
+      @NonNull CardView cardView, @NonNull TextView greetingTextView,
+      @NonNull ImageButton homeFinanceBTN, @NonNull ImageButton homeRegistrationBTN,
+      @NonNull ImageButton homeStudentprofileBTN, @NonNull ImageButton homeStudentrecordsBTN,
+      @NonNull ImageView imageView1, @NonNull CardView profilePic, @NonNull TextView textView,
       @NonNull ImageView topBanner, @NonNull ImageView userBanner, @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
     this.announcements = announcements;
@@ -84,6 +84,7 @@ public final class RamsHomeBinding implements ViewBinding {
     this.bgCard = bgCard;
     this.bottomBanner = bottomBanner;
     this.cardView = cardView;
+    this.greetingTextView = greetingTextView;
     this.homeFinanceBTN = homeFinanceBTN;
     this.homeRegistrationBTN = homeRegistrationBTN;
     this.homeStudentprofileBTN = homeStudentprofileBTN;
@@ -91,7 +92,6 @@ public final class RamsHomeBinding implements ViewBinding {
     this.imageView1 = imageView1;
     this.profilePic = profilePic;
     this.textView = textView;
-    this.textView2 = textView2;
     this.topBanner = topBanner;
     this.userBanner = userBanner;
     this.viewPager = viewPager;
@@ -154,6 +154,12 @@ public final class RamsHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.greetingTextView;
+      TextView greetingTextView = ViewBindings.findChildViewById(rootView, id);
+      if (greetingTextView == null) {
+        break missingId;
+      }
+
       id = R.id.home_financeBTN;
       ImageButton homeFinanceBTN = ViewBindings.findChildViewById(rootView, id);
       if (homeFinanceBTN == null) {
@@ -196,12 +202,6 @@ public final class RamsHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
-        break missingId;
-      }
-
       id = R.id.top_banner;
       ImageView topBanner = ViewBindings.findChildViewById(rootView, id);
       if (topBanner == null) {
@@ -221,9 +221,9 @@ public final class RamsHomeBinding implements ViewBinding {
       }
 
       return new RamsHomeBinding((ConstraintLayout) rootView, announcements, apcheader, bgCard,
-          bottomBanner, cardView, homeFinanceBTN, homeRegistrationBTN, homeStudentprofileBTN,
-          homeStudentrecordsBTN, imageView1, profilePic, textView, textView2, topBanner, userBanner,
-          viewPager);
+          bottomBanner, cardView, greetingTextView, homeFinanceBTN, homeRegistrationBTN,
+          homeStudentprofileBTN, homeStudentrecordsBTN, imageView1, profilePic, textView, topBanner,
+          userBanner, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

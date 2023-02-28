@@ -66,6 +66,7 @@ id LoginYellowBG
 id SecondFragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
+id action_logout
 id announcements
 id apcheader
 id bg_card
@@ -95,6 +96,7 @@ id enrollment_text
 id enrollment_title
 id finance_Main_Title
 id finance_main_backBTN
+id greetingTextView
 id home_financeBTN
 id home_registrationBTN
 id home_studentprofileBTN
@@ -159,6 +161,7 @@ id textView
 id textView10
 id textView11
 id textView12
+id textView13
 id textView2
 id textView3
 id textView4
@@ -189,11 +192,13 @@ layout rams_student_rec_grades
 layout rams_student_records_main
 layout rams_studentrec_class_sched
 layout slide_item_container
+menu logout_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
 string app_name
 string default_web_client_id
+string enrollment_notif
 string first_fragment_label
 string gcm_defaultSenderId
 string google_api_key
