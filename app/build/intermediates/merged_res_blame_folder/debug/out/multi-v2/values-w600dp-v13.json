@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-45:/values-w600dp-v13/values-w600dp-v13.xml",
+            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-46:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\MOBCAPP-RAMS-Android2\\app\\src\\main\\res\\values-w600dp\\strings.xml",
+                    "source": "C:\\Users\\Darwin\\OneDrive\\Desktop\\MOBCAPP-RAMS-Android\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "6",
+                        "startOffsets": "19",
+                        "endColumns": "43",
+                        "endOffsets": "56"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "41",
+                        "endOffsets": "92"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Darwin\\OneDrive\\Desktop\\MOBCAPP-RAMS-Android\\app\\src\\main\\res\\values-w600dp\\strings.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,23 +35,6 @@
                         "startOffsets": "97",
                         "endColumns": "126",
                         "endOffsets": "219"
-                    }
-                },
-                {
-                    "source": "D:\\MOBCAPP-RAMS-Android2\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "6",
-                        "startOffsets": "18",
-                        "endColumns": "43",
-                        "endOffsets": "55"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "41",
-                        "endOffsets": "92"
                     }
                 }
             ]

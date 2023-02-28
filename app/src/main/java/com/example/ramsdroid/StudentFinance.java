@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class StudentFinance extends AppCompatActivity {
 
-    ImageButton financeBack, onlinePayment;
+    ImageButton financeBack, onlinePayment, onlinePaymentRecords, paynamics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

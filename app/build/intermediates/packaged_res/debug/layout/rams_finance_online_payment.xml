@@ -92,14 +92,15 @@
             app:layout_constraintVertical_bias="0.0" >
 
             <RadioButton
-                android:id="@+id/online_payment_RB"
+                android:id="@+id/enrollment_tuition_RB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|left"
                 android:layout_marginStart="14dp"
                 android:fontFamily="@font/nunitosans"
                 android:text="Enrollment Tuition"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:onClick="onRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/other_payments_RB"
@@ -110,7 +111,8 @@
                 android:layout_marginEnd="14dp"
                 android:fontFamily="@font/nunitosans"
                 android:text="Other Payments"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:onClick="onRadioButtonClicked"/>
 
         </RadioGroup>
 
@@ -118,16 +120,66 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/other_payment_content"
         android:layout_width="0dp"
         android:layout_height="455dp"
         android:layout_marginTop="24dp"
-        android:background="@color/white"
+        android:background="@color/apc_yellow"
+        android:onClick="onRadioButtonClicked"
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/constraintLayout"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
         app:layout_constraintVertical_bias="0">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/enrollment_tuition_content"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:onClick="onRadioButtonClicked"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintVertical_bias="0">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/nunitosans"
+            android:text="Enrollment Tuition Payment"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunitosans"
+            android:gravity="center"
+            android:text="Please be advised that the Enrollment period is now closed or not yet active."
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.0" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

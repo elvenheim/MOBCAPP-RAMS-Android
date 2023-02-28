@@ -16,15 +16,24 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 import java.util.ArrayList;
 
 import java.util.List;
+
 
 public class MainActivity extends AppCompatActivity {
     private static long back_pressed;
     ImageButton profile, registration, record, finance;
     ViewPager2 viewPager2;
     //autoslide
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference myRef;
 
     private Handler slideHandler = new Handler();
 
@@ -32,6 +41,29 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rams_home);
+
+        String path = "s1/first_name";
+        myRef =  database.getReference(path);
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                // Get the first name from the dataSnapshot
+                String firstName = dataSnapshot.getValue(String.class);
+
+                // Set the text of your TextView to the first name
+                TextView textView = findViewById(R.id.userTextView);
+                textView.setText(firstName);
+            }
+
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+                // Handle errors here
+            }
+        });
+
+
+
 
         //________________________________________________________
         TextView greetingTextView = findViewById(R.id.greetingTextView);

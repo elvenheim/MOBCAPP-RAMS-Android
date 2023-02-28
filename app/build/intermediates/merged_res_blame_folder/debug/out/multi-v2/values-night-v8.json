@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-45:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.ramsdroid.app-mergeDebugResources-46:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\MOBCAPP-RAMS-Android2\\app\\src\\main\\res\\values-night\\strings.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "126",
-                        "endOffsets": "179"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "126",
-                        "endOffsets": "177"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Kin\\.gradle\\caches\\transforms-3\\6adea83e41c9650c4ed4b9f5c7f97dca\\transformed\\material-1.8.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Darwin\\.gradle\\caches\\transforms-3\\6adea83e41c9650c4ed4b9f5c7f97dca\\transformed\\material-1.8.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Kin\\.gradle\\caches\\transforms-3\\a19e1a339d7d7de1393db556d86400dc\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Darwin\\.gradle\\caches\\transforms-3\\a19e1a339d7d7de1393db556d86400dc\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBCAPP-RAMS-Android2\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\Darwin\\OneDrive\\Desktop\\MOBCAPP-RAMS-Android\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -71,6 +54,23 @@
                         "endLines": "49",
                         "endColumns": "12",
                         "endOffsets": "4285"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Darwin\\OneDrive\\Desktop\\MOBCAPP-RAMS-Android\\app\\src\\main\\res\\values-night\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "126",
+                        "endOffsets": "179"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "126",
+                        "endOffsets": "177"
                     }
                 }
             ]

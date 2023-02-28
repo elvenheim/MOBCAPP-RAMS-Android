@@ -15,12 +15,14 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class RAMSLogin extends AppCompatActivity {
 
     private static long back_pressed;
 
     FirebaseAuth mAuth;
+    FirebaseUser currentUser;
     private EditText email, pass;
     Button btn;
 
@@ -33,6 +35,7 @@ public class RAMSLogin extends AppCompatActivity {
         pass = findViewById(R.id.loginPassword);
         btn = findViewById(R.id.login_btnSignIn);
         mAuth = FirebaseAuth.getInstance();
+
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,6 +57,8 @@ public class RAMSLogin extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
+                            getUserID();
+
                             Toast.makeText(RAMSLogin.this, "Login Successfully", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(RAMSLogin.this, MainActivity.class));
                         } else {
@@ -64,6 +69,10 @@ public class RAMSLogin extends AppCompatActivity {
             }
         }
 
+        public String getUserID(){
+            String userId = currentUser.getUid();
+        return getUserID();
+        }
     @Override
     public void onBackPressed() {
         if (back_pressed + 2000 > System.currentTimeMillis()) {
