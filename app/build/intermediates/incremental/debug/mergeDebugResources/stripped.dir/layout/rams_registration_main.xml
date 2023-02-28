@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentRegistration">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:src="@color/apc_darker_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#dfdfdf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/background_yellow_gradient"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/Finance_Main_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/nunitosans"
+                android:text="Registrar"
+                android:textColor="@color/apc_darker_blue"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.291"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageButton
+                android:id="@+id/masterlist_btn"
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="64dp"
+                android:background="@drawable/button_rectangle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Finance_Main_Title"
+                app:layout_constraintVertical_bias="0"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/masterlist_clipboard"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/clipboard_list"
+                app:layout_constraintBottom_toBottomOf="@+id/masterlist_btn"
+                app:layout_constraintEnd_toEndOf="@+id/masterlist_btn"
+                app:layout_constraintHorizontal_bias="0.02"
+                app:layout_constraintStart_toStartOf="@+id/masterlist_btn"
+                app:layout_constraintTop_toTopOf="@+id/masterlist_btn"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <LinearLayout
+                android:layout_width="245dp"
+                android:layout_height="125dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/masterlist_btn"
+                app:layout_constraintEnd_toEndOf="@+id/masterlist_btn"
+                app:layout_constraintStart_toEndOf="@+id/masterlist_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/masterlist_btn">
+
+                <TextView
+                    android:id="@+id/masterlist_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nunitosans"
+                    android:text="Masterlist of Subject Offering"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/masterlist_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/nunitosans"
+                    android:text="List of available subjects offered by Asia Pacific College."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/masterlist_line"
+                android:layout_width="3dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_rectangle"
+                android:backgroundTint="@color/apc_blue"
+                app:layout_constraintBottom_toBottomOf="@+id/masterlist_btn"
+                app:layout_constraintEnd_toEndOf="@+id/masterlist_btn"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toEndOf="@+id/masterlist_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/masterlist_btn"
+                app:layout_constraintVertical_bias="0.5" />
+
+
+            <ImageButton
+                android:id="@+id/registration_btn"
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/button_rectangle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/masterlist_btn"
+                app:layout_constraintVertical_bias="0"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/registration_clipboard"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/clipboard_list"
+                app:layout_constraintBottom_toBottomOf="@+id/registration_btn"
+                app:layout_constraintEnd_toEndOf="@+id/registration_btn"
+                app:layout_constraintHorizontal_bias="0.02"
+                app:layout_constraintStart_toStartOf="@+id/registration_btn"
+                app:layout_constraintTop_toTopOf="@+id/registration_btn"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ImageView
+                android:id="@+id/registration_line"
+                android:layout_width="3dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_rectangle"
+                android:backgroundTint="@color/apc_blue"
+                app:layout_constraintBottom_toBottomOf="@+id/registration_btn"
+                app:layout_constraintEnd_toEndOf="@+id/registration_btn"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toEndOf="@+id/registration_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/registration_btn"
+                app:layout_constraintVertical_bias="0.5" />
+
+
+            <LinearLayout
+                android:layout_width="245dp"
+                android:layout_height="125dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/registration_btn"
+                app:layout_constraintEnd_toEndOf="@+id/registration_btn"
+                app:layout_constraintStart_toEndOf="@+id/registration_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/registration_btn">
+
+                <TextView
+                    android:id="@+id/registration_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nunitosans"
+                    android:text="Registration"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/nunitosans"
+                    android:text="Register for the next term."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/enrollment_btn"
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/button_rectangle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/registration_btn"
+                app:layout_constraintVertical_bias="0"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/enrollment_clipboard"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/clipboard_list"
+                app:layout_constraintBottom_toBottomOf="@+id/enrollment_btn"
+                app:layout_constraintEnd_toEndOf="@+id/enrollment_btn"
+                app:layout_constraintHorizontal_bias="0.02"
+                app:layout_constraintStart_toStartOf="@+id/enrollment_btn"
+                app:layout_constraintTop_toTopOf="@+id/enrollment_btn"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ImageView
+                android:id="@+id/enrollment_line"
+                android:layout_width="3dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_rectangle"
+                android:backgroundTint="@color/apc_blue"
+                app:layout_constraintBottom_toBottomOf="@+id/enrollment_btn"
+                app:layout_constraintEnd_toEndOf="@+id/enrollment_btn"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toEndOf="@+id/enrollment_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/enrollment_btn"
+                app:layout_constraintVertical_bias="0.5" />
+
+
+            <LinearLayout
+                android:layout_width="245dp"
+                android:layout_height="125dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/enrollment_btn"
+                app:layout_constraintEnd_toEndOf="@+id/enrollment_btn"
+                app:layout_constraintStart_toEndOf="@+id/enrollment_clipboard"
+                app:layout_constraintTop_toTopOf="@+id/enrollment_btn">
+
+                <TextView
+                    android:id="@+id/enrollment_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nunitosans"
+                    android:text="Enrollment"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/nunitosans"
+                    android:text="Enroll for the next term."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/registration_main_backBTN"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/arrow_leftbutton"
+                android:backgroundTint="@color/apc_darker_blue"
+                app:layout_constraintBottom_toBottomOf="@+id/Finance_Main_Title"
+                app:layout_constraintEnd_toStartOf="@+id/Finance_Main_Title"
+                app:layout_constraintTop_toTopOf="@+id/Finance_Main_Title"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
